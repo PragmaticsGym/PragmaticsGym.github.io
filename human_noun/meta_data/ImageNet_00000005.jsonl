@@ -1,0 +1,4 @@
+{"utterance": "Not white potato.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00001374.JPEG"]}
+{"image": "ILSVRC2012_val_00001374.JPEG", "category": "bell pepper"}
+{"image": "ILSVRC2012_val_00019247.JPEG", "category": "mashed potato"}
+{"image": "ILSVRC2012_val_00014161.JPEG", "category": "geyser"}

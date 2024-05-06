@@ -1,0 +1,406 @@
+<html>
+<head>
+<title>Ad-hoc Implicature, 20</title>
+<style>
+td {vertical-align:top;padding:5px}
+pre {white-space: pre-wrap;}
+</style>
+</head>
+<body>
+<h1>Ad-hoc Implicature, 20</h1>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+></script>
+<script>
+function frameMove(elem, offset) {
+    elem = $(elem);
+    window.elem = elem;
+    data = JSON.parse(elem.parent().find(".data").html());
+    index = parseInt(elem.parent().find(".index").val());
+
+    nextIndex = index + offset;
+    if (nextIndex < 0) nextIndex = 0;
+    if (nextIndex >= data.length) nextIndex = data.length - 1;
+
+    elem.parent().find(".index").val(nextIndex);
+    if ("image" in data[nextIndex]) {
+        elem.parent().find(".image").attr("src", data[nextIndex]["image"][0]).attr("alt", data[nextIndex]["image"][1]);
+    } else {
+        elem.parent().find(".text").html(data[nextIndex]["text"]);
+    }
+
+    if ("info" in data[nextIndex]) {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString() + " :: " + data[nextIndex]["info"]);
+    } else {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString());
+    }
+}
+</script>
+    
+<style>
+.table0_column_text {  }
+.table0_td_text {  }
+.table0_column_text1 {  }
+.table0_td_text1 {  }
+.table0_column_Image1 {  }
+.table0_td_Image1 {  }
+.table0_column_Image2 {  }
+.table0_td_Image2 {  }
+.table0_column_answer {  }
+.table0_td_answer {  }
+</style>
+<h3>You are in a reference game. The speaker can only use one word (i.e., one property) to refer to the object, and he/ she will be rewarded if you can successfully pick the only target referent object in the image. So now, please select your answer by referencing the corresponding numerical index.</h3>
+<table>
+<tr>
+  <td><b>Text</b></td>
+  <td><b>ID</b></td>
+  <td><b>Image</b></td>
+  <td><b>Image with Detection Overlay</b></td>
+  <td><b>Answer</b></td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> yellow
+  </td>
+  <td class="table0_td_text1">
+    0
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000002.png" alt="CLEVR_000002.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000002.png" alt="CLEVR_000002.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small yellow metal sphere<br><b>Referent Object ID: </b> 2
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> sphere
+  </td>
+  <td class="table0_td_text1">
+    1
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000006.png" alt="CLEVR_000006.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000006.png" alt="CLEVR_000006.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small red rubber sphere<br><b>Referent Object ID: </b> 7
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> yellow
+  </td>
+  <td class="table0_td_text1">
+    2
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000012.png" alt="CLEVR_000012.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000012.png" alt="CLEVR_000012.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small yellow rubber cube<br><b>Referent Object ID: </b> 4
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> red
+  </td>
+  <td class="table0_td_text1">
+    3
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000001.png" alt="CLEVR_000001.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000001.png" alt="CLEVR_000001.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> large red rubber cube<br><b>Referent Object ID: </b> 5
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> red
+  </td>
+  <td class="table0_td_text1">
+    4
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000005.png" alt="CLEVR_000005.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000005.png" alt="CLEVR_000005.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small red rubber sphere<br><b>Referent Object ID: </b> 1
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> cube
+  </td>
+  <td class="table0_td_text1">
+    5
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000017.png" alt="CLEVR_000017.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000017.png" alt="CLEVR_000017.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> large green rubber cube<br><b>Referent Object ID: </b> 4
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> cylinder
+  </td>
+  <td class="table0_td_text1">
+    6
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000011.png" alt="CLEVR_000011.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000011.png" alt="CLEVR_000011.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small yellow metal cylinder<br><b>Referent Object ID: </b> 2
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> cylinder
+  </td>
+  <td class="table0_td_text1">
+    7
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000013.png" alt="CLEVR_000013.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000013.png" alt="CLEVR_000013.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> large yellow metal cylinder<br><b>Referent Object ID: </b> 1
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> green
+  </td>
+  <td class="table0_td_text1">
+    8
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000018.png" alt="CLEVR_000018.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000018.png" alt="CLEVR_000018.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small green rubber cube<br><b>Referent Object ID: </b> 2
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> cube
+  </td>
+  <td class="table0_td_text1">
+    9
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000016.png" alt="CLEVR_000016.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000016.png" alt="CLEVR_000016.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> large blue rubber cube<br><b>Referent Object ID: </b> 3
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> green
+  </td>
+  <td class="table0_td_text1">
+    10
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000008.png" alt="CLEVR_000008.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000008.png" alt="CLEVR_000008.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small green metal cube<br><b>Referent Object ID: </b> 3
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> red
+  </td>
+  <td class="table0_td_text1">
+    11
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000015.png" alt="CLEVR_000015.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000015.png" alt="CLEVR_000015.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small red rubber sphere<br><b>Referent Object ID: </b> 4
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> blue
+  </td>
+  <td class="table0_td_text1">
+    12
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000014.png" alt="CLEVR_000014.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000014.png" alt="CLEVR_000014.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small blue rubber sphere<br><b>Referent Object ID: </b> 2
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> yellow
+  </td>
+  <td class="table0_td_text1">
+    13
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000019.png" alt="CLEVR_000019.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000019.png" alt="CLEVR_000019.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> large yellow rubber cube<br><b>Referent Object ID: </b> 2
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> cube
+  </td>
+  <td class="table0_td_text1">
+    14
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000007.png" alt="CLEVR_000007.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000007.png" alt="CLEVR_000007.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small gray metal cube<br><b>Referent Object ID: </b> 3
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> sphere
+  </td>
+  <td class="table0_td_text1">
+    15
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000009.png" alt="CLEVR_000009.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000009.png" alt="CLEVR_000009.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> large green metal sphere<br><b>Referent Object ID: </b> 3
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> cube
+  </td>
+  <td class="table0_td_text1">
+    16
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000004.png" alt="CLEVR_000004.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000004.png" alt="CLEVR_000004.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small green rubber cube<br><b>Referent Object ID: </b> 6
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> gray
+  </td>
+  <td class="table0_td_text1">
+    17
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000010.png" alt="CLEVR_000010.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000010.png" alt="CLEVR_000010.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small gray metal cube<br><b>Referent Object ID: </b> 7
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> blue
+  </td>
+  <td class="table0_td_text1">
+    18
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000003.png" alt="CLEVR_000003.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000003.png" alt="CLEVR_000003.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> small blue metal cylinder<br><b>Referent Object ID: </b> 1
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> gray
+  </td>
+  <td class="table0_td_text1">
+    19
+  </td>
+  <td class="table0_td_Image1">
+    <img class="table0_column_Image1" src="../images/CLEVR_000000.png" alt="CLEVR_000000.png" />
+  </td>
+  <td class="table0_td_Image2">
+    <img class="table0_column_Image2" src="../SoMs/CLEVR_000000.png" alt="CLEVR_000000.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> large gray metal cylinder<br><b>Referent Object ID: </b> 5
+  </td>
+</tr>
+</table>
+</body>
+</html>

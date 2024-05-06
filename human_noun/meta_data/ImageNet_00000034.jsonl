@@ -1,0 +1,4 @@
+{"utterance": "Not pudding.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00016597.JPEG"]}
+{"image": "ILSVRC2012_val_00016597.JPEG", "category": "plate"}
+{"image": "ILSVRC2012_val_00008465.JPEG", "category": "trifle"}
+{"image": "ILSVRC2012_val_00043617.JPEG", "category": "trifle"}

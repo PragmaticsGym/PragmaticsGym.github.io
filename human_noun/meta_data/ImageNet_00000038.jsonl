@@ -1,0 +1,4 @@
+{"utterance": "Not floor covering.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00012656.JPEG"]}
+{"image": "ILSVRC2012_val_00012656.JPEG", "category": "bath towel"}
+{"image": "ILSVRC2012_val_00034105.JPEG", "category": "doormat, welcome mat"}
+{"image": "ILSVRC2012_val_00016328.JPEG", "category": "doormat, welcome mat"}

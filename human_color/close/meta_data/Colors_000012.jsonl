@@ -1,0 +1,4 @@
+{"utterance": "Click the darkest color.", "type": "close", "referent": ["Colors_000036.png"], "integer_outcome": 0, "listener_pred": "distr1", "game_id": "0895-b"}
+{"image_filename": "Colors_000036.png"}
+{"image_filename": "Colors_000037.png"}
+{"image_filename": "Colors_000038.png"}

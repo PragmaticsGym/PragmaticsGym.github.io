@@ -1,0 +1,4 @@
+{"utterance": "Not summer squash.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00039698.JPEG"]}
+{"image": "ILSVRC2012_val_00039698.JPEG", "category": "mushroom"}
+{"image": "ILSVRC2012_val_00011259.JPEG", "category": "zucchini, courgette"}
+{"image": "ILSVRC2012_val_00017362.JPEG", "category": "zucchini, courgette"}

@@ -1,0 +1,4 @@
+{"utterance": "Not cnidarian.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00022755.JPEG"]}
+{"image": "ILSVRC2012_val_00022755.JPEG", "category": "isopod"}
+{"image": "ILSVRC2012_val_00032313.JPEG", "category": "sea anemone, anemone"}
+{"image": "ILSVRC2012_val_00004206.JPEG", "category": "guacamole"}

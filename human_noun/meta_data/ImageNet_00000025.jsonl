@@ -1,0 +1,4 @@
+{"utterance": "Not burrito.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00028525.JPEG"]}
+{"image": "ILSVRC2012_val_00028525.JPEG", "category": "plate"}
+{"image": "ILSVRC2012_val_00048815.JPEG", "category": "burrito"}
+{"image": "ILSVRC2012_val_00023364.JPEG", "category": "burrito"}

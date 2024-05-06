@@ -1,0 +1,869 @@
+<html>
+<head>
+<title>Quantifier Implicature, 200</title>
+<style>
+td {vertical-align:top;padding:5px}
+pre {white-space: pre-wrap;}
+</style>
+</head>
+<body>
+<h1>Quantifier Implicature, 200</h1>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+></script>
+<script>
+function frameMove(elem, offset) {
+    elem = $(elem);
+    window.elem = elem;
+    data = JSON.parse(elem.parent().find(".data").html());
+    index = parseInt(elem.parent().find(".index").val());
+
+    nextIndex = index + offset;
+    if (nextIndex < 0) nextIndex = 0;
+    if (nextIndex >= data.length) nextIndex = data.length - 1;
+
+    elem.parent().find(".index").val(nextIndex);
+    if ("image" in data[nextIndex]) {
+        elem.parent().find(".image").attr("src", data[nextIndex]["image"][0]).attr("alt", data[nextIndex]["image"][1]);
+    } else {
+        elem.parent().find(".text").html(data[nextIndex]["text"]);
+    }
+
+    if ("info" in data[nextIndex]) {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString() + " :: " + data[nextIndex]["info"]);
+    } else {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString());
+    }
+}
+</script>
+    
+<style>
+.table0_column_text {  }
+.table0_td_text {  }
+.table0_column_text1 {  }
+.table0_td_text1 {  }
+.table0_column_image1 {  }
+.table0_td_image1 {  }
+.table0_column_image2 {  }
+.table0_td_image2 {  }
+.table0_column_image3 {  }
+.table0_td_image3 {  }
+.table0_column_answer {  }
+.table0_td_answer {  }
+</style>
+<h3>In this reference game, the speaker will generate a statement to describe the referent image, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical object index.</h3>
+<table>
+<tr>
+  <td><b>Text</b></td>
+  <td><b>ID</b></td>
+  <td><b>Image 1</b></td>
+  <td><b>Image 2</b></td>
+  <td><b>Image 3</b></td>
+  <td><b>Answer</b></td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all birds stand on rock
+  </td>
+  <td class="table0_td_text1">
+    0
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/042.png" alt="042.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/044.png" alt="044.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/043.png" alt="043.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all donuts are inside of boxes
+  </td>
+  <td class="table0_td_text1">
+    1
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/109.png" alt="109.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/108.png" alt="108.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/110.png" alt="110.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all boats are in water
+  </td>
+  <td class="table0_td_text1">
+    2
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/080.png" alt="080.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/079.png" alt="079.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/078.png" alt="078.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all snows are full of tracks
+  </td>
+  <td class="table0_td_text1">
+    3
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/020.png" alt="020.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/019.png" alt="019.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/018.png" alt="018.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all oranges are in the containers
+  </td>
+  <td class="table0_td_text1">
+    4
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/084.png" alt="084.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/085.png" alt="085.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/086.png" alt="086.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all forks are on the table
+  </td>
+  <td class="table0_td_text1">
+    5
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/101.png" alt="101.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/100.png" alt="100.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/099.png" alt="099.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all zebras stand
+  </td>
+  <td class="table0_td_text1">
+    6
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/034.png" alt="034.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/035.png" alt="035.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/033.png" alt="033.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all cats are on the floor
+  </td>
+  <td class="table0_td_text1">
+    7
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/075.png" alt="075.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/077.png" alt="077.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/076.png" alt="076.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all papers are under the sandwiches
+  </td>
+  <td class="table0_td_text1">
+    8
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/111.png" alt="111.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/113.png" alt="113.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/112.png" alt="112.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all people eat food
+  </td>
+  <td class="table0_td_text1">
+    9
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/051.png" alt="051.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/052.png" alt="052.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/053.png" alt="053.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all cups are on the tables
+  </td>
+  <td class="table0_td_text1">
+    10
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/096.png" alt="096.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/098.png" alt="098.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/097.png" alt="097.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all broccolis are in the pan
+  </td>
+  <td class="table0_td_text1">
+    11
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/061.png" alt="061.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/062.png" alt="062.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/060.png" alt="060.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all windows are on the buildings
+  </td>
+  <td class="table0_td_text1">
+    12
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/045.png" alt="045.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/046.png" alt="046.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/047.png" alt="047.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all males are wearing ties
+  </td>
+  <td class="table0_td_text1">
+    13
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/119.png" alt="119.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/118.png" alt="118.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/117.png" alt="117.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all girls are playing the tennis
+  </td>
+  <td class="table0_td_text1">
+    14
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/073.png" alt="073.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/072.png" alt="072.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/074.png" alt="074.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all leaves are on ground
+  </td>
+  <td class="table0_td_text1">
+    15
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/010.png" alt="010.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/009.png" alt="009.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/011.png" alt="011.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all ladies ride bikes
+  </td>
+  <td class="table0_td_text1">
+    16
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/003.png" alt="003.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/005.png" alt="005.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/004.png" alt="004.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all kites are in sky
+  </td>
+  <td class="table0_td_text1">
+    17
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/071.png" alt="071.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/069.png" alt="069.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/070.png" alt="070.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all boys wear jackets
+  </td>
+  <td class="table0_td_text1">
+    18
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/037.png" alt="037.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/038.png" alt="038.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/036.png" alt="036.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all people hold umbrella
+  </td>
+  <td class="table0_td_text1">
+    19
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/016.png" alt="016.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/015.png" alt="015.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/017.png" alt="017.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all girls wear sweaters
+  </td>
+  <td class="table0_td_text1">
+    20
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/022.png" alt="022.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/021.png" alt="021.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/023.png" alt="023.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all boats are on the water
+  </td>
+  <td class="table0_td_text1">
+    21
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/068.png" alt="068.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/067.png" alt="067.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/066.png" alt="066.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all legs are from elephants
+  </td>
+  <td class="table0_td_text1">
+    22
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/115.png" alt="115.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/114.png" alt="114.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/116.png" alt="116.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all people are on the motorcycle
+  </td>
+  <td class="table0_td_text1">
+    23
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/029.png" alt="029.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/028.png" alt="028.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/027.png" alt="027.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all boys hold skateboards
+  </td>
+  <td class="table0_td_text1">
+    24
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/024.png" alt="024.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/026.png" alt="026.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/025.png" alt="025.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all sailboats are on the water
+  </td>
+  <td class="table0_td_text1">
+    25
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/090.png" alt="090.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/092.png" alt="092.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/091.png" alt="091.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all bowls contain fruits
+  </td>
+  <td class="table0_td_text1">
+    26
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/065.png" alt="065.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/063.png" alt="063.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/064.png" alt="064.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all birds are on the hand
+  </td>
+  <td class="table0_td_text1">
+    27
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/013.png" alt="013.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/012.png" alt="012.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/014.png" alt="014.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all guys are holding camera
+  </td>
+  <td class="table0_td_text1">
+    28
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/039.png" alt="039.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/041.png" alt="041.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/040.png" alt="040.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all apple are on the plates
+  </td>
+  <td class="table0_td_text1">
+    29
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/032.png" alt="032.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/030.png" alt="030.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/031.png" alt="031.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all trees has few leaves
+  </td>
+  <td class="table0_td_text1">
+    30
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/049.png" alt="049.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/048.png" alt="048.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/050.png" alt="050.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all boys wear sweaters
+  </td>
+  <td class="table0_td_text1">
+    31
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/007.png" alt="007.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/006.png" alt="006.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/008.png" alt="008.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all trees are in the park
+  </td>
+  <td class="table0_td_text1">
+    32
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/093.png" alt="093.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/095.png" alt="095.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/094.png" alt="094.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all people are working on computers
+  </td>
+  <td class="table0_td_text1">
+    33
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/002.png" alt="002.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000.png" alt="000.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/001.png" alt="001.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all babies are wearing clothes
+  </td>
+  <td class="table0_td_text1">
+    34
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/103.png" alt="103.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/102.png" alt="102.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/104.png" alt="104.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all waters are on the toilet seat
+  </td>
+  <td class="table0_td_text1">
+    35
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/105.png" alt="105.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/107.png" alt="107.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/106.png" alt="106.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all greens are in sandwich
+  </td>
+  <td class="table0_td_text1">
+    36
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/089.png" alt="089.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/088.png" alt="088.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/087.png" alt="087.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all people are sitting on trucks
+  </td>
+  <td class="table0_td_text1">
+    37
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/083.png" alt="083.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/082.png" alt="082.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/081.png" alt="081.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all girls eat watermelons
+  </td>
+  <td class="table0_td_text1">
+    38
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/054.png" alt="054.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/056.png" alt="056.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/055.png" alt="055.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Not all people wear hats
+  </td>
+  <td class="table0_td_text1">
+    39
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/059.png" alt="059.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/057.png" alt="057.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/058.png" alt="058.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> indirect implicature
+  </td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,4 @@
+{"utterance": "Not domestic animal.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00028956.JPEG"]}
+{"image": "ILSVRC2012_val_00028956.JPEG", "category": "daisy"}
+{"image": "ILSVRC2012_val_00046701.JPEG", "category": "Blenheim spaniel"}
+{"image": "ILSVRC2012_val_00001341.JPEG", "category": "tabby, tabby cat"}

@@ -1,0 +1,4 @@
+{"utterance": "Not wine.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00027368.JPEG"]}
+{"image": "ILSVRC2012_val_00027368.JPEG", "category": "cup"}
+{"image": "ILSVRC2012_val_00017146.JPEG", "category": "red wine"}
+{"image": "ILSVRC2012_val_00001281.JPEG", "category": "menu"}

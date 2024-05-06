@@ -1,0 +1,4 @@
+{"utterance": "Not domestic cat.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00044709.JPEG"]}
+{"image": "ILSVRC2012_val_00044709.JPEG", "category": "toy poodle"}
+{"image": "ILSVRC2012_val_00026412.JPEG", "category": "Egyptian cat"}
+{"image": "ILSVRC2012_val_00017820.JPEG", "category": "consomme"}

@@ -1,0 +1,469 @@
+<html>
+<head>
+<title>Quantifier Implicature, 200</title>
+<style>
+td {vertical-align:top;padding:5px}
+pre {white-space: pre-wrap;}
+</style>
+</head>
+<body>
+<h1>Quantifier Implicature, 200</h1>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+></script>
+<script>
+function frameMove(elem, offset) {
+    elem = $(elem);
+    window.elem = elem;
+    data = JSON.parse(elem.parent().find(".data").html());
+    index = parseInt(elem.parent().find(".index").val());
+
+    nextIndex = index + offset;
+    if (nextIndex < 0) nextIndex = 0;
+    if (nextIndex >= data.length) nextIndex = data.length - 1;
+
+    elem.parent().find(".index").val(nextIndex);
+    if ("image" in data[nextIndex]) {
+        elem.parent().find(".image").attr("src", data[nextIndex]["image"][0]).attr("alt", data[nextIndex]["image"][1]);
+    } else {
+        elem.parent().find(".text").html(data[nextIndex]["text"]);
+    }
+
+    if ("info" in data[nextIndex]) {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString() + " :: " + data[nextIndex]["info"]);
+    } else {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString());
+    }
+}
+</script>
+    
+<style>
+.table0_column_text {  }
+.table0_td_text {  }
+.table0_column_text1 {  }
+.table0_td_text1 {  }
+.table0_column_image1 {  }
+.table0_td_image1 {  }
+.table0_column_image2 {  }
+.table0_td_image2 {  }
+.table0_column_image3 {  }
+.table0_td_image3 {  }
+.table0_column_answer {  }
+.table0_td_answer {  }
+</style>
+<h3>In this reference game, the speaker will generate a statement to describe the referent image, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical object index.</h3>
+<table>
+<tr>
+  <td><b>Text</b></td>
+  <td><b>ID</b></td>
+  <td><b>Image 1</b></td>
+  <td><b>Image 2</b></td>
+  <td><b>Image 3</b></td>
+  <td><b>Answer</b></td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> darker purple not the bright purple
+  </td>
+  <td class="table0_td_text1">
+    0
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000013.png" alt="Colors_000013.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000012.png" alt="Colors_000012.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000014.png" alt="Colors_000014.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> blue
+  </td>
+  <td class="table0_td_text1">
+    1
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000018.png" alt="Colors_000018.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000019.png" alt="Colors_000019.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000020.png" alt="Colors_000020.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> the more grey green
+  </td>
+  <td class="table0_td_text1">
+    2
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000000.png" alt="Colors_000000.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000002.png" alt="Colors_000002.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000001.png" alt="Colors_000001.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> mauve
+  </td>
+  <td class="table0_td_text1">
+    3
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000035.png" alt="Colors_000035.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000033.png" alt="Colors_000033.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000034.png" alt="Colors_000034.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> greyish purple one
+  </td>
+  <td class="table0_td_text1">
+    4
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000010.png" alt="Colors_000010.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000011.png" alt="Colors_000011.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000009.png" alt="Colors_000009.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> dull purple-grey
+  </td>
+  <td class="table0_td_text1">
+    5
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000041.png" alt="Colors_000041.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000039.png" alt="Colors_000039.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000040.png" alt="Colors_000040.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Click the darkest color.
+  </td>
+  <td class="table0_td_text1">
+    6
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000037.png" alt="Colors_000037.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000038.png" alt="Colors_000038.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000036.png" alt="Colors_000036.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> bright blue
+  </td>
+  <td class="table0_td_text1">
+    7
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000052.png" alt="Colors_000052.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000051.png" alt="Colors_000051.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000053.png" alt="Colors_000053.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> gray
+  </td>
+  <td class="table0_td_text1">
+    8
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000021.png" alt="Colors_000021.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000023.png" alt="Colors_000023.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000022.png" alt="Colors_000022.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> sort of like grass
+  </td>
+  <td class="table0_td_text1">
+    9
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000045.png" alt="Colors_000045.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000047.png" alt="Colors_000047.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000046.png" alt="Colors_000046.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> olive
+  </td>
+  <td class="table0_td_text1">
+    10
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000042.png" alt="Colors_000042.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000044.png" alt="Colors_000044.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000043.png" alt="Colors_000043.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> target is the green that is not lime green
+  </td>
+  <td class="table0_td_text1">
+    11
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000006.png" alt="Colors_000006.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000008.png" alt="Colors_000008.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000007.png" alt="Colors_000007.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> blue
+  </td>
+  <td class="table0_td_text1">
+    12
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000003.png" alt="Colors_000003.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000004.png" alt="Colors_000004.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000005.png" alt="Colors_000005.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> lime
+  </td>
+  <td class="table0_td_text1">
+    13
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000057.png" alt="Colors_000057.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000059.png" alt="Colors_000059.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000058.png" alt="Colors_000058.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> purple
+  </td>
+  <td class="table0_td_text1">
+    14
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000049.png" alt="Colors_000049.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000048.png" alt="Colors_000048.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000050.png" alt="Colors_000050.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> mellow green
+  </td>
+  <td class="table0_td_text1">
+    15
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000032.png" alt="Colors_000032.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000030.png" alt="Colors_000030.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000031.png" alt="Colors_000031.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> more bodied
+  </td>
+  <td class="table0_td_text1">
+    16
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000024.png" alt="Colors_000024.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000026.png" alt="Colors_000026.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000025.png" alt="Colors_000025.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> click the light grey
+  </td>
+  <td class="table0_td_text1">
+    17
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000056.png" alt="Colors_000056.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000055.png" alt="Colors_000055.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000054.png" alt="Colors_000054.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> most purple
+  </td>
+  <td class="table0_td_text1">
+    18
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000015.png" alt="Colors_000015.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000017.png" alt="Colors_000017.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000016.png" alt="Colors_000016.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> It is the lightest purple shade, dullest
+  </td>
+  <td class="table0_td_text1">
+    19
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/Colors_000027.png" alt="Colors_000027.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/Colors_000029.png" alt="Colors_000029.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/Colors_000028.png" alt="Colors_000028.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> close
+  </td>
+</tr>
+</table>
+</body>
+</html>

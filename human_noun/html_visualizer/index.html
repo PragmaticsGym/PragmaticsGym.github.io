@@ -1,0 +1,869 @@
+<html>
+<head>
+<title>Noun Implicature Visualization, Natural Domain, 100</title>
+<style>
+td {vertical-align:top;padding:5px}
+pre {white-space: pre-wrap;}
+</style>
+</head>
+<body>
+<h1>Noun Implicature Visualization, Natural Domain, 100</h1>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+></script>
+<script>
+function frameMove(elem, offset) {
+    elem = $(elem);
+    window.elem = elem;
+    data = JSON.parse(elem.parent().find(".data").html());
+    index = parseInt(elem.parent().find(".index").val());
+
+    nextIndex = index + offset;
+    if (nextIndex < 0) nextIndex = 0;
+    if (nextIndex >= data.length) nextIndex = data.length - 1;
+
+    elem.parent().find(".index").val(nextIndex);
+    if ("image" in data[nextIndex]) {
+        elem.parent().find(".image").attr("src", data[nextIndex]["image"][0]).attr("alt", data[nextIndex]["image"][1]);
+    } else {
+        elem.parent().find(".text").html(data[nextIndex]["text"]);
+    }
+
+    if ("info" in data[nextIndex]) {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString() + " :: " + data[nextIndex]["info"]);
+    } else {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString());
+    }
+}
+</script>
+    
+<style>
+.table0_column_text {  }
+.table0_td_text {  }
+.table0_column_idx {  }
+.table0_td_idx {  }
+.table0_column_image1 {  }
+.table0_td_image1 {  }
+.table0_column_image2 {  }
+.table0_td_image2 {  }
+.table0_column_image3 {  }
+.table0_td_image3 {  }
+.table0_column_answer {  }
+.table0_td_answer {  }
+</style>
+<h3>You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.</h3>
+<table>
+<tr>
+  <td><b>Text</b></td>
+  <td><b>Idx</b></td>
+  <td><b>Image 1</b></td>
+  <td><b>Image 2</b></td>
+  <td><b>Image 3</b></td>
+  <td><b>Answer</b></td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not actinozoan.
+  </td>
+  <td class="table0_td_idx">
+    2
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00012211.JPEG" alt="ILSVRC2012_val_00012211.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00012499.JPEG" alt="ILSVRC2012_val_00012499.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00031110.JPEG" alt="ILSVRC2012_val_00031110.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not salamander.
+  </td>
+  <td class="table0_td_idx">
+    3
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00035305.JPEG" alt="ILSVRC2012_val_00035305.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00023855.JPEG" alt="ILSVRC2012_val_00023855.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00016987.JPEG" alt="ILSVRC2012_val_00016987.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not cypriniform fish.
+  </td>
+  <td class="table0_td_idx">
+    4
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00040941.JPEG" alt="ILSVRC2012_val_00040941.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00023869.JPEG" alt="ILSVRC2012_val_00023869.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00034488.JPEG" alt="ILSVRC2012_val_00034488.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not daisy.
+  </td>
+  <td class="table0_td_idx">
+    5
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00046270.JPEG" alt="ILSVRC2012_val_00046270.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00030744.JPEG" alt="ILSVRC2012_val_00030744.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00048538.JPEG" alt="ILSVRC2012_val_00048538.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not orchidaceous plant.
+  </td>
+  <td class="table0_td_idx">
+    6
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00048982.JPEG" alt="ILSVRC2012_val_00048982.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00006570.JPEG" alt="ILSVRC2012_val_00006570.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00039137.JPEG" alt="ILSVRC2012_val_00039137.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not white potato.
+  </td>
+  <td class="table0_td_idx">
+    7
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00019247.JPEG" alt="ILSVRC2012_val_00019247.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00001374.JPEG" alt="ILSVRC2012_val_00001374.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00014161.JPEG" alt="ILSVRC2012_val_00014161.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not daisy.
+  </td>
+  <td class="table0_td_idx">
+    8
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00006422.JPEG" alt="ILSVRC2012_val_00006422.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00039868.JPEG" alt="ILSVRC2012_val_00039868.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00031636.JPEG" alt="ILSVRC2012_val_00031636.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not wine.
+  </td>
+  <td class="table0_td_idx">
+    9
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00027368.JPEG" alt="ILSVRC2012_val_00027368.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00001281.JPEG" alt="ILSVRC2012_val_00001281.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00017146.JPEG" alt="ILSVRC2012_val_00017146.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not Brussels griffon.
+  </td>
+  <td class="table0_td_idx">
+    10
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00028891.JPEG" alt="ILSVRC2012_val_00028891.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00024789.JPEG" alt="ILSVRC2012_val_00024789.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00042249.JPEG" alt="ILSVRC2012_val_00042249.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not white potato.
+  </td>
+  <td class="table0_td_idx">
+    11
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00004646.JPEG" alt="ILSVRC2012_val_00004646.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00021944.JPEG" alt="ILSVRC2012_val_00021944.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00019281.JPEG" alt="ILSVRC2012_val_00019281.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not cnidarian.
+  </td>
+  <td class="table0_td_idx">
+    12
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00004206.JPEG" alt="ILSVRC2012_val_00004206.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00022755.JPEG" alt="ILSVRC2012_val_00022755.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00032313.JPEG" alt="ILSVRC2012_val_00032313.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not constrictor.
+  </td>
+  <td class="table0_td_idx">
+    13
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00026133.JPEG" alt="ILSVRC2012_val_00026133.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00020999.JPEG" alt="ILSVRC2012_val_00020999.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00045456.JPEG" alt="ILSVRC2012_val_00045456.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not domestic cat.
+  </td>
+  <td class="table0_td_idx">
+    14
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00017820.JPEG" alt="ILSVRC2012_val_00017820.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00026412.JPEG" alt="ILSVRC2012_val_00026412.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00044709.JPEG" alt="ILSVRC2012_val_00044709.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not eating utensil.
+  </td>
+  <td class="table0_td_idx">
+    15
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00004899.JPEG" alt="ILSVRC2012_val_00004899.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00047393.JPEG" alt="ILSVRC2012_val_00047393.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00037782.JPEG" alt="ILSVRC2012_val_00037782.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not scorpion.
+  </td>
+  <td class="table0_td_idx">
+    16
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00001007.JPEG" alt="ILSVRC2012_val_00001007.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00049154.JPEG" alt="ILSVRC2012_val_00049154.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00046868.JPEG" alt="ILSVRC2012_val_00046868.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not Polyporus frondosus.
+  </td>
+  <td class="table0_td_idx">
+    17
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00047179.JPEG" alt="ILSVRC2012_val_00047179.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00031924.JPEG" alt="ILSVRC2012_val_00031924.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00011234.JPEG" alt="ILSVRC2012_val_00011234.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not plant life.
+  </td>
+  <td class="table0_td_idx">
+    18
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00017025.JPEG" alt="ILSVRC2012_val_00017025.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00040066.JPEG" alt="ILSVRC2012_val_00040066.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00020514.JPEG" alt="ILSVRC2012_val_00020514.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not pepper.
+  </td>
+  <td class="table0_td_idx">
+    19
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00012153.JPEG" alt="ILSVRC2012_val_00012153.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00035410.JPEG" alt="ILSVRC2012_val_00035410.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00007824.JPEG" alt="ILSVRC2012_val_00007824.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not anthozoan.
+  </td>
+  <td class="table0_td_idx">
+    20
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00001642.JPEG" alt="ILSVRC2012_val_00001642.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00010919.JPEG" alt="ILSVRC2012_val_00010919.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00033440.JPEG" alt="ILSVRC2012_val_00033440.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not explorer.
+  </td>
+  <td class="table0_td_idx">
+    21
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00020796.JPEG" alt="ILSVRC2012_val_00020796.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00009603.JPEG" alt="ILSVRC2012_val_00009603.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00044984.JPEG" alt="ILSVRC2012_val_00044984.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not board.
+  </td>
+  <td class="table0_td_idx">
+    22
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00008027.JPEG" alt="ILSVRC2012_val_00008027.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00034679.JPEG" alt="ILSVRC2012_val_00034679.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00026083.JPEG" alt="ILSVRC2012_val_00026083.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not main course.
+  </td>
+  <td class="table0_td_idx">
+    23
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00007956.JPEG" alt="ILSVRC2012_val_00007956.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00017367.JPEG" alt="ILSVRC2012_val_00017367.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00044790.JPEG" alt="ILSVRC2012_val_00044790.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not wine.
+  </td>
+  <td class="table0_td_idx">
+    24
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00017146.JPEG" alt="ILSVRC2012_val_00017146.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00022584.JPEG" alt="ILSVRC2012_val_00022584.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00037863.JPEG" alt="ILSVRC2012_val_00037863.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not seed.
+  </td>
+  <td class="table0_td_idx">
+    25
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00046434.JPEG" alt="ILSVRC2012_val_00046434.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00017236.JPEG" alt="ILSVRC2012_val_00017236.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00029679.JPEG" alt="ILSVRC2012_val_00029679.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not connecter.
+  </td>
+  <td class="table0_td_idx">
+    26
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00018148.JPEG" alt="ILSVRC2012_val_00018148.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00045877.JPEG" alt="ILSVRC2012_val_00045877.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00012273.JPEG" alt="ILSVRC2012_val_00012273.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not burrito.
+  </td>
+  <td class="table0_td_idx">
+    27
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00048815.JPEG" alt="ILSVRC2012_val_00048815.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00023364.JPEG" alt="ILSVRC2012_val_00023364.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00028525.JPEG" alt="ILSVRC2012_val_00028525.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not elapid snake.
+  </td>
+  <td class="table0_td_idx">
+    28
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00038480.JPEG" alt="ILSVRC2012_val_00038480.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00000251.JPEG" alt="ILSVRC2012_val_00000251.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00019966.JPEG" alt="ILSVRC2012_val_00019966.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not bowl.
+  </td>
+  <td class="table0_td_idx">
+    29
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00006688.JPEG" alt="ILSVRC2012_val_00006688.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00009053.JPEG" alt="ILSVRC2012_val_00009053.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00039667.JPEG" alt="ILSVRC2012_val_00039667.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not wearable.
+  </td>
+  <td class="table0_td_idx">
+    30
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00026727.JPEG" alt="ILSVRC2012_val_00026727.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00007495.JPEG" alt="ILSVRC2012_val_00007495.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00049767.JPEG" alt="ILSVRC2012_val_00049767.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not summer squash.
+  </td>
+  <td class="table0_td_idx">
+    31
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00011549.JPEG" alt="ILSVRC2012_val_00011549.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00012513.JPEG" alt="ILSVRC2012_val_00012513.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00044128.JPEG" alt="ILSVRC2012_val_00044128.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not vino.
+  </td>
+  <td class="table0_td_idx">
+    32
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00031627.JPEG" alt="ILSVRC2012_val_00031627.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00014200.JPEG" alt="ILSVRC2012_val_00014200.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00032379.JPEG" alt="ILSVRC2012_val_00032379.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not bowl.
+  </td>
+  <td class="table0_td_idx">
+    33
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00015619.JPEG" alt="ILSVRC2012_val_00015619.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00021570.JPEG" alt="ILSVRC2012_val_00021570.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00042560.JPEG" alt="ILSVRC2012_val_00042560.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not summer squash.
+  </td>
+  <td class="table0_td_idx">
+    34
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00039698.JPEG" alt="ILSVRC2012_val_00039698.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00011259.JPEG" alt="ILSVRC2012_val_00011259.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00017362.JPEG" alt="ILSVRC2012_val_00017362.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not stew.
+  </td>
+  <td class="table0_td_idx">
+    35
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00018892.JPEG" alt="ILSVRC2012_val_00018892.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00012877.JPEG" alt="ILSVRC2012_val_00012877.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00032792.JPEG" alt="ILSVRC2012_val_00032792.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not pudding.
+  </td>
+  <td class="table0_td_idx">
+    36
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00008465.JPEG" alt="ILSVRC2012_val_00008465.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00043617.JPEG" alt="ILSVRC2012_val_00043617.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00016597.JPEG" alt="ILSVRC2012_val_00016597.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not garfish.
+  </td>
+  <td class="table0_td_idx">
+    37
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00033453.JPEG" alt="ILSVRC2012_val_00033453.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00011360.JPEG" alt="ILSVRC2012_val_00011360.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00011694.JPEG" alt="ILSVRC2012_val_00011694.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not domestic animal.
+  </td>
+  <td class="table0_td_idx">
+    38
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00046701.JPEG" alt="ILSVRC2012_val_00046701.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00001341.JPEG" alt="ILSVRC2012_val_00001341.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00028956.JPEG" alt="ILSVRC2012_val_00028956.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not afters.
+  </td>
+  <td class="table0_td_idx">
+    39
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00041321.JPEG" alt="ILSVRC2012_val_00041321.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00040067.JPEG" alt="ILSVRC2012_val_00040067.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00041059.JPEG" alt="ILSVRC2012_val_00041059.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not floor covering.
+  </td>
+  <td class="table0_td_idx">
+    40
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00016328.JPEG" alt="ILSVRC2012_val_00016328.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00034105.JPEG" alt="ILSVRC2012_val_00034105.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00012656.JPEG" alt="ILSVRC2012_val_00012656.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.<br><b>Speaker:</b> Not frozen dessert.
+  </td>
+  <td class="table0_td_idx">
+    41
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/ILSVRC2012_val_00023009.JPEG" alt="ILSVRC2012_val_00023009.JPEG" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/ILSVRC2012_val_00015095.JPEG" alt="ILSVRC2012_val_00015095.JPEG" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/ILSVRC2012_val_00034189.JPEG" alt="ILSVRC2012_val_00034189.JPEG" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1<br><b>Type:</b> indirect contextual cancellation
+  </td>
+</tr>
+</table>
+</body>
+</html>

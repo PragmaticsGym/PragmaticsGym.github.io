@@ -1,0 +1,343 @@
+<html>
+<head>
+<title>Comparison Class, 200</title>
+<style>
+td {vertical-align:top;padding:5px}
+pre {white-space: pre-wrap;}
+</style>
+</head>
+<body>
+<h1>Comparison Class, 200</h1>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+></script>
+<script>
+function frameMove(elem, offset) {
+    elem = $(elem);
+    window.elem = elem;
+    data = JSON.parse(elem.parent().find(".data").html());
+    index = parseInt(elem.parent().find(".index").val());
+
+    nextIndex = index + offset;
+    if (nextIndex < 0) nextIndex = 0;
+    if (nextIndex >= data.length) nextIndex = data.length - 1;
+
+    elem.parent().find(".index").val(nextIndex);
+    if ("image" in data[nextIndex]) {
+        elem.parent().find(".image").attr("src", data[nextIndex]["image"][0]).attr("alt", data[nextIndex]["image"][1]);
+    } else {
+        elem.parent().find(".text").html(data[nextIndex]["text"]);
+    }
+
+    if ("info" in data[nextIndex]) {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString() + " :: " + data[nextIndex]["info"]);
+    } else {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString());
+    }
+}
+</script>
+    
+<style>
+.table0_column_text {  }
+.table0_td_text {  }
+.table0_column_text1 {  }
+.table0_td_text1 {  }
+.table0_column_image1 {  }
+.table0_td_image1 {  }
+.table0_column_answer {  }
+.table0_td_answer {  }
+</style>
+<h3>In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical object index.</h3>
+<table>
+<tr>
+  <td><b>Text</b></td>
+  <td><b>ID</b></td>
+  <td><b>Image 1</b></td>
+  <td><b>Answer</b></td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big triangle
+  </td>
+  <td class="table0_td_text1">
+    0
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/3.png" alt="3.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 3
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small rectangle
+  </td>
+  <td class="table0_td_text1">
+    1
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/18.png" alt="18.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 3
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small rectangle
+  </td>
+  <td class="table0_td_text1">
+    2
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/0.png" alt="0.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 4
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small triangle
+  </td>
+  <td class="table0_td_text1">
+    3
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/9.png" alt="9.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 7
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small square
+  </td>
+  <td class="table0_td_text1">
+    4
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/13.png" alt="13.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 5
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big circle
+  </td>
+  <td class="table0_td_text1">
+    5
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/7.png" alt="7.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 1
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small circle
+  </td>
+  <td class="table0_td_text1">
+    6
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/2.png" alt="2.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 6
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big circle
+  </td>
+  <td class="table0_td_text1">
+    7
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/8.png" alt="8.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 1
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small square
+  </td>
+  <td class="table0_td_text1">
+    8
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/10.png" alt="10.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 1
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small circle
+  </td>
+  <td class="table0_td_text1">
+    9
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/11.png" alt="11.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 1
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big triangle
+  </td>
+  <td class="table0_td_text1">
+    10
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/1.png" alt="1.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 3
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small rectangle
+  </td>
+  <td class="table0_td_text1">
+    11
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/14.png" alt="14.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 5
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big circle
+  </td>
+  <td class="table0_td_text1">
+    12
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/16.png" alt="16.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 7
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small square
+  </td>
+  <td class="table0_td_text1">
+    13
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/4.png" alt="4.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 2
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small circle
+  </td>
+  <td class="table0_td_text1">
+    14
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/12.png" alt="12.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 5
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small square
+  </td>
+  <td class="table0_td_text1">
+    15
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/19.png" alt="19.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 4
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the small square
+  </td>
+  <td class="table0_td_text1">
+    16
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/6.png" alt="6.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 7
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big triangle
+  </td>
+  <td class="table0_td_text1">
+    17
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/15.png" alt="15.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 7
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big circle
+  </td>
+  <td class="table0_td_text1">
+    18
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/5.png" alt="5.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 8
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> Pick the big triangle
+  </td>
+  <td class="table0_td_text1">
+    19
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/17.png" alt="17.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent ID:</b> 1
+  </td>
+</tr>
+</table>
+</body>
+</html>

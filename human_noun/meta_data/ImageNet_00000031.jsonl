@@ -1,0 +1,4 @@
+{"utterance": "Not bowl.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00015619.JPEG"]}
+{"image": "ILSVRC2012_val_00015619.JPEG", "category": "rain barrel"}
+{"image": "ILSVRC2012_val_00042560.JPEG", "category": "soup bowl"}
+{"image": "ILSVRC2012_val_00021570.JPEG", "category": "soup bowl"}
