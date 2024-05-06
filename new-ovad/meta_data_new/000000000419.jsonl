@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored oranges or unicolored broccolis in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000099053.jpg", "../coco/val2017/000000148707.jpg"]}
+{"image": "../coco/val2017/000000099053.jpg"}
+{"image": "../coco/val2017/000000148707.jpg"}
+{"image": "../coco/val2017/000000248980.jpg"}
+{"image": "../coco/val2017/000000296634.jpg"}
+{"image": "../coco/val2017/000000069356.jpg"}

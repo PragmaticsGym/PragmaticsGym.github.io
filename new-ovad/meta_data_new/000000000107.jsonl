@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored vases or plain patterned baseball bats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000097585.jpg", "../coco/val2017/000000128748.jpg"]}
+{"image": "../coco/val2017/000000097585.jpg"}
+{"image": "../coco/val2017/000000128748.jpg"}
+{"image": "../coco/val2017/000000057232.jpg"}
+{"image": "../coco/val2017/000000440475.jpg"}
+{"image": "../coco/val2017/000000491464.jpg"}

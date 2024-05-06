@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored umbrellas or adult elephants in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000250137.jpg", "../coco/val2017/000000232244.jpg"]}
+{"image": "../coco/val2017/000000250137.jpg"}
+{"image": "../coco/val2017/000000232244.jpg"}
+{"image": "../coco/val2017/000000162543.jpg"}
+{"image": "../coco/val2017/000000233033.jpg"}
+{"image": "../coco/val2017/000000006894.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are opaque potted plants or red dining tables in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000395343.jpg", "../coco/val2017/000000140640.jpg"]}
+{"image": "../coco/val2017/000000395343.jpg"}
+{"image": "../coco/val2017/000000140640.jpg"}
+{"image": "../coco/val2017/000000331817.jpg"}
+{"image": "../coco/val2017/000000453040.jpg"}
+{"image": "../coco/val2017/000000375078.jpg"}

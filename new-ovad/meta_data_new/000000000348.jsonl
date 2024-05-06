@@ -1,0 +1,6 @@
+{"utterance": "There are white cows or brown horses in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000090062.jpg", "../coco/val2017/000000015956.jpg"]}
+{"image": "../coco/val2017/000000090062.jpg"}
+{"image": "../coco/val2017/000000015956.jpg"}
+{"image": "../coco/val2017/000000298697.jpg"}
+{"image": "../coco/val2017/000000244411.jpg"}
+{"image": "../coco/val2017/000000348488.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are opaque dining tables or brown sandwichs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000251119.jpg", "../coco/val2017/000000157390.jpg"]}
+{"image": "../coco/val2017/000000251119.jpg"}
+{"image": "../coco/val2017/000000157390.jpg"}
+{"image": "../coco/val2017/000000157601.jpg"}
+{"image": "../coco/val2017/000000045550.jpg"}
+{"image": "../coco/val2017/000000277197.jpg"}

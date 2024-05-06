@@ -1,0 +1,6 @@
+{"utterance": "There are lying scissorss or standing laptops in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000154213.jpg", "../coco/val2017/000000363461.jpg"]}
+{"image": "../coco/val2017/000000154213.jpg"}
+{"image": "../coco/val2017/000000363461.jpg"}
+{"image": "../coco/val2017/000000324715.jpg"}
+{"image": "../coco/val2017/000000351096.jpg"}
+{"image": "../coco/val2017/000000148620.jpg"}

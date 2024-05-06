@@ -1,0 +1,6 @@
+{"utterance": "There are black books or lying benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000194724.jpg", "../coco/val2017/000000420916.jpg"]}
+{"image": "../coco/val2017/000000194724.jpg"}
+{"image": "../coco/val2017/000000420916.jpg"}
+{"image": "../coco/val2017/000000264535.jpg"}
+{"image": "../coco/val2017/000000255483.jpg"}
+{"image": "../coco/val2017/000000357816.jpg"}

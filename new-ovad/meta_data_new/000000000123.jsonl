@@ -1,0 +1,6 @@
+{"utterance": "There are black cats or multicolored books in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000311789.jpg", "../coco/val2017/000000066706.jpg"]}
+{"image": "../coco/val2017/000000311789.jpg"}
+{"image": "../coco/val2017/000000066706.jpg"}
+{"image": "../coco/val2017/000000240940.jpg"}
+{"image": "../coco/val2017/000000046378.jpg"}
+{"image": "../coco/val2017/000000055528.jpg"}

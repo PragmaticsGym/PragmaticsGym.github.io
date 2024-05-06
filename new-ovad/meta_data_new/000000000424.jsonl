@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored buss or red traffic lights in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000357748.jpg", "../coco/val2017/000000017905.jpg"]}
+{"image": "../coco/val2017/000000357748.jpg"}
+{"image": "../coco/val2017/000000017905.jpg"}
+{"image": "../coco/val2017/000000315187.jpg"}
+{"image": "../coco/val2017/000000290179.jpg"}
+{"image": "../coco/val2017/000000076417.jpg"}

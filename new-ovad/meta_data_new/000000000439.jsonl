@@ -1,0 +1,6 @@
+{"utterance": "There are standing chairs or black bicycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000144333.jpg", "../coco/val2017/000000124659.jpg"]}
+{"image": "../coco/val2017/000000144333.jpg"}
+{"image": "../coco/val2017/000000124659.jpg"}
+{"image": "../coco/val2017/000000190753.jpg"}
+{"image": "../coco/val2017/000000295809.jpg"}
+{"image": "../coco/val2017/000000084477.jpg"}

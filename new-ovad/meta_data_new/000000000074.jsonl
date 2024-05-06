@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored hot dogs or unicolored cups in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000213255.jpg", "../coco/val2017/000000300039.jpg"]}
+{"image": "../coco/val2017/000000213255.jpg"}
+{"image": "../coco/val2017/000000300039.jpg"}
+{"image": "../coco/val2017/000000083531.jpg"}
+{"image": "../coco/val2017/000000024567.jpg"}
+{"image": "../coco/val2017/000000488673.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are standing microwaves or opaque bowls in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000173008.jpg", "../coco/val2017/000000025986.jpg"]}
+{"image": "../coco/val2017/000000173008.jpg"}
+{"image": "../coco/val2017/000000025986.jpg"}
+{"image": "../coco/val2017/000000246436.jpg"}
+{"image": "../coco/val2017/000000109976.jpg"}
+{"image": "../coco/val2017/000000417632.jpg"}

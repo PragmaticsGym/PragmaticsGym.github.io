@@ -1,0 +1,6 @@
+{"utterance": "There are brown giraffes or young persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000151662.jpg", "../coco/val2017/000000024021.jpg"]}
+{"image": "../coco/val2017/000000151662.jpg"}
+{"image": "../coco/val2017/000000024021.jpg"}
+{"image": "../coco/val2017/000000285894.jpg"}
+{"image": "../coco/val2017/000000216739.jpg"}
+{"image": "../coco/val2017/000000033221.jpg"}

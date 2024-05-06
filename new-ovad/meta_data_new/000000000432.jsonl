@@ -1,0 +1,6 @@
+{"utterance": "There are males or standing frisbees in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000132544.jpg", "../coco/val2017/000000235241.jpg"]}
+{"image": "../coco/val2017/000000132544.jpg"}
+{"image": "../coco/val2017/000000235241.jpg"}
+{"image": "../coco/val2017/000000328337.jpg"}
+{"image": "../coco/val2017/000000127660.jpg"}
+{"image": "../coco/val2017/000000139883.jpg"}

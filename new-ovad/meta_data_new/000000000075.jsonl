@@ -1,0 +1,6 @@
+{"utterance": "There are lying books or gray suitcases in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000127660.jpg", "../coco/val2017/000000509260.jpg"]}
+{"image": "../coco/val2017/000000127660.jpg"}
+{"image": "../coco/val2017/000000509260.jpg"}
+{"image": "../coco/val2017/000000055150.jpg"}
+{"image": "../coco/val2017/000000350003.jpg"}
+{"image": "../coco/val2017/000000189820.jpg"}

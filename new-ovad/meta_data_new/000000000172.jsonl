@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored chairs or unicolored keyboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000001503.jpg", "../coco/val2017/000000484404.jpg"]}
+{"image": "../coco/val2017/000000001503.jpg"}
+{"image": "../coco/val2017/000000484404.jpg"}
+{"image": "../coco/val2017/000000345252.jpg"}
+{"image": "../coco/val2017/000000311789.jpg"}
+{"image": "../coco/val2017/000000025386.jpg"}

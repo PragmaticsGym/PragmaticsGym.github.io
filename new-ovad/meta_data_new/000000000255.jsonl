@@ -1,0 +1,6 @@
+{"utterance": "There are standing cups or multicolored cakes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000081738.jpg", "../coco/val2017/000000017899.jpg"]}
+{"image": "../coco/val2017/000000081738.jpg"}
+{"image": "../coco/val2017/000000017899.jpg"}
+{"image": "../coco/val2017/000000002157.jpg"}
+{"image": "../coco/val2017/000000331817.jpg"}
+{"image": "../coco/val2017/000000192904.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are standing benchs or yellow trains in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000566524.jpg", "../coco/val2017/000000225670.jpg"]}
+{"image": "../coco/val2017/000000566524.jpg"}
+{"image": "../coco/val2017/000000225670.jpg"}
+{"image": "../coco/val2017/000000323751.jpg"}
+{"image": "../coco/val2017/000000539445.jpg"}
+{"image": "../coco/val2017/000000016249.jpg"}

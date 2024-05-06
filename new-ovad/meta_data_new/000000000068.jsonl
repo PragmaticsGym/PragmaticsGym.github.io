@@ -1,0 +1,6 @@
+{"utterance": "There are green potted plants or multicolored pizzas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000080932.jpg", "../coco/val2017/000000065288.jpg"]}
+{"image": "../coco/val2017/000000080932.jpg"}
+{"image": "../coco/val2017/000000065288.jpg"}
+{"image": "../coco/val2017/000000248400.jpg"}
+{"image": "../coco/val2017/000000163611.jpg"}
+{"image": "../coco/val2017/000000385997.jpg"}

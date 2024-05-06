@@ -1,0 +1,6 @@
+{"utterance": "There are yellow sandwichs or adult persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000170595.jpg", "../coco/val2017/000000100510.jpg"]}
+{"image": "../coco/val2017/000000170595.jpg"}
+{"image": "../coco/val2017/000000100510.jpg"}
+{"image": "../coco/val2017/000000167572.jpg"}
+{"image": "../coco/val2017/000000255912.jpg"}
+{"image": "../coco/val2017/000000119911.jpg"}

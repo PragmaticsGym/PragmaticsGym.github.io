@@ -1,0 +1,6 @@
+{"utterance": "There are brown dining tables or unicolored cakes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000136355.jpg", "../coco/val2017/000000331817.jpg"]}
+{"image": "../coco/val2017/000000136355.jpg"}
+{"image": "../coco/val2017/000000331817.jpg"}
+{"image": "../coco/val2017/000000376322.jpg"}
+{"image": "../coco/val2017/000000013923.jpg"}
+{"image": "../coco/val2017/000000180878.jpg"}

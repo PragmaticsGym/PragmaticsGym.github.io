@@ -1,0 +1,6 @@
+{"utterance": "There are white dogs or opaque frisbees in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000283412.jpg", "../coco/val2017/000000252716.jpg"]}
+{"image": "../coco/val2017/000000283412.jpg"}
+{"image": "../coco/val2017/000000252716.jpg"}
+{"image": "../coco/val2017/000000185250.jpg"}
+{"image": "../coco/val2017/000000575357.jpg"}
+{"image": "../coco/val2017/000000163562.jpg"}

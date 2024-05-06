@@ -1,0 +1,6 @@
+{"utterance": "There are brown teddy bears or males in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000522638.jpg", "../coco/val2017/000000060347.jpg"]}
+{"image": "../coco/val2017/000000522638.jpg"}
+{"image": "../coco/val2017/000000060347.jpg"}
+{"image": "../coco/val2017/000000276018.jpg"}
+{"image": "../coco/val2017/000000175443.jpg"}
+{"image": "../coco/val2017/000000340894.jpg"}

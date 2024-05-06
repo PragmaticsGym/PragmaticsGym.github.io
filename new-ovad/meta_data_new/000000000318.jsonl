@@ -1,0 +1,6 @@
+{"utterance": "There are white trucks or striped kites in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000143068.jpg", "../coco/val2017/000000345027.jpg"]}
+{"image": "../coco/val2017/000000143068.jpg"}
+{"image": "../coco/val2017/000000345027.jpg"}
+{"image": "../coco/val2017/000000140840.jpg"}
+{"image": "../coco/val2017/000000067406.jpg"}
+{"image": "../coco/val2017/000000350003.jpg"}

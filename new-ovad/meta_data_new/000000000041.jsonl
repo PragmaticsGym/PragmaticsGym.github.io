@@ -1,0 +1,6 @@
+{"utterance": "There are black backpacks or plain patterned motorcycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000394199.jpg", "../coco/val2017/000000010707.jpg"]}
+{"image": "../coco/val2017/000000394199.jpg"}
+{"image": "../coco/val2017/000000010707.jpg"}
+{"image": "../coco/val2017/000000463730.jpg"}
+{"image": "../coco/val2017/000000343934.jpg"}
+{"image": "../coco/val2017/000000466125.jpg"}

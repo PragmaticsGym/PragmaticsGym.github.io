@@ -1,0 +1,6 @@
+{"utterance": "There are red fire hydrants or lying cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000266082.jpg", "../coco/val2017/000000126592.jpg"]}
+{"image": "../coco/val2017/000000266082.jpg"}
+{"image": "../coco/val2017/000000126592.jpg"}
+{"image": "../coco/val2017/000000026926.jpg"}
+{"image": "../coco/val2017/000000158744.jpg"}
+{"image": "../coco/val2017/000000147223.jpg"}

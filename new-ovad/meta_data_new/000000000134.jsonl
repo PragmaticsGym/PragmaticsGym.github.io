@@ -1,0 +1,6 @@
+{"utterance": "There are standing backpacks or standing benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000060347.jpg", "../coco/val2017/000000516677.jpg"]}
+{"image": "../coco/val2017/000000060347.jpg"}
+{"image": "../coco/val2017/000000516677.jpg"}
+{"image": "../coco/val2017/000000328238.jpg"}
+{"image": "../coco/val2017/000000133969.jpg"}
+{"image": "../coco/val2017/000000030828.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored hot dogs or red sandwichs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000283113.jpg", "../coco/val2017/000000234779.jpg"]}
+{"image": "../coco/val2017/000000283113.jpg"}
+{"image": "../coco/val2017/000000234779.jpg"}
+{"image": "../coco/val2017/000000091779.jpg"}
+{"image": "../coco/val2017/000000311950.jpg"}
+{"image": "../coco/val2017/000000250766.jpg"}

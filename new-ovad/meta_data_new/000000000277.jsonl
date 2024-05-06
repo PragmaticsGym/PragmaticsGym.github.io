@@ -1,0 +1,6 @@
+{"utterance": "There are yellow bottles or adult persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000578922.jpg", "../coco/val2017/000000014226.jpg"]}
+{"image": "../coco/val2017/000000578922.jpg"}
+{"image": "../coco/val2017/000000014226.jpg"}
+{"image": "../coco/val2017/000000460841.jpg"}
+{"image": "../coco/val2017/000000060899.jpg"}
+{"image": "../coco/val2017/000000006954.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned horses or brown cows in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000417085.jpg", "../coco/val2017/000000023126.jpg"]}
+{"image": "../coco/val2017/000000417085.jpg"}
+{"image": "../coco/val2017/000000023126.jpg"}
+{"image": "../coco/val2017/000000087470.jpg"}
+{"image": "../coco/val2017/000000302165.jpg"}
+{"image": "../coco/val2017/000000140270.jpg"}

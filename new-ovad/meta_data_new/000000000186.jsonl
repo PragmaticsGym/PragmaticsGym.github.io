@@ -1,0 +1,6 @@
+{"utterance": "There are black hair driers or blue bottles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000350002.jpg", "../coco/val2017/000000233238.jpg"]}
+{"image": "../coco/val2017/000000350002.jpg"}
+{"image": "../coco/val2017/000000233238.jpg"}
+{"image": "../coco/val2017/000000501368.jpg"}
+{"image": "../coco/val2017/000000500464.jpg"}
+{"image": "../coco/val2017/000000160012.jpg"}

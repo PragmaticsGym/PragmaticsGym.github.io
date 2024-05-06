@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored bottles or yellow pizzas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000289415.jpg", "../coco/val2017/000000327769.jpg"]}
+{"image": "../coco/val2017/000000289415.jpg"}
+{"image": "../coco/val2017/000000327769.jpg"}
+{"image": "../coco/val2017/000000032038.jpg"}
+{"image": "../coco/val2017/000000080932.jpg"}
+{"image": "../coco/val2017/000000191580.jpg"}

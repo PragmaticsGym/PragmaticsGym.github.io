@@ -1,0 +1,6 @@
+{"utterance": "There are green trains or two-colored stop signs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000214200.jpg", "../coco/val2017/000000423229.jpg"]}
+{"image": "../coco/val2017/000000214200.jpg"}
+{"image": "../coco/val2017/000000423229.jpg"}
+{"image": "../coco/val2017/000000225946.jpg"}
+{"image": "../coco/val2017/000000314251.jpg"}
+{"image": "../coco/val2017/000000500423.jpg"}

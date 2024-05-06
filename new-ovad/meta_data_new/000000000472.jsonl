@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned backpacks or lying trains in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000419882.jpg", "../coco/val2017/000000549390.jpg"]}
+{"image": "../coco/val2017/000000419882.jpg"}
+{"image": "../coco/val2017/000000549390.jpg"}
+{"image": "../coco/val2017/000000186624.jpg"}
+{"image": "../coco/val2017/000000306893.jpg"}
+{"image": "../coco/val2017/000000309964.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are black traffic lights or opaque cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000017905.jpg", "../coco/val2017/000000309964.jpg"]}
+{"image": "../coco/val2017/000000017905.jpg"}
+{"image": "../coco/val2017/000000309964.jpg"}
+{"image": "../coco/val2017/000000255917.jpg"}
+{"image": "../coco/val2017/000000283038.jpg"}
+{"image": "../coco/val2017/000000067616.jpg"}

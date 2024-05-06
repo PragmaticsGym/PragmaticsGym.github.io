@@ -1,0 +1,6 @@
+{"utterance": "There are gray laptops or opaque tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000169076.jpg", "../coco/val2017/000000046031.jpg"]}
+{"image": "../coco/val2017/000000169076.jpg"}
+{"image": "../coco/val2017/000000046031.jpg"}
+{"image": "../coco/val2017/000000131138.jpg"}
+{"image": "../coco/val2017/000000068833.jpg"}
+{"image": "../coco/val2017/000000425361.jpg"}

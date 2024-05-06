@@ -1,0 +1,6 @@
+{"utterance": "There are opaque cars or lying trains in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000469246.jpg", "../coco/val2017/000000555050.jpg"]}
+{"image": "../coco/val2017/000000469246.jpg"}
+{"image": "../coco/val2017/000000555050.jpg"}
+{"image": "../coco/val2017/000000014380.jpg"}
+{"image": "../coco/val2017/000000323751.jpg"}
+{"image": "../coco/val2017/000000491213.jpg"}

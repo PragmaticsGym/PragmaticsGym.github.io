@@ -1,0 +1,6 @@
+{"utterance": "There are black chairs or males in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000519764.jpg", "../coco/val2017/000000257896.jpg"]}
+{"image": "../coco/val2017/000000519764.jpg"}
+{"image": "../coco/val2017/000000257896.jpg"}
+{"image": "../coco/val2017/000000488673.jpg"}
+{"image": "../coco/val2017/000000139684.jpg"}
+{"image": "../coco/val2017/000000191288.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are black cats or opaque tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000302030.jpg", "../coco/val2017/000000179392.jpg"]}
+{"image": "../coco/val2017/000000302030.jpg"}
+{"image": "../coco/val2017/000000179392.jpg"}
+{"image": "../coco/val2017/000000121586.jpg"}
+{"image": "../coco/val2017/000000072813.jpg"}
+{"image": "../coco/val2017/000000014831.jpg"}

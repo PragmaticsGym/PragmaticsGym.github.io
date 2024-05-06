@@ -1,0 +1,6 @@
+{"utterance": "There are yellow cakes or unicolored donuts in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000035682.jpg", "../coco/val2017/000000260470.jpg"]}
+{"image": "../coco/val2017/000000035682.jpg"}
+{"image": "../coco/val2017/000000260470.jpg"}
+{"image": "../coco/val2017/000000253452.jpg"}
+{"image": "../coco/val2017/000000109798.jpg"}
+{"image": "../coco/val2017/000000089670.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or white airplanes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000323709.jpg", "../coco/val2017/000000394559.jpg"]}
+{"image": "../coco/val2017/000000323709.jpg"}
+{"image": "../coco/val2017/000000394559.jpg"}
+{"image": "../coco/val2017/000000396903.jpg"}
+{"image": "../coco/val2017/000000071711.jpg"}
+{"image": "../coco/val2017/000000096493.jpg"}

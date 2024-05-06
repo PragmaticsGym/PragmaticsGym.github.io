@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored potted plants or white cows in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000041635.jpg", "../coco/val2017/000000131138.jpg"]}
+{"image": "../coco/val2017/000000041635.jpg"}
+{"image": "../coco/val2017/000000131138.jpg"}
+{"image": "../coco/val2017/000000289393.jpg"}
+{"image": "../coco/val2017/000000229858.jpg"}
+{"image": "../coco/val2017/000000578922.jpg"}

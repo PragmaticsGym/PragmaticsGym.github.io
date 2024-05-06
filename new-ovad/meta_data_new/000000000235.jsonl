@@ -1,0 +1,6 @@
+{"utterance": "There are green apples or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000217753.jpg", "../coco/val2017/000000066886.jpg"]}
+{"image": "../coco/val2017/000000217753.jpg"}
+{"image": "../coco/val2017/000000066886.jpg"}
+{"image": "../coco/val2017/000000359833.jpg"}
+{"image": "../coco/val2017/000000339442.jpg"}
+{"image": "../coco/val2017/000000058393.jpg"}

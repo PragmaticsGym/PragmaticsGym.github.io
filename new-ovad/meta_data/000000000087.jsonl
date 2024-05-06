@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored toilets or opaque sinks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000192047.jpg", "../coco/val2017/000000055002.jpg"]}
+{"image": "../coco/val2017/000000192047.jpg"}
+{"image": "../coco/val2017/000000055002.jpg"}
+{"image": "../coco/val2017/000000237316.jpg"}
+{"image": "../coco/val2017/000000298396.jpg"}
+{"image": "../coco/val2017/000000551304.jpg"}

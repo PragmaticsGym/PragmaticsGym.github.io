@@ -1,0 +1,6 @@
+{"utterance": "There are black stop signs or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000025593.jpg", "../coco/val2017/000000369323.jpg"]}
+{"image": "../coco/val2017/000000025593.jpg"}
+{"image": "../coco/val2017/000000369323.jpg"}
+{"image": "../coco/val2017/000000476491.jpg"}
+{"image": "../coco/val2017/000000474452.jpg"}
+{"image": "../coco/val2017/000000422670.jpg"}

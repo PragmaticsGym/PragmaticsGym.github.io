@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored baseball bats or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000156924.jpg", "../coco/val2017/000000305309.jpg"]}
+{"image": "../coco/val2017/000000156924.jpg"}
+{"image": "../coco/val2017/000000305309.jpg"}
+{"image": "../coco/val2017/000000284743.jpg"}
+{"image": "../coco/val2017/000000060347.jpg"}
+{"image": "../coco/val2017/000000491464.jpg"}

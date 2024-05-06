@@ -1,0 +1,6 @@
+{"utterance": "There are lettered frisbees or adult dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000511384.jpg", "../coco/val2017/000000246454.jpg"]}
+{"image": "../coco/val2017/000000511384.jpg"}
+{"image": "../coco/val2017/000000246454.jpg"}
+{"image": "../coco/val2017/000000357459.jpg"}
+{"image": "../coco/val2017/000000239857.jpg"}
+{"image": "../coco/val2017/000000412240.jpg"}

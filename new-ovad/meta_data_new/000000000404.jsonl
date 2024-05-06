@@ -1,0 +1,6 @@
+{"utterance": "There are brown donuts or happy persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000148957.jpg", "../coco/val2017/000000276018.jpg"]}
+{"image": "../coco/val2017/000000148957.jpg"}
+{"image": "../coco/val2017/000000276018.jpg"}
+{"image": "../coco/val2017/000000245311.jpg"}
+{"image": "../coco/val2017/000000296284.jpg"}
+{"image": "../coco/val2017/000000576955.jpg"}

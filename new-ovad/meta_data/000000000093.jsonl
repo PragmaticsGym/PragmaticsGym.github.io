@@ -1,0 +1,6 @@
+{"utterance": "There are adult giraffes or standing zebras in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000122969.jpg", "../coco/val2017/000000392933.jpg"]}
+{"image": "../coco/val2017/000000122969.jpg"}
+{"image": "../coco/val2017/000000392933.jpg"}
+{"image": "../coco/val2017/000000268729.jpg"}
+{"image": "../coco/val2017/000000376278.jpg"}
+{"image": "../coco/val2017/000000248810.jpg"}

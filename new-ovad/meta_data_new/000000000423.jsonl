@@ -1,0 +1,6 @@
+{"utterance": "There are white refrigerators or two-colored potted plants in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000168593.jpg", "../coco/val2017/000000248400.jpg"]}
+{"image": "../coco/val2017/000000168593.jpg"}
+{"image": "../coco/val2017/000000248400.jpg"}
+{"image": "../coco/val2017/000000221708.jpg"}
+{"image": "../coco/val2017/000000074209.jpg"}
+{"image": "../coco/val2017/000000313454.jpg"}

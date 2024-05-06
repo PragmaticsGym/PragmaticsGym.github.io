@@ -1,0 +1,6 @@
+{"utterance": "There are yellow traffic lights or brown skateboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000362520.jpg", "../coco/val2017/000000307074.jpg"]}
+{"image": "../coco/val2017/000000362520.jpg"}
+{"image": "../coco/val2017/000000307074.jpg"}
+{"image": "../coco/val2017/000000071877.jpg"}
+{"image": "../coco/val2017/000000121591.jpg"}
+{"image": "../coco/val2017/000000017905.jpg"}

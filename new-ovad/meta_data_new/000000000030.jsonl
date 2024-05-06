@@ -1,0 +1,6 @@
+{"utterance": "There are lying kites or white surfboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000027972.jpg", "../coco/val2017/000000181303.jpg"]}
+{"image": "../coco/val2017/000000027972.jpg"}
+{"image": "../coco/val2017/000000181303.jpg"}
+{"image": "../coco/val2017/000000273232.jpg"}
+{"image": "../coco/val2017/000000005193.jpg"}
+{"image": "../coco/val2017/000000527528.jpg"}

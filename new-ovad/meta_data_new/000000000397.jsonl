@@ -1,0 +1,6 @@
+{"utterance": "There are reflective forks or unicolored knifes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000003845.jpg", "../coco/val2017/000000322959.jpg"]}
+{"image": "../coco/val2017/000000003845.jpg"}
+{"image": "../coco/val2017/000000322959.jpg"}
+{"image": "../coco/val2017/000000352900.jpg"}
+{"image": "../coco/val2017/000000084241.jpg"}
+{"image": "../coco/val2017/000000025096.jpg"}

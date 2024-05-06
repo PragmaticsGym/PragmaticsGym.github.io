@@ -1,0 +1,6 @@
+{"utterance": "There are black parking meters or plain patterned handbags in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000064495.jpg", "../coco/val2017/000000417632.jpg"]}
+{"image": "../coco/val2017/000000064495.jpg"}
+{"image": "../coco/val2017/000000417632.jpg"}
+{"image": "../coco/val2017/000000133819.jpg"}
+{"image": "../coco/val2017/000000053994.jpg"}
+{"image": "../coco/val2017/000000259640.jpg"}

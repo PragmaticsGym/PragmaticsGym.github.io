@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored benchs or two-colored teddy bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000044068.jpg", "../coco/val2017/000000295713.jpg"]}
+{"image": "../coco/val2017/000000044068.jpg"}
+{"image": "../coco/val2017/000000295713.jpg"}
+{"image": "../coco/val2017/000000070229.jpg"}
+{"image": "../coco/val2017/000000162035.jpg"}
+{"image": "../coco/val2017/000000391375.jpg"}

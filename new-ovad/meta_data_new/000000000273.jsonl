@@ -1,0 +1,6 @@
+{"utterance": "There are white sinks or persons with plain clothes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000239041.jpg", "../coco/val2017/000000000872.jpg"]}
+{"image": "../coco/val2017/000000239041.jpg"}
+{"image": "../coco/val2017/000000000872.jpg"}
+{"image": "../coco/val2017/000000383606.jpg"}
+{"image": "../coco/val2017/000000307145.jpg"}
+{"image": "../coco/val2017/000000212166.jpg"}

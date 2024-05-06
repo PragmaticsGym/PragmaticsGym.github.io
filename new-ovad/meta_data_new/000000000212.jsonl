@@ -1,0 +1,6 @@
+{"utterance": "There are black parking meters or unicolored cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000064495.jpg", "../coco/val2017/000000476119.jpg"]}
+{"image": "../coco/val2017/000000064495.jpg"}
+{"image": "../coco/val2017/000000476119.jpg"}
+{"image": "../coco/val2017/000000067616.jpg"}
+{"image": "../coco/val2017/000000430871.jpg"}
+{"image": "../coco/val2017/000000507667.jpg"}

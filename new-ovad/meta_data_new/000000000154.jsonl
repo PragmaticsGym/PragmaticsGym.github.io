@@ -1,0 +1,6 @@
+{"utterance": "There are standing tvs or black dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000329447.jpg", "../coco/val2017/000000453722.jpg"]}
+{"image": "../coco/val2017/000000329447.jpg"}
+{"image": "../coco/val2017/000000453722.jpg"}
+{"image": "../coco/val2017/000000169076.jpg"}
+{"image": "../coco/val2017/000000126110.jpg"}
+{"image": "../coco/val2017/000000179392.jpg"}

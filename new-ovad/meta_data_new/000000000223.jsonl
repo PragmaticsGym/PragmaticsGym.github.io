@@ -1,0 +1,6 @@
+{"utterance": "There are standing sinks or multicolored ovens in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000172396.jpg", "../coco/val2017/000000237316.jpg"]}
+{"image": "../coco/val2017/000000172396.jpg"}
+{"image": "../coco/val2017/000000237316.jpg"}
+{"image": "../coco/val2017/000000292060.jpg"}
+{"image": "../coco/val2017/000000182611.jpg"}
+{"image": "../coco/val2017/000000078266.jpg"}

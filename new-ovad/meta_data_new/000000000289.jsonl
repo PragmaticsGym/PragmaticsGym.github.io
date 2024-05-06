@@ -1,0 +1,6 @@
+{"utterance": "There are reflective knifes or transparent wine glasss in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000405691.jpg", "../coco/val2017/000000099039.jpg"]}
+{"image": "../coco/val2017/000000405691.jpg"}
+{"image": "../coco/val2017/000000099039.jpg"}
+{"image": "../coco/val2017/000000482275.jpg"}
+{"image": "../coco/val2017/000000031620.jpg"}
+{"image": "../coco/val2017/000000209142.jpg"}

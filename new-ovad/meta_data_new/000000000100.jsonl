@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored parking meters or opaque motorcycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000064495.jpg", "../coco/val2017/000000226417.jpg"]}
+{"image": "../coco/val2017/000000064495.jpg"}
+{"image": "../coco/val2017/000000226417.jpg"}
+{"image": "../coco/val2017/000000230450.jpg"}
+{"image": "../coco/val2017/000000034071.jpg"}
+{"image": "../coco/val2017/000000491213.jpg"}

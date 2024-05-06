@@ -1,0 +1,6 @@
+{"utterance": "There are young persons or plain patterned frisbees in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000221693.jpg", "../coco/val2017/000000413552.jpg"]}
+{"image": "../coco/val2017/000000221693.jpg"}
+{"image": "../coco/val2017/000000413552.jpg"}
+{"image": "../coco/val2017/000000261036.jpg"}
+{"image": "../coco/val2017/000000357459.jpg"}
+{"image": "../coco/val2017/000000334530.jpg"}

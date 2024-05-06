@@ -1,0 +1,6 @@
+{"utterance": "There are standing chairs or unicolored refrigerators in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000242946.jpg", "../coco/val2017/000000136355.jpg"]}
+{"image": "../coco/val2017/000000242946.jpg"}
+{"image": "../coco/val2017/000000136355.jpg"}
+{"image": "../coco/val2017/000000068833.jpg"}
+{"image": "../coco/val2017/000000084477.jpg"}
+{"image": "../coco/val2017/000000446522.jpg"}

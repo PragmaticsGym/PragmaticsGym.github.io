@@ -1,0 +1,6 @@
+{"utterance": "There are yellow knifes or spotted ties in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000258541.jpg", "../coco/val2017/000000331817.jpg"]}
+{"image": "../coco/val2017/000000258541.jpg"}
+{"image": "../coco/val2017/000000331817.jpg"}
+{"image": "../coco/val2017/000000482275.jpg"}
+{"image": "../coco/val2017/000000313454.jpg"}
+{"image": "../coco/val2017/000000210032.jpg"}

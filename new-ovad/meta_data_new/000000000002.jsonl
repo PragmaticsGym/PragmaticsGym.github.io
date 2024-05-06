@@ -1,0 +1,6 @@
+{"utterance": "There are white boats or standing cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000181421.jpg", "../coco/val2017/000000334006.jpg"]}
+{"image": "../coco/val2017/000000181421.jpg"}
+{"image": "../coco/val2017/000000334006.jpg"}
+{"image": "../coco/val2017/000000228436.jpg"}
+{"image": "../coco/val2017/000000205401.jpg"}
+{"image": "../coco/val2017/000000114770.jpg"}

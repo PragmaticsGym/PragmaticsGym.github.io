@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned teddy bears or green benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000190753.jpg", "../coco/val2017/000000145020.jpg"]}
+{"image": "../coco/val2017/000000190753.jpg"}
+{"image": "../coco/val2017/000000145020.jpg"}
+{"image": "../coco/val2017/000000070229.jpg"}
+{"image": "../coco/val2017/000000231508.jpg"}
+{"image": "../coco/val2017/000000207306.jpg"}

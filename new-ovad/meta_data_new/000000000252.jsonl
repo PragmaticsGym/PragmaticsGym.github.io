@@ -1,0 +1,6 @@
+{"utterance": "There are orange surfboards or blue kites in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000278973.jpg", "../coco/val2017/000000293200.jpg"]}
+{"image": "../coco/val2017/000000278973.jpg"}
+{"image": "../coco/val2017/000000293200.jpg"}
+{"image": "../coco/val2017/000000128675.jpg"}
+{"image": "../coco/val2017/000000045090.jpg"}
+{"image": "../coco/val2017/000000357888.jpg"}

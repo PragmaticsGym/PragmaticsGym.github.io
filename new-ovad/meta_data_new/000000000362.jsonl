@@ -1,0 +1,6 @@
+{"utterance": "There are tan surfboards or lettered snowboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000142971.jpg", "../coco/val2017/000000193429.jpg"]}
+{"image": "../coco/val2017/000000142971.jpg"}
+{"image": "../coco/val2017/000000193429.jpg"}
+{"image": "../coco/val2017/000000529939.jpg"}
+{"image": "../coco/val2017/000000246883.jpg"}
+{"image": "../coco/val2017/000000142790.jpg"}

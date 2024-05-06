@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored beds or gray cats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000166277.jpg", "../coco/val2017/000000226592.jpg"]}
+{"image": "../coco/val2017/000000166277.jpg"}
+{"image": "../coco/val2017/000000226592.jpg"}
+{"image": "../coco/val2017/000000551815.jpg"}
+{"image": "../coco/val2017/000000279145.jpg"}
+{"image": "../coco/val2017/000000401991.jpg"}

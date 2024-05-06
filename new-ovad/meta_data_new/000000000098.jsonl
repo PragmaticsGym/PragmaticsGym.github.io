@@ -1,0 +1,6 @@
+{"utterance": "There are blue benchs or two-colored baseball bats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000282046.jpg", "../coco/val2017/000000320490.jpg"]}
+{"image": "../coco/val2017/000000282046.jpg"}
+{"image": "../coco/val2017/000000320490.jpg"}
+{"image": "../coco/val2017/000000259690.jpg"}
+{"image": "../coco/val2017/000000133969.jpg"}
+{"image": "../coco/val2017/000000292330.jpg"}

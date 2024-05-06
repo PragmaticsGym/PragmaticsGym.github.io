@@ -1,0 +1,6 @@
+{"utterance": "There are opaque cars or red kites in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000039914.jpg", "../coco/val2017/000000121242.jpg"]}
+{"image": "../coco/val2017/000000039914.jpg"}
+{"image": "../coco/val2017/000000121242.jpg"}
+{"image": "../coco/val2017/000000549738.jpg"}
+{"image": "../coco/val2017/000000093261.jpg"}
+{"image": "../coco/val2017/000000372260.jpg"}

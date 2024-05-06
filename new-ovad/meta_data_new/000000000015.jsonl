@@ -1,0 +1,6 @@
+{"utterance": "There are standing toothbrushs or two-colored hair driers in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000350002.jpg", "../coco/val2017/000000241319.jpg"]}
+{"image": "../coco/val2017/000000350002.jpg"}
+{"image": "../coco/val2017/000000241319.jpg"}
+{"image": "../coco/val2017/000000500464.jpg"}
+{"image": "../coco/val2017/000000178028.jpg"}
+{"image": "../coco/val2017/000000175251.jpg"}

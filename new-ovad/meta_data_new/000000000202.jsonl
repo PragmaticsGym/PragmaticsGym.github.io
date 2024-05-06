@@ -1,0 +1,6 @@
+{"utterance": "There are standing handbags or plain patterned dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000476514.jpg", "../coco/val2017/000000139872.jpg"]}
+{"image": "../coco/val2017/000000476514.jpg"}
+{"image": "../coco/val2017/000000139872.jpg"}
+{"image": "../coco/val2017/000000554002.jpg"}
+{"image": "../coco/val2017/000000133819.jpg"}
+{"image": "../coco/val2017/000000385997.jpg"}

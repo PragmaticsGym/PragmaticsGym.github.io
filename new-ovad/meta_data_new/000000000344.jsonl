@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored bottles or opaque dining tables in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000319935.jpg", "../coco/val2017/000000026564.jpg"]}
+{"image": "../coco/val2017/000000319935.jpg"}
+{"image": "../coco/val2017/000000026564.jpg"}
+{"image": "../coco/val2017/000000020553.jpg"}
+{"image": "../coco/val2017/000000060449.jpg"}
+{"image": "../coco/val2017/000000066841.jpg"}

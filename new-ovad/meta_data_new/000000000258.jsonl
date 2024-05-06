@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored beds or white cats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000068286.jpg", "../coco/val2017/000000271728.jpg"]}
+{"image": "../coco/val2017/000000068286.jpg"}
+{"image": "../coco/val2017/000000271728.jpg"}
+{"image": "../coco/val2017/000000061333.jpg"}
+{"image": "../coco/val2017/000000035062.jpg"}
+{"image": "../coco/val2017/000000098839.jpg"}

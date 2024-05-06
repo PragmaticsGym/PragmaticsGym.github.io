@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored sandwichs or standing benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000288685.jpg", "../coco/val2017/000000256518.jpg"]}
+{"image": "../coco/val2017/000000288685.jpg"}
+{"image": "../coco/val2017/000000256518.jpg"}
+{"image": "../coco/val2017/000000303893.jpg"}
+{"image": "../coco/val2017/000000025181.jpg"}
+{"image": "../coco/val2017/000000056288.jpg"}

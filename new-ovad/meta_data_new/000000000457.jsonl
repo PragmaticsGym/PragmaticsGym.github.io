@@ -1,0 +1,6 @@
+{"utterance": "There are black clocks or multicolored toothbrushs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000521405.jpg", "../coco/val2017/000000106563.jpg"]}
+{"image": "../coco/val2017/000000521405.jpg"}
+{"image": "../coco/val2017/000000106563.jpg"}
+{"image": "../coco/val2017/000000055528.jpg"}
+{"image": "../coco/val2017/000000293390.jpg"}
+{"image": "../coco/val2017/000000120584.jpg"}

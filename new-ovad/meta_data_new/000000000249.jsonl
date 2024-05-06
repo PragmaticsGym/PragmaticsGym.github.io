@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned bottles or adult persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000346638.jpg", "../coco/val2017/000000283268.jpg"]}
+{"image": "../coco/val2017/000000346638.jpg"}
+{"image": "../coco/val2017/000000283268.jpg"}
+{"image": "../coco/val2017/000000267169.jpg"}
+{"image": "../coco/val2017/000000173091.jpg"}
+{"image": "../coco/val2017/000000060899.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are brown pizzas or black books in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000376264.jpg", "../coco/val2017/000000108253.jpg"]}
+{"image": "../coco/val2017/000000376264.jpg"}
+{"image": "../coco/val2017/000000108253.jpg"}
+{"image": "../coco/val2017/000000194724.jpg"}
+{"image": "../coco/val2017/000000512403.jpg"}
+{"image": "../coco/val2017/000000172571.jpg"}

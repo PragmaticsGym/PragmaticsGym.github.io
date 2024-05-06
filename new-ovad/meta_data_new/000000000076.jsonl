@@ -1,0 +1,6 @@
+{"utterance": "There are lying books or males in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000176446.jpg", "../coco/val2017/000000153529.jpg"]}
+{"image": "../coco/val2017/000000176446.jpg"}
+{"image": "../coco/val2017/000000153529.jpg"}
+{"image": "../coco/val2017/000000022371.jpg"}
+{"image": "../coco/val2017/000000017182.jpg"}
+{"image": "../coco/val2017/000000367818.jpg"}

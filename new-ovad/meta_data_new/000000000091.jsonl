@@ -1,0 +1,6 @@
+{"utterance": "There are orange scissorss or lying beds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000351096.jpg", "../coco/val2017/000000226592.jpg"]}
+{"image": "../coco/val2017/000000351096.jpg"}
+{"image": "../coco/val2017/000000226592.jpg"}
+{"image": "../coco/val2017/000000106389.jpg"}
+{"image": "../coco/val2017/000000123633.jpg"}
+{"image": "../coco/val2017/000000283412.jpg"}

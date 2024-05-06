@@ -1,0 +1,6 @@
+{"utterance": "There are red cars or unicolored motorcycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000308631.jpg", "../coco/val2017/000000191013.jpg"]}
+{"image": "../coco/val2017/000000308631.jpg"}
+{"image": "../coco/val2017/000000191013.jpg"}
+{"image": "../coco/val2017/000000044590.jpg"}
+{"image": "../coco/val2017/000000244833.jpg"}
+{"image": "../coco/val2017/000000334006.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored bottles or transparent cups in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000382125.jpg", "../coco/val2017/000000092416.jpg"]}
+{"image": "../coco/val2017/000000382125.jpg"}
+{"image": "../coco/val2017/000000092416.jpg"}
+{"image": "../coco/val2017/000000002685.jpg"}
+{"image": "../coco/val2017/000000350148.jpg"}
+{"image": "../coco/val2017/000000346638.jpg"}

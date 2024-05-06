@@ -1,0 +1,6 @@
+{"utterance": "There are white clocks or gray knifes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000007888.jpg", "../coco/val2017/000000172571.jpg"]}
+{"image": "../coco/val2017/000000007888.jpg"}
+{"image": "../coco/val2017/000000172571.jpg"}
+{"image": "../coco/val2017/000000226147.jpg"}
+{"image": "../coco/val2017/000000191013.jpg"}
+{"image": "../coco/val2017/000000231527.jpg"}

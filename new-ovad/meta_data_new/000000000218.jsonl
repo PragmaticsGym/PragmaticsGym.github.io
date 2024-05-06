@@ -1,0 +1,6 @@
+{"utterance": "There are black frisbees or white umbrellas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000006954.jpg", "../coco/val2017/000000020553.jpg"]}
+{"image": "../coco/val2017/000000006954.jpg"}
+{"image": "../coco/val2017/000000020553.jpg"}
+{"image": "../coco/val2017/000000235241.jpg"}
+{"image": "../coco/val2017/000000100238.jpg"}
+{"image": "../coco/val2017/000000312421.jpg"}

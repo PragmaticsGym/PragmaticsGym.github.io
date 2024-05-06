@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or lying tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000041872.jpg", "../coco/val2017/000000336356.jpg"]}
+{"image": "../coco/val2017/000000041872.jpg"}
+{"image": "../coco/val2017/000000336356.jpg"}
+{"image": "../coco/val2017/000000009483.jpg"}
+{"image": "../coco/val2017/000000127987.jpg"}
+{"image": "../coco/val2017/000000154425.jpg"}

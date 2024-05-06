@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored sinks or two-colored toilets in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000551304.jpg", "../coco/val2017/000000500464.jpg"]}
+{"image": "../coco/val2017/000000551304.jpg"}
+{"image": "../coco/val2017/000000500464.jpg"}
+{"image": "../coco/val2017/000000308466.jpg"}
+{"image": "../coco/val2017/000000006818.jpg"}
+{"image": "../coco/val2017/000000186980.jpg"}

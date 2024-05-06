@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored bowls or opaque refrigerators in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000237928.jpg", "../coco/val2017/000000308430.jpg"]}
+{"image": "../coco/val2017/000000237928.jpg"}
+{"image": "../coco/val2017/000000308430.jpg"}
+{"image": "../coco/val2017/000000159791.jpg"}
+{"image": "../coco/val2017/000000078266.jpg"}
+{"image": "../coco/val2017/000000018193.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are lying trucks or unicolored oranges in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000297022.jpg", "../coco/val2017/000000185599.jpg"]}
+{"image": "../coco/val2017/000000297022.jpg"}
+{"image": "../coco/val2017/000000185599.jpg"}
+{"image": "../coco/val2017/000000378873.jpg"}
+{"image": "../coco/val2017/000000332318.jpg"}
+{"image": "../coco/val2017/000000069356.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are gray forks or reflective spoons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000092053.jpg", "../coco/val2017/000000002431.jpg"]}
+{"image": "../coco/val2017/000000092053.jpg"}
+{"image": "../coco/val2017/000000002431.jpg"}
+{"image": "../coco/val2017/000000305609.jpg"}
+{"image": "../coco/val2017/000000385029.jpg"}
+{"image": "../coco/val2017/000000562059.jpg"}

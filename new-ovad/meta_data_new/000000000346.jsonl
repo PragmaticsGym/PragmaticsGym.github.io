@@ -1,0 +1,6 @@
+{"utterance": "There are red boats or plain patterned bicycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000135410.jpg", "../coco/val2017/000000050006.jpg"]}
+{"image": "../coco/val2017/000000135410.jpg"}
+{"image": "../coco/val2017/000000050006.jpg"}
+{"image": "../coco/val2017/000000228436.jpg"}
+{"image": "../coco/val2017/000000426166.jpg"}
+{"image": "../coco/val2017/000000267940.jpg"}

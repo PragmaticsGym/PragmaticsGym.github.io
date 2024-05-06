@@ -1,0 +1,6 @@
+{"utterance": "There are tan cakes or unicolored spoons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000561465.jpg", "../coco/val2017/000000310200.jpg"]}
+{"image": "../coco/val2017/000000561465.jpg"}
+{"image": "../coco/val2017/000000310200.jpg"}
+{"image": "../coco/val2017/000000417285.jpg"}
+{"image": "../coco/val2017/000000398438.jpg"}
+{"image": "../coco/val2017/000000088269.jpg"}

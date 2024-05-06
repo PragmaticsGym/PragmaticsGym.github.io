@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored traffic lights or blue parking meters in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000064495.jpg", "../coco/val2017/000000301376.jpg"]}
+{"image": "../coco/val2017/000000064495.jpg"}
+{"image": "../coco/val2017/000000301376.jpg"}
+{"image": "../coco/val2017/000000430871.jpg"}
+{"image": "../coco/val2017/000000333956.jpg"}
+{"image": "../coco/val2017/000000110282.jpg"}

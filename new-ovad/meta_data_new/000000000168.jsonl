@@ -1,0 +1,6 @@
+{"utterance": "There are gray cars or blue skateboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000358195.jpg", "../coco/val2017/000000356612.jpg"]}
+{"image": "../coco/val2017/000000358195.jpg"}
+{"image": "../coco/val2017/000000356612.jpg"}
+{"image": "../coco/val2017/000000119911.jpg"}
+{"image": "../coco/val2017/000000121591.jpg"}
+{"image": "../coco/val2017/000000165039.jpg"}

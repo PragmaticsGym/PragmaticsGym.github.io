@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored knifes or lying spoons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000172571.jpg", "../coco/val2017/000000129113.jpg"]}
+{"image": "../coco/val2017/000000172571.jpg"}
+{"image": "../coco/val2017/000000129113.jpg"}
+{"image": "../coco/val2017/000000320664.jpg"}
+{"image": "../coco/val2017/000000010583.jpg"}
+{"image": "../coco/val2017/000000243204.jpg"}

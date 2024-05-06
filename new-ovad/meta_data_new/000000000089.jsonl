@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned bowls or unicolored backpacks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000010707.jpg", "../coco/val2017/000000325114.jpg"]}
+{"image": "../coco/val2017/000000010707.jpg"}
+{"image": "../coco/val2017/000000325114.jpg"}
+{"image": "../coco/val2017/000000193926.jpg"}
+{"image": "../coco/val2017/000000345466.jpg"}
+{"image": "../coco/val2017/000000088269.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are red cars or plain patterned airplanes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000190676.jpg", "../coco/val2017/000000214200.jpg"]}
+{"image": "../coco/val2017/000000190676.jpg"}
+{"image": "../coco/val2017/000000214200.jpg"}
+{"image": "../coco/val2017/000000493286.jpg"}
+{"image": "../coco/val2017/000000463037.jpg"}
+{"image": "../coco/val2017/000000102805.jpg"}

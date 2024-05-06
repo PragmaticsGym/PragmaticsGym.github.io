@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored cars or females in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000315450.jpg", "../coco/val2017/000000447314.jpg"]}
+{"image": "../coco/val2017/000000315450.jpg"}
+{"image": "../coco/val2017/000000447314.jpg"}
+{"image": "../coco/val2017/000000309964.jpg"}
+{"image": "../coco/val2017/000000343496.jpg"}
+{"image": "../coco/val2017/000000365095.jpg"}

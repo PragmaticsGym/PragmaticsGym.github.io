@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored cars or black bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000071756.jpg", "../coco/val2017/000000293071.jpg"]}
+{"image": "../coco/val2017/000000071756.jpg"}
+{"image": "../coco/val2017/000000293071.jpg"}
+{"image": "../coco/val2017/000000341094.jpg"}
+{"image": "../coco/val2017/000000308476.jpg"}
+{"image": "../coco/val2017/000000493286.jpg"}

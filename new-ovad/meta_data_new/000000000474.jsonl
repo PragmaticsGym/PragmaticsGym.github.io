@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored clocks or white boats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000106563.jpg", "../coco/val2017/000000289741.jpg"]}
+{"image": "../coco/val2017/000000106563.jpg"}
+{"image": "../coco/val2017/000000289741.jpg"}
+{"image": "../coco/val2017/000000036678.jpg"}
+{"image": "../coco/val2017/000000179653.jpg"}
+{"image": "../coco/val2017/000000561335.jpg"}

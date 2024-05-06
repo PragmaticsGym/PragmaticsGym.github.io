@@ -1,0 +1,6 @@
+{"utterance": "There are lying toothbrushs or happy persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000160666.jpg", "../coco/val2017/000000039914.jpg"]}
+{"image": "../coco/val2017/000000160666.jpg"}
+{"image": "../coco/val2017/000000039914.jpg"}
+{"image": "../coco/val2017/000000175251.jpg"}
+{"image": "../coco/val2017/000000284623.jpg"}
+{"image": "../coco/val2017/000000011197.jpg"}

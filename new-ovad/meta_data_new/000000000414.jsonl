@@ -1,0 +1,6 @@
+{"utterance": "There are pink toothbrushs or plain patterned toilets in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000352584.jpg", "../coco/val2017/000000578922.jpg"]}
+{"image": "../coco/val2017/000000352584.jpg"}
+{"image": "../coco/val2017/000000578922.jpg"}
+{"image": "../coco/val2017/000000368212.jpg"}
+{"image": "../coco/val2017/000000055002.jpg"}
+{"image": "../coco/val2017/000000193348.jpg"}

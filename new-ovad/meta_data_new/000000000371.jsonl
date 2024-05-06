@@ -1,0 +1,6 @@
+{"utterance": "There are reflective spoons or standing cups in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000320664.jpg", "../coco/val2017/000000035682.jpg"]}
+{"image": "../coco/val2017/000000320664.jpg"}
+{"image": "../coco/val2017/000000035682.jpg"}
+{"image": "../coco/val2017/000000565776.jpg"}
+{"image": "../coco/val2017/000000129113.jpg"}
+{"image": "../coco/val2017/000000192904.jpg"}

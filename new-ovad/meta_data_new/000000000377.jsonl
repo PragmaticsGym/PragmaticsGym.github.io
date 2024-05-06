@@ -1,0 +1,6 @@
+{"utterance": "There are blue books or two-colored mouses in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000038576.jpg", "../coco/val2017/000000309938.jpg"]}
+{"image": "../coco/val2017/000000038576.jpg"}
+{"image": "../coco/val2017/000000309938.jpg"}
+{"image": "../coco/val2017/000000189820.jpg"}
+{"image": "../coco/val2017/000000246308.jpg"}
+{"image": "../coco/val2017/000000179392.jpg"}

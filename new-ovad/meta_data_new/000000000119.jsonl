@@ -1,0 +1,6 @@
+{"utterance": "There are white airplanes or persons with straight hair in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000217060.jpg", "../coco/val2017/000000398203.jpg"]}
+{"image": "../coco/val2017/000000217060.jpg"}
+{"image": "../coco/val2017/000000398203.jpg"}
+{"image": "../coco/val2017/000000381639.jpg"}
+{"image": "../coco/val2017/000000101787.jpg"}
+{"image": "../coco/val2017/000000256775.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored ovens or gray cups in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000097022.jpg", "../coco/val2017/000000009400.jpg"]}
+{"image": "../coco/val2017/000000097022.jpg"}
+{"image": "../coco/val2017/000000009400.jpg"}
+{"image": "../coco/val2017/000000437898.jpg"}
+{"image": "../coco/val2017/000000236592.jpg"}
+{"image": "../coco/val2017/000000242060.jpg"}

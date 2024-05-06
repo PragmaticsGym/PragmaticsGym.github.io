@@ -1,0 +1,6 @@
+{"utterance": "There are white tennis rackets or two-colored bottles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000394559.jpg", "../coco/val2017/000000092416.jpg"]}
+{"image": "../coco/val2017/000000394559.jpg"}
+{"image": "../coco/val2017/000000092416.jpg"}
+{"image": "../coco/val2017/000000112298.jpg"}
+{"image": "../coco/val2017/000000079969.jpg"}
+{"image": "../coco/val2017/000000156643.jpg"}

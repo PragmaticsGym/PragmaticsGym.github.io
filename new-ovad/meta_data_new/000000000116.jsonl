@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored giraffes or young persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000289393.jpg", "../coco/val2017/000000246454.jpg"]}
+{"image": "../coco/val2017/000000289393.jpg"}
+{"image": "../coco/val2017/000000246454.jpg"}
+{"image": "../coco/val2017/000000285894.jpg"}
+{"image": "../coco/val2017/000000311295.jpg"}
+{"image": "../coco/val2017/000000504389.jpg"}

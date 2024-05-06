@@ -1,0 +1,6 @@
+{"utterance": "There are black keyboards or standing cups in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000311789.jpg", "../coco/val2017/000000080932.jpg"]}
+{"image": "../coco/val2017/000000311789.jpg"}
+{"image": "../coco/val2017/000000080932.jpg"}
+{"image": "../coco/val2017/000000135872.jpg"}
+{"image": "../coco/val2017/000000037740.jpg"}
+{"image": "../coco/val2017/000000192904.jpg"}

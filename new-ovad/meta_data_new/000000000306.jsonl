@@ -1,0 +1,6 @@
+{"utterance": "There are yellow trucks or white airplanes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000571857.jpg", "../coco/val2017/000000507667.jpg"]}
+{"image": "../coco/val2017/000000571857.jpg"}
+{"image": "../coco/val2017/000000507667.jpg"}
+{"image": "../coco/val2017/000000099054.jpg"}
+{"image": "../coco/val2017/000000131386.jpg"}
+{"image": "../coco/val2017/000000579158.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are pink chairs or gray scissorss in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000154213.jpg", "../coco/val2017/000000446522.jpg"]}
+{"image": "../coco/val2017/000000154213.jpg"}
+{"image": "../coco/val2017/000000446522.jpg"}
+{"image": "../coco/val2017/000000297562.jpg"}
+{"image": "../coco/val2017/000000351096.jpg"}
+{"image": "../coco/val2017/000000231580.jpg"}

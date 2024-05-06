@@ -1,0 +1,6 @@
+{"utterance": "There are opaque ovens or brown books in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000175364.jpg", "../coco/val2017/000000147415.jpg"]}
+{"image": "../coco/val2017/000000175364.jpg"}
+{"image": "../coco/val2017/000000147415.jpg"}
+{"image": "../coco/val2017/000000211825.jpg"}
+{"image": "../coco/val2017/000000084241.jpg"}
+{"image": "../coco/val2017/000000194724.jpg"}

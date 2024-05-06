@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored umbrellas or unicolored benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000557672.jpg", "../coco/val2017/000000264535.jpg"]}
+{"image": "../coco/val2017/000000557672.jpg"}
+{"image": "../coco/val2017/000000264535.jpg"}
+{"image": "../coco/val2017/000000121506.jpg"}
+{"image": "../coco/val2017/000000466125.jpg"}
+{"image": "../coco/val2017/000000282046.jpg"}

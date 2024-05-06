@@ -1,0 +1,6 @@
+{"utterance": "There are lying buss or lying trucks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000338625.jpg", "../coco/val2017/000000448256.jpg"]}
+{"image": "../coco/val2017/000000338625.jpg"}
+{"image": "../coco/val2017/000000448256.jpg"}
+{"image": "../coco/val2017/000000144300.jpg"}
+{"image": "../coco/val2017/000000142472.jpg"}
+{"image": "../coco/val2017/000000123131.jpg"}

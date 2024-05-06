@@ -1,0 +1,6 @@
+{"utterance": "There are lying umbrellas or green chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000557672.jpg", "../coco/val2017/000000388846.jpg"]}
+{"image": "../coco/val2017/000000557672.jpg"}
+{"image": "../coco/val2017/000000388846.jpg"}
+{"image": "../coco/val2017/000000326248.jpg"}
+{"image": "../coco/val2017/000000304404.jpg"}
+{"image": "../coco/val2017/000000203629.jpg"}

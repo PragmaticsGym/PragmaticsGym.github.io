@@ -1,0 +1,6 @@
+{"utterance": "There are opaque handbags or red apples in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000145597.jpg", "../coco/val2017/000000303566.jpg"]}
+{"image": "../coco/val2017/000000145597.jpg"}
+{"image": "../coco/val2017/000000303566.jpg"}
+{"image": "../coco/val2017/000000146667.jpg"}
+{"image": "../coco/val2017/000000442456.jpg"}
+{"image": "../coco/val2017/000000461009.jpg"}

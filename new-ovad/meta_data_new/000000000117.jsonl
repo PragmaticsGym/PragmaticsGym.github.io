@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored potted plants or lying benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000282046.jpg", "../coco/val2017/000000065288.jpg"]}
+{"image": "../coco/val2017/000000282046.jpg"}
+{"image": "../coco/val2017/000000065288.jpg"}
+{"image": "../coco/val2017/000000221502.jpg"}
+{"image": "../coco/val2017/000000345027.jpg"}
+{"image": "../coco/val2017/000000137246.jpg"}

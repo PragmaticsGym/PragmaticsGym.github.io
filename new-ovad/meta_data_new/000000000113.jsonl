@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored refrigerators or unicolored sinks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000092124.jpg", "../coco/val2017/000000237928.jpg"]}
+{"image": "../coco/val2017/000000092124.jpg"}
+{"image": "../coco/val2017/000000237928.jpg"}
+{"image": "../coco/val2017/000000037777.jpg"}
+{"image": "../coco/val2017/000000056127.jpg"}
+{"image": "../coco/val2017/000000221708.jpg"}

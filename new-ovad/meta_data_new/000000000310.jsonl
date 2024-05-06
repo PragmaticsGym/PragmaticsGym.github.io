@@ -1,0 +1,6 @@
+{"utterance": "There are reflective spoons or brown donuts in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000231822.jpg", "../coco/val2017/000000345469.jpg"]}
+{"image": "../coco/val2017/000000231822.jpg"}
+{"image": "../coco/val2017/000000345469.jpg"}
+{"image": "../coco/val2017/000000192904.jpg"}
+{"image": "../coco/val2017/000000243204.jpg"}
+{"image": "../coco/val2017/000000253452.jpg"}

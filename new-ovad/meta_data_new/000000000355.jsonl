@@ -1,0 +1,6 @@
+{"utterance": "There are opaque cars or gray skateboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000270677.jpg", "../coco/val2017/000000254814.jpg"]}
+{"image": "../coco/val2017/000000270677.jpg"}
+{"image": "../coco/val2017/000000254814.jpg"}
+{"image": "../coco/val2017/000000013546.jpg"}
+{"image": "../coco/val2017/000000261982.jpg"}
+{"image": "../coco/val2017/000000372260.jpg"}

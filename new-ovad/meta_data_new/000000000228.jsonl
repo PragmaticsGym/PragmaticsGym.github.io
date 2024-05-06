@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored stop signs or red buss in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000148508.jpg", "../coco/val2017/000000025593.jpg"]}
+{"image": "../coco/val2017/000000148508.jpg"}
+{"image": "../coco/val2017/000000025593.jpg"}
+{"image": "../coco/val2017/000000082846.jpg"}
+{"image": "../coco/val2017/000000565012.jpg"}
+{"image": "../coco/val2017/000000501023.jpg"}

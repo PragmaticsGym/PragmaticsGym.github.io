@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned birds or unicolored bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000205776.jpg", "../coco/val2017/000000119233.jpg"]}
+{"image": "../coco/val2017/000000205776.jpg"}
+{"image": "../coco/val2017/000000119233.jpg"}
+{"image": "../coco/val2017/000000229997.jpg"}
+{"image": "../coco/val2017/000000453981.jpg"}
+{"image": "../coco/val2017/000000482477.jpg"}

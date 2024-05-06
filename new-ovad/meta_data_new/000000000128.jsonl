@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned cell phones or unicolored beds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000463842.jpg", "../coco/val2017/000000214869.jpg"]}
+{"image": "../coco/val2017/000000463842.jpg"}
+{"image": "../coco/val2017/000000214869.jpg"}
+{"image": "../coco/val2017/000000071938.jpg"}
+{"image": "../coco/val2017/000000555005.jpg"}
+{"image": "../coco/val2017/000000001296.jpg"}

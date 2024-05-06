@@ -1,0 +1,6 @@
+{"utterance": "There are yellow refrigerators or adult cats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000574810.jpg", "../coco/val2017/000000168593.jpg"]}
+{"image": "../coco/val2017/000000574810.jpg"}
+{"image": "../coco/val2017/000000168593.jpg"}
+{"image": "../coco/val2017/000000240940.jpg"}
+{"image": "../coco/val2017/000000209747.jpg"}
+{"image": "../coco/val2017/000000014038.jpg"}

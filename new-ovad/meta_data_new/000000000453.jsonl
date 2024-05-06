@@ -1,0 +1,6 @@
+{"utterance": "There are white dogs or standing chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000076417.jpg", "../coco/val2017/000000255536.jpg"]}
+{"image": "../coco/val2017/000000076417.jpg"}
+{"image": "../coco/val2017/000000255536.jpg"}
+{"image": "../coco/val2017/000000338624.jpg"}
+{"image": "../coco/val2017/000000273232.jpg"}
+{"image": "../coco/val2017/000000060449.jpg"}

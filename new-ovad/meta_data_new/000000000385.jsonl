@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored apples or brown bowls in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000173091.jpg", "../coco/val2017/000000273711.jpg"]}
+{"image": "../coco/val2017/000000173091.jpg"}
+{"image": "../coco/val2017/000000273711.jpg"}
+{"image": "../coco/val2017/000000110999.jpg"}
+{"image": "../coco/val2017/000000216277.jpg"}
+{"image": "../coco/val2017/000000142620.jpg"}

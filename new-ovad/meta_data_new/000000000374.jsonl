@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored dining tables or neutral-minded persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000001993.jpg", "../coco/val2017/000000527616.jpg"]}
+{"image": "../coco/val2017/000000001993.jpg"}
+{"image": "../coco/val2017/000000527616.jpg"}
+{"image": "../coco/val2017/000000013729.jpg"}
+{"image": "../coco/val2017/000000256518.jpg"}
+{"image": "../coco/val2017/000000022371.jpg"}

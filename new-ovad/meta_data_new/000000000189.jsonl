@@ -1,0 +1,6 @@
+{"utterance": "There are yellow trains or standing birds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000323751.jpg", "../coco/val2017/000000065288.jpg"]}
+{"image": "../coco/val2017/000000323751.jpg"}
+{"image": "../coco/val2017/000000065288.jpg"}
+{"image": "../coco/val2017/000000558421.jpg"}
+{"image": "../coco/val2017/000000186624.jpg"}
+{"image": "../coco/val2017/000000335081.jpg"}

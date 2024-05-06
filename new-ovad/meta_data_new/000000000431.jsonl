@@ -1,0 +1,6 @@
+{"utterance": "There are brown cakes or standing umbrellas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000231822.jpg", "../coco/val2017/000000407943.jpg"]}
+{"image": "../coco/val2017/000000231822.jpg"}
+{"image": "../coco/val2017/000000407943.jpg"}
+{"image": "../coco/val2017/000000482275.jpg"}
+{"image": "../coco/val2017/000000180560.jpg"}
+{"image": "../coco/val2017/000000181421.jpg"}

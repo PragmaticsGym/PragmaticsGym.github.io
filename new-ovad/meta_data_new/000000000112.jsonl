@@ -1,0 +1,6 @@
+{"utterance": "There are lying keyboards or males in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000195918.jpg", "../coco/val2017/000000338304.jpg"]}
+{"image": "../coco/val2017/000000195918.jpg"}
+{"image": "../coco/val2017/000000338304.jpg"}
+{"image": "../coco/val2017/000000363840.jpg"}
+{"image": "../coco/val2017/000000325838.jpg"}
+{"image": "../coco/val2017/000000493772.jpg"}

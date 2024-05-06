@@ -1,0 +1,6 @@
+{"utterance": "There are tartan dining tables or multicolored sandwichs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000015079.jpg", "../coco/val2017/000000113720.jpg"]}
+{"image": "../coco/val2017/000000015079.jpg"}
+{"image": "../coco/val2017/000000113720.jpg"}
+{"image": "../coco/val2017/000000010583.jpg"}
+{"image": "../coco/val2017/000000213255.jpg"}
+{"image": "../coco/val2017/000000381587.jpg"}

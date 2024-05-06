@@ -1,0 +1,6 @@
+{"utterance": "There are persons with plain clothes or black baseball gloves in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000027932.jpg", "../coco/val2017/000000047740.jpg"]}
+{"image": "../coco/val2017/000000027932.jpg"}
+{"image": "../coco/val2017/000000047740.jpg"}
+{"image": "../coco/val2017/000000515982.jpg"}
+{"image": "../coco/val2017/000000447187.jpg"}
+{"image": "../coco/val2017/000000358525.jpg"}

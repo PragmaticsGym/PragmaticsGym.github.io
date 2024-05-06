@@ -1,0 +1,6 @@
+{"utterance": "There are black tvs or unicolored couchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000107339.jpg", "../coco/val2017/000000225757.jpg"]}
+{"image": "../coco/val2017/000000107339.jpg"}
+{"image": "../coco/val2017/000000225757.jpg"}
+{"image": "../coco/val2017/000000527616.jpg"}
+{"image": "../coco/val2017/000000253433.jpg"}
+{"image": "../coco/val2017/000000440475.jpg"}

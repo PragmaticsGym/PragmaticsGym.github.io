@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored teddy bears or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000207585.jpg", "../coco/val2017/000000356125.jpg"]}
+{"image": "../coco/val2017/000000207585.jpg"}
+{"image": "../coco/val2017/000000356125.jpg"}
+{"image": "../coco/val2017/000000474293.jpg"}
+{"image": "../coco/val2017/000000113403.jpg"}
+{"image": "../coco/val2017/000000264535.jpg"}

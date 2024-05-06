@@ -1,0 +1,6 @@
+{"utterance": "There are white ovens or unicolored bananas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000343466.jpg", "../coco/val2017/000000376307.jpg"]}
+{"image": "../coco/val2017/000000343466.jpg"}
+{"image": "../coco/val2017/000000376307.jpg"}
+{"image": "../coco/val2017/000000040471.jpg"}
+{"image": "../coco/val2017/000000097022.jpg"}
+{"image": "../coco/val2017/000000535253.jpg"}

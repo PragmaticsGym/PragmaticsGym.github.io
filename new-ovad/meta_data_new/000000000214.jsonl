@@ -1,0 +1,6 @@
+{"utterance": "There are gray elephants or unicolored umbrellas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000126216.jpg", "../coco/val2017/000000255536.jpg"]}
+{"image": "../coco/val2017/000000126216.jpg"}
+{"image": "../coco/val2017/000000255536.jpg"}
+{"image": "../coco/val2017/000000162543.jpg"}
+{"image": "../coco/val2017/000000356125.jpg"}
+{"image": "../coco/val2017/000000292155.jpg"}

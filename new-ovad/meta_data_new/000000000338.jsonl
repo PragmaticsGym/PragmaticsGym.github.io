@@ -1,0 +1,6 @@
+{"utterance": "There are lying persons or lying beds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000213422.jpg", "../coco/val2017/000000061960.jpg"]}
+{"image": "../coco/val2017/000000213422.jpg"}
+{"image": "../coco/val2017/000000061960.jpg"}
+{"image": "../coco/val2017/000000270883.jpg"}
+{"image": "../coco/val2017/000000283412.jpg"}
+{"image": "../coco/val2017/000000361103.jpg"}

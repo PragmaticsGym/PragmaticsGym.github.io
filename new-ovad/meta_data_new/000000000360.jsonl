@@ -1,0 +1,6 @@
+{"utterance": "There are gray motorcycles or unicolored dining tables in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000142324.jpg", "../coco/val2017/000000013923.jpg"]}
+{"image": "../coco/val2017/000000142324.jpg"}
+{"image": "../coco/val2017/000000013923.jpg"}
+{"image": "../coco/val2017/000000312421.jpg"}
+{"image": "../coco/val2017/000000230450.jpg"}
+{"image": "../coco/val2017/000000113720.jpg"}

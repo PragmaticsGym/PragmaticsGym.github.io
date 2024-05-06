@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored umbrellas or transparent wine glasss in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000540466.jpg", "../coco/val2017/000000047112.jpg"]}
+{"image": "../coco/val2017/000000540466.jpg"}
+{"image": "../coco/val2017/000000047112.jpg"}
+{"image": "../coco/val2017/000000151938.jpg"}
+{"image": "../coco/val2017/000000143961.jpg"}
+{"image": "../coco/val2017/000000213035.jpg"}

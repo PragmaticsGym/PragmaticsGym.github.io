@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored fire hydrants or males in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000580757.jpg", "../coco/val2017/000000246436.jpg"]}
+{"image": "../coco/val2017/000000580757.jpg"}
+{"image": "../coco/val2017/000000246436.jpg"}
+{"image": "../coco/val2017/000000017905.jpg"}
+{"image": "../coco/val2017/000000356169.jpg"}
+{"image": "../coco/val2017/000000343937.jpg"}

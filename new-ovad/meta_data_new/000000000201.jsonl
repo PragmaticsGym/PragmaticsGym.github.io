@@ -1,0 +1,6 @@
+{"utterance": "There are standing umbrellas or unicolored parking meters in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000258793.jpg", "../coco/val2017/000000289938.jpg"]}
+{"image": "../coco/val2017/000000258793.jpg"}
+{"image": "../coco/val2017/000000289938.jpg"}
+{"image": "../coco/val2017/000000129062.jpg"}
+{"image": "../coco/val2017/000000030828.jpg"}
+{"image": "../coco/val2017/000000250137.jpg"}

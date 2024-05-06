@@ -1,0 +1,6 @@
+{"utterance": "There are lying backpacks or yellow bananas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000012667.jpg", "../coco/val2017/000000030828.jpg"]}
+{"image": "../coco/val2017/000000012667.jpg"}
+{"image": "../coco/val2017/000000030828.jpg"}
+{"image": "../coco/val2017/000000193926.jpg"}
+{"image": "../coco/val2017/000000219283.jpg"}
+{"image": "../coco/val2017/000000012670.jpg"}

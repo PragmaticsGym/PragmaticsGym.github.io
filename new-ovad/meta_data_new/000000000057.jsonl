@@ -1,0 +1,6 @@
+{"utterance": "There are white kites or two-colored scissorss in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000154213.jpg", "../coco/val2017/000000459809.jpg"]}
+{"image": "../coco/val2017/000000154213.jpg"}
+{"image": "../coco/val2017/000000459809.jpg"}
+{"image": "../coco/val2017/000000099024.jpg"}
+{"image": "../coco/val2017/000000311180.jpg"}
+{"image": "../coco/val2017/000000236599.jpg"}

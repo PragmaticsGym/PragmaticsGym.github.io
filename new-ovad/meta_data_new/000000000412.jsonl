@@ -1,0 +1,6 @@
+{"utterance": "There are white boats or opaque cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000092416.jpg", "../coco/val2017/000000107087.jpg"]}
+{"image": "../coco/val2017/000000092416.jpg"}
+{"image": "../coco/val2017/000000107087.jpg"}
+{"image": "../coco/val2017/000000082821.jpg"}
+{"image": "../coco/val2017/000000047828.jpg"}
+{"image": "../coco/val2017/000000365207.jpg"}

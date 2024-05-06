@@ -1,0 +1,6 @@
+{"utterance": "There are opaque sinks or standing toilets in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000032285.jpg", "../coco/val2017/000000209747.jpg"]}
+{"image": "../coco/val2017/000000032285.jpg"}
+{"image": "../coco/val2017/000000209747.jpg"}
+{"image": "../coco/val2017/000000403385.jpg"}
+{"image": "../coco/val2017/000000437392.jpg"}
+{"image": "../coco/val2017/000000007574.jpg"}

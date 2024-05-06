@@ -1,0 +1,6 @@
+{"utterance": "There are white bowls or unicolored microwaves in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000444275.jpg", "../coco/val2017/000000092053.jpg"]}
+{"image": "../coco/val2017/000000444275.jpg"}
+{"image": "../coco/val2017/000000092053.jpg"}
+{"image": "../coco/val2017/000000246436.jpg"}
+{"image": "../coco/val2017/000000283717.jpg"}
+{"image": "../coco/val2017/000000290081.jpg"}

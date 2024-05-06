@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored umbrellas or females in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000407943.jpg", "../coco/val2017/000000308631.jpg"]}
+{"image": "../coco/val2017/000000407943.jpg"}
+{"image": "../coco/val2017/000000308631.jpg"}
+{"image": "../coco/val2017/000000124798.jpg"}
+{"image": "../coco/val2017/000000341058.jpg"}
+{"image": "../coco/val2017/000000223747.jpg"}

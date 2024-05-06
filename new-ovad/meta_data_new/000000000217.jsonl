@@ -1,0 +1,6 @@
+{"utterance": "There are gray knifes or opaque dining tables in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000132375.jpg", "../coco/val2017/000000007991.jpg"]}
+{"image": "../coco/val2017/000000132375.jpg"}
+{"image": "../coco/val2017/000000007991.jpg"}
+{"image": "../coco/val2017/000000227985.jpg"}
+{"image": "../coco/val2017/000000060449.jpg"}
+{"image": "../coco/val2017/000000209142.jpg"}

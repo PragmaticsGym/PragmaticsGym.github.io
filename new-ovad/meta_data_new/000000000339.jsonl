@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored oranges or standing dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000253386.jpg", "../coco/val2017/000000217753.jpg"]}
+{"image": "../coco/val2017/000000253386.jpg"}
+{"image": "../coco/val2017/000000217753.jpg"}
+{"image": "../coco/val2017/000000029393.jpg"}
+{"image": "../coco/val2017/000000134112.jpg"}
+{"image": "../coco/val2017/000000050679.jpg"}

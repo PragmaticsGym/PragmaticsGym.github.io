@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored handbags or plain patterned suitcases in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000112110.jpg", "../coco/val2017/000000016451.jpg"]}
+{"image": "../coco/val2017/000000112110.jpg"}
+{"image": "../coco/val2017/000000016451.jpg"}
+{"image": "../coco/val2017/000000526728.jpg"}
+{"image": "../coco/val2017/000000359855.jpg"}
+{"image": "../coco/val2017/000000100238.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are lying spoons or persons with plain clothes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000015254.jpg", "../coco/val2017/000000455219.jpg"]}
+{"image": "../coco/val2017/000000015254.jpg"}
+{"image": "../coco/val2017/000000455219.jpg"}
+{"image": "../coco/val2017/000000416885.jpg"}
+{"image": "../coco/val2017/000000243204.jpg"}
+{"image": "../coco/val2017/000000311002.jpg"}

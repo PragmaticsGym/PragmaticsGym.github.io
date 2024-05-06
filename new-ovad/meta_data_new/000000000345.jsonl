@@ -1,0 +1,6 @@
+{"utterance": "There are tan sandwichs or unicolored umbrellas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000250901.jpg", "../coco/val2017/000000250137.jpg"]}
+{"image": "../coco/val2017/000000250901.jpg"}
+{"image": "../coco/val2017/000000250137.jpg"}
+{"image": "../coco/val2017/000000338905.jpg"}
+{"image": "../coco/val2017/000000529762.jpg"}
+{"image": "../coco/val2017/000000528980.jpg"}

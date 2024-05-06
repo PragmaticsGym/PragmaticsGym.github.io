@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored oranges or lying keyboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000246308.jpg", "../coco/val2017/000000352618.jpg"]}
+{"image": "../coco/val2017/000000246308.jpg"}
+{"image": "../coco/val2017/000000352618.jpg"}
+{"image": "../coco/val2017/000000063740.jpg"}
+{"image": "../coco/val2017/000000255165.jpg"}
+{"image": "../coco/val2017/000000050679.jpg"}

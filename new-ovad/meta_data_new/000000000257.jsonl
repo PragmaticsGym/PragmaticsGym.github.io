@@ -1,0 +1,6 @@
+{"utterance": "There are males or white sports balls in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000080932.jpg", "../coco/val2017/000000022935.jpg"]}
+{"image": "../coco/val2017/000000080932.jpg"}
+{"image": "../coco/val2017/000000022935.jpg"}
+{"image": "../coco/val2017/000000049759.jpg"}
+{"image": "../coco/val2017/000000064462.jpg"}
+{"image": "../coco/val2017/000000042296.jpg"}

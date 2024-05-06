@@ -1,0 +1,6 @@
+{"utterance": "There are females or plain patterned airplanes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000137950.jpg", "../coco/val2017/000000286660.jpg"]}
+{"image": "../coco/val2017/000000137950.jpg"}
+{"image": "../coco/val2017/000000286660.jpg"}
+{"image": "../coco/val2017/000000348881.jpg"}
+{"image": "../coco/val2017/000000495054.jpg"}
+{"image": "../coco/val2017/000000093261.jpg"}

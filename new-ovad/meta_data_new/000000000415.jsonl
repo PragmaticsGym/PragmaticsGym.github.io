@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored umbrellas or striped boats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000577932.jpg", "../coco/val2017/000000160772.jpg"]}
+{"image": "../coco/val2017/000000577932.jpg"}
+{"image": "../coco/val2017/000000160772.jpg"}
+{"image": "../coco/val2017/000000050006.jpg"}
+{"image": "../coco/val2017/000000550349.jpg"}
+{"image": "../coco/val2017/000000113051.jpg"}

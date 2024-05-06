@@ -1,0 +1,6 @@
+{"utterance": "There are standing cars or tan hot dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000320664.jpg", "../coco/val2017/000000124798.jpg"]}
+{"image": "../coco/val2017/000000320664.jpg"}
+{"image": "../coco/val2017/000000124798.jpg"}
+{"image": "../coco/val2017/000000289938.jpg"}
+{"image": "../coco/val2017/000000293858.jpg"}
+{"image": "../coco/val2017/000000463730.jpg"}

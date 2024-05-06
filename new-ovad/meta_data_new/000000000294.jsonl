@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored pizzas or multicolored refrigerators in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000240940.jpg", "../coco/val2017/000000336356.jpg"]}
+{"image": "../coco/val2017/000000240940.jpg"}
+{"image": "../coco/val2017/000000336356.jpg"}
+{"image": "../coco/val2017/000000194724.jpg"}
+{"image": "../coco/val2017/000000135561.jpg"}
+{"image": "../coco/val2017/000000172571.jpg"}

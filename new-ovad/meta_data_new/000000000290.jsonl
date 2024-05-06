@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned couchs or yellow baseball bats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000057232.jpg", "../coco/val2017/000000437205.jpg"]}
+{"image": "../coco/val2017/000000057232.jpg"}
+{"image": "../coco/val2017/000000437205.jpg"}
+{"image": "../coco/val2017/000000086956.jpg"}
+{"image": "../coco/val2017/000000128748.jpg"}
+{"image": "../coco/val2017/000000277197.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are lying cups or white refrigerators in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000192904.jpg", "../coco/val2017/000000240940.jpg"]}
+{"image": "../coco/val2017/000000192904.jpg"}
+{"image": "../coco/val2017/000000240940.jpg"}
+{"image": "../coco/val2017/000000292060.jpg"}
+{"image": "../coco/val2017/000000194724.jpg"}
+{"image": "../coco/val2017/000000491216.jpg"}

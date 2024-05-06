@@ -1,0 +1,6 @@
+{"utterance": "There are white microwaves or plain patterned teddy bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000207538.jpg", "../coco/val2017/000000044068.jpg"]}
+{"image": "../coco/val2017/000000207538.jpg"}
+{"image": "../coco/val2017/000000044068.jpg"}
+{"image": "../coco/val2017/000000199681.jpg"}
+{"image": "../coco/val2017/000000292060.jpg"}
+{"image": "../coco/val2017/000000207306.jpg"}

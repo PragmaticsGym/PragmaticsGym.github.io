@@ -1,0 +1,6 @@
+{"utterance": "There are opaque dining tables or two-colored hot dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000160012.jpg", "../coco/val2017/000000322574.jpg"]}
+{"image": "../coco/val2017/000000160012.jpg"}
+{"image": "../coco/val2017/000000322574.jpg"}
+{"image": "../coco/val2017/000000293858.jpg"}
+{"image": "../coco/val2017/000000010583.jpg"}
+{"image": "../coco/val2017/000000093353.jpg"}

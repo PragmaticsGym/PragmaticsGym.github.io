@@ -1,0 +1,6 @@
+{"utterance": "There are opaque cups or opaque bowls in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000084241.jpg", "../coco/val2017/000000199771.jpg"]}
+{"image": "../coco/val2017/000000084241.jpg"}
+{"image": "../coco/val2017/000000199771.jpg"}
+{"image": "../coco/val2017/000000256518.jpg"}
+{"image": "../coco/val2017/000000562059.jpg"}
+{"image": "../coco/val2017/000000293858.jpg"}

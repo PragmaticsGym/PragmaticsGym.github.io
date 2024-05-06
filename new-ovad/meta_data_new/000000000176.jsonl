@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored sinks or black toasters in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000232348.jpg", "../coco/val2017/000000383606.jpg"]}
+{"image": "../coco/val2017/000000232348.jpg"}
+{"image": "../coco/val2017/000000383606.jpg"}
+{"image": "../coco/val2017/000000175364.jpg"}
+{"image": "../coco/val2017/000000135561.jpg"}
+{"image": "../coco/val2017/000000500464.jpg"}

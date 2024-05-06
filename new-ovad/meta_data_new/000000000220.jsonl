@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored beds or two-colored dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000263644.jpg", "../coco/val2017/000000061108.jpg"]}
+{"image": "../coco/val2017/000000263644.jpg"}
+{"image": "../coco/val2017/000000061108.jpg"}
+{"image": "../coco/val2017/000000134112.jpg"}
+{"image": "../coco/val2017/000000039769.jpg"}
+{"image": "../coco/val2017/000000371749.jpg"}

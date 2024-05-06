@@ -1,0 +1,6 @@
+{"utterance": "There are floral bowls or unicolored oranges in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000406570.jpg", "../coco/val2017/000000331817.jpg"]}
+{"image": "../coco/val2017/000000406570.jpg"}
+{"image": "../coco/val2017/000000331817.jpg"}
+{"image": "../coco/val2017/000000184791.jpg"}
+{"image": "../coco/val2017/000000050679.jpg"}
+{"image": "../coco/val2017/000000136772.jpg"}

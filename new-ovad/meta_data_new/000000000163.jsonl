@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored horses or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000368335.jpg", "../coco/val2017/000000005529.jpg"]}
+{"image": "../coco/val2017/000000368335.jpg"}
+{"image": "../coco/val2017/000000005529.jpg"}
+{"image": "../coco/val2017/000000113235.jpg"}
+{"image": "../coco/val2017/000000100510.jpg"}
+{"image": "../coco/val2017/000000529762.jpg"}

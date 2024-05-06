@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored boats or unicolored backpacks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000448256.jpg", "../coco/val2017/000000226147.jpg"]}
+{"image": "../coco/val2017/000000448256.jpg"}
+{"image": "../coco/val2017/000000226147.jpg"}
+{"image": "../coco/val2017/000000312237.jpg"}
+{"image": "../coco/val2017/000000088848.jpg"}
+{"image": "../coco/val2017/000000253835.jpg"}

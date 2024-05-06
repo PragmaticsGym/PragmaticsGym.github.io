@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored cars or lying snowboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000097278.jpg", "../coco/val2017/000000341094.jpg"]}
+{"image": "../coco/val2017/000000097278.jpg"}
+{"image": "../coco/val2017/000000341094.jpg"}
+{"image": "../coco/val2017/000000097679.jpg"}
+{"image": "../coco/val2017/000000563349.jpg"}
+{"image": "../coco/val2017/000000315187.jpg"}

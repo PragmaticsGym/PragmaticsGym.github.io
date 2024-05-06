@@ -1,0 +1,6 @@
+{"utterance": "There are opaque handbags or blue trucks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000081394.jpg", "../coco/val2017/000000224675.jpg"]}
+{"image": "../coco/val2017/000000081394.jpg"}
+{"image": "../coco/val2017/000000224675.jpg"}
+{"image": "../coco/val2017/000000184324.jpg"}
+{"image": "../coco/val2017/000000567197.jpg"}
+{"image": "../coco/val2017/000000142324.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are sitting persons or standing motorcycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000279887.jpg", "../coco/val2017/000000132796.jpg"]}
+{"image": "../coco/val2017/000000279887.jpg"}
+{"image": "../coco/val2017/000000132796.jpg"}
+{"image": "../coco/val2017/000000463730.jpg"}
+{"image": "../coco/val2017/000000048924.jpg"}
+{"image": "../coco/val2017/000000264968.jpg"}

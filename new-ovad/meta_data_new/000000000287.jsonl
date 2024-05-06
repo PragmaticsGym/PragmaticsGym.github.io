@@ -1,0 +1,6 @@
+{"utterance": "There are yellow umbrellas or black boats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000360960.jpg", "../coco/val2017/000000178744.jpg"]}
+{"image": "../coco/val2017/000000360960.jpg"}
+{"image": "../coco/val2017/000000178744.jpg"}
+{"image": "../coco/val2017/000000181421.jpg"}
+{"image": "../coco/val2017/000000496854.jpg"}
+{"image": "../coco/val2017/000000522393.jpg"}

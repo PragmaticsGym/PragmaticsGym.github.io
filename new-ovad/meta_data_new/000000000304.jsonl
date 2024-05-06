@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored microwaves or females in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000283717.jpg", "../coco/val2017/000000440184.jpg"]}
+{"image": "../coco/val2017/000000283717.jpg"}
+{"image": "../coco/val2017/000000440184.jpg"}
+{"image": "../coco/val2017/000000160556.jpg"}
+{"image": "../coco/val2017/000000014038.jpg"}
+{"image": "../coco/val2017/000000223747.jpg"}

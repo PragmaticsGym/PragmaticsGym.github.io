@@ -1,0 +1,6 @@
+{"utterance": "There are lying books or unicolored tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000017379.jpg", "../coco/val2017/000000376264.jpg"]}
+{"image": "../coco/val2017/000000017379.jpg"}
+{"image": "../coco/val2017/000000376264.jpg"}
+{"image": "../coco/val2017/000000139077.jpg"}
+{"image": "../coco/val2017/000000340894.jpg"}
+{"image": "../coco/val2017/000000421923.jpg"}

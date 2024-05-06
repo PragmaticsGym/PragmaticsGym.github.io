@@ -1,0 +1,6 @@
+{"utterance": "There are standing baseball bats or plain patterned baseball gloves in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000027932.jpg", "../coco/val2017/000000126226.jpg"]}
+{"image": "../coco/val2017/000000027932.jpg"}
+{"image": "../coco/val2017/000000126226.jpg"}
+{"image": "../coco/val2017/000000046252.jpg"}
+{"image": "../coco/val2017/000000500478.jpg"}
+{"image": "../coco/val2017/000000302107.jpg"}

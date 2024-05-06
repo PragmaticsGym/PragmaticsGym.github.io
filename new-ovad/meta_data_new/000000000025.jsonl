@@ -1,0 +1,6 @@
+{"utterance": "There are gray parking meters or two-colored bicycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000430871.jpg", "../coco/val2017/000000093717.jpg"]}
+{"image": "../coco/val2017/000000430871.jpg"}
+{"image": "../coco/val2017/000000093717.jpg"}
+{"image": "../coco/val2017/000000135410.jpg"}
+{"image": "../coco/val2017/000000034071.jpg"}
+{"image": "../coco/val2017/000000549390.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are standing cups or two-colored toasters in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000232348.jpg", "../coco/val2017/000000562059.jpg"]}
+{"image": "../coco/val2017/000000232348.jpg"}
+{"image": "../coco/val2017/000000562059.jpg"}
+{"image": "../coco/val2017/000000175364.jpg"}
+{"image": "../coco/val2017/000000135561.jpg"}
+{"image": "../coco/val2017/000000192904.jpg"}

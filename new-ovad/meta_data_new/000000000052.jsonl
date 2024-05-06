@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored horses or opaque cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000576955.jpg", "../coco/val2017/000000416885.jpg"]}
+{"image": "../coco/val2017/000000576955.jpg"}
+{"image": "../coco/val2017/000000416885.jpg"}
+{"image": "../coco/val2017/000000121242.jpg"}
+{"image": "../coco/val2017/000000183675.jpg"}
+{"image": "../coco/val2017/000000476119.jpg"}

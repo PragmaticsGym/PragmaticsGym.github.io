@@ -1,0 +1,6 @@
+{"utterance": "There are brown hot dogs or adult persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000320664.jpg", "../coco/val2017/000000201072.jpg"]}
+{"image": "../coco/val2017/000000320664.jpg"}
+{"image": "../coco/val2017/000000201072.jpg"}
+{"image": "../coco/val2017/000000210230.jpg"}
+{"image": "../coco/val2017/000000083531.jpg"}
+{"image": "../coco/val2017/000000102820.jpg"}

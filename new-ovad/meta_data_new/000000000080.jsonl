@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored cakes or plain patterned books in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000147415.jpg", "../coco/val2017/000000131379.jpg"]}
+{"image": "../coco/val2017/000000147415.jpg"}
+{"image": "../coco/val2017/000000131379.jpg"}
+{"image": "../coco/val2017/000000245026.jpg"}
+{"image": "../coco/val2017/000000167159.jpg"}
+{"image": "../coco/val2017/000000147205.jpg"}

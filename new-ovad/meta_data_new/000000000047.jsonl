@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned trucks or opaque dining tables in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000033759.jpg", "../coco/val2017/000000181753.jpg"]}
+{"image": "../coco/val2017/000000033759.jpg"}
+{"image": "../coco/val2017/000000181753.jpg"}
+{"image": "../coco/val2017/000000067616.jpg"}
+{"image": "../coco/val2017/000000057597.jpg"}
+{"image": "../coco/val2017/000000233033.jpg"}

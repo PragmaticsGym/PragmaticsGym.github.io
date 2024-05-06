@@ -1,0 +1,6 @@
+{"utterance": "There are lying cars or white parking meters in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000033114.jpg", "../coco/val2017/000000365207.jpg"]}
+{"image": "../coco/val2017/000000033114.jpg"}
+{"image": "../coco/val2017/000000365207.jpg"}
+{"image": "../coco/val2017/000000053994.jpg"}
+{"image": "../coco/val2017/000000230450.jpg"}
+{"image": "../coco/val2017/000000124798.jpg"}

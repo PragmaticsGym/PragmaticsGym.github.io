@@ -1,0 +1,6 @@
+{"utterance": "There are black handbags or plain patterned cups in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000259640.jpg", "../coco/val2017/000000323151.jpg"]}
+{"image": "../coco/val2017/000000259640.jpg"}
+{"image": "../coco/val2017/000000323151.jpg"}
+{"image": "../coco/val2017/000000145597.jpg"}
+{"image": "../coco/val2017/000000381639.jpg"}
+{"image": "../coco/val2017/000000488673.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are opaque bottles or white toilets in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000308466.jpg", "../coco/val2017/000000233238.jpg"]}
+{"image": "../coco/val2017/000000308466.jpg"}
+{"image": "../coco/val2017/000000233238.jpg"}
+{"image": "../coco/val2017/000000090108.jpg"}
+{"image": "../coco/val2017/000000055002.jpg"}
+{"image": "../coco/val2017/000000402720.jpg"}

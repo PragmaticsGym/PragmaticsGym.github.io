@@ -1,0 +1,6 @@
+{"utterance": "There are brown handbags or adult elephants in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000267191.jpg", "../coco/val2017/000000151000.jpg"]}
+{"image": "../coco/val2017/000000267191.jpg"}
+{"image": "../coco/val2017/000000151000.jpg"}
+{"image": "../coco/val2017/000000369037.jpg"}
+{"image": "../coco/val2017/000000006894.jpg"}
+{"image": "../coco/val2017/000000142324.jpg"}

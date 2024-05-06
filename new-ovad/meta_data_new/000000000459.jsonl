@@ -1,0 +1,6 @@
+{"utterance": "There are black refrigerators or brown chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000502732.jpg", "../coco/val2017/000000057232.jpg"]}
+{"image": "../coco/val2017/000000502732.jpg"}
+{"image": "../coco/val2017/000000057232.jpg"}
+{"image": "../coco/val2017/000000221708.jpg"}
+{"image": "../coco/val2017/000000030213.jpg"}
+{"image": "../coco/val2017/000000326082.jpg"}

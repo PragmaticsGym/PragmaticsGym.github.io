@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned bottles or standing laptops in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000150638.jpg", "../coco/val2017/000000482970.jpg"]}
+{"image": "../coco/val2017/000000150638.jpg"}
+{"image": "../coco/val2017/000000482970.jpg"}
+{"image": "../coco/val2017/000000136600.jpg"}
+{"image": "../coco/val2017/000000050811.jpg"}
+{"image": "../coco/val2017/000000348481.jpg"}

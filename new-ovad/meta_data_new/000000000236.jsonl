@@ -1,0 +1,6 @@
+{"utterance": "There are yellow bananas or unicolored spoons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000050149.jpg", "../coco/val2017/000000127494.jpg"]}
+{"image": "../coco/val2017/000000050149.jpg"}
+{"image": "../coco/val2017/000000127494.jpg"}
+{"image": "../coco/val2017/000000040471.jpg"}
+{"image": "../coco/val2017/000000219283.jpg"}
+{"image": "../coco/val2017/000000088269.jpg"}

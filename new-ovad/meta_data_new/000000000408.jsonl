@@ -1,0 +1,6 @@
+{"utterance": "There are tan giraffes or persons with straight hair in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000333069.jpg", "../coco/val2017/000000183437.jpg"]}
+{"image": "../coco/val2017/000000333069.jpg"}
+{"image": "../coco/val2017/000000183437.jpg"}
+{"image": "../coco/val2017/000000285894.jpg"}
+{"image": "../coco/val2017/000000235252.jpg"}
+{"image": "../coco/val2017/000000027972.jpg"}

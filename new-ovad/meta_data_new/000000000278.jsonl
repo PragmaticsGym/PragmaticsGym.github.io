@@ -1,0 +1,6 @@
+{"utterance": "There are transparent vases or two-colored microwaves in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000283717.jpg", "../coco/val2017/000000578922.jpg"]}
+{"image": "../coco/val2017/000000283717.jpg"}
+{"image": "../coco/val2017/000000578922.jpg"}
+{"image": "../coco/val2017/000000000139.jpg"}
+{"image": "../coco/val2017/000000109976.jpg"}
+{"image": "../coco/val2017/000000395343.jpg"}

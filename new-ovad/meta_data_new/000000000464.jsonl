@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored frisbees or standing dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000139883.jpg", "../coco/val2017/000000279278.jpg"]}
+{"image": "../coco/val2017/000000139883.jpg"}
+{"image": "../coco/val2017/000000279278.jpg"}
+{"image": "../coco/val2017/000000138492.jpg"}
+{"image": "../coco/val2017/000000227482.jpg"}
+{"image": "../coco/val2017/000000486479.jpg"}

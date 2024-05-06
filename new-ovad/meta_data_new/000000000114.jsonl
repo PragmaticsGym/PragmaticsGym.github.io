@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored books or adult dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000308430.jpg", "../coco/val2017/000000309938.jpg"]}
+{"image": "../coco/val2017/000000308430.jpg"}
+{"image": "../coco/val2017/000000309938.jpg"}
+{"image": "../coco/val2017/000000555005.jpg"}
+{"image": "../coco/val2017/000000066706.jpg"}
+{"image": "../coco/val2017/000000412240.jpg"}

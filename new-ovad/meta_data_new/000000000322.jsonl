@@ -1,0 +1,6 @@
+{"utterance": "There are white toothbrushs or white sinks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000175251.jpg", "../coco/val2017/000000403385.jpg"]}
+{"image": "../coco/val2017/000000175251.jpg"}
+{"image": "../coco/val2017/000000403385.jpg"}
+{"image": "../coco/val2017/000000293390.jpg"}
+{"image": "../coco/val2017/000000544519.jpg"}
+{"image": "../coco/val2017/000000074209.jpg"}

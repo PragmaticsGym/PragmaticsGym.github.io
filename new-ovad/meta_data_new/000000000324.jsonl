@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored handbags or plain patterned umbrellas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000084477.jpg", "../coco/val2017/000000153529.jpg"]}
+{"image": "../coco/val2017/000000084477.jpg"}
+{"image": "../coco/val2017/000000153529.jpg"}
+{"image": "../coco/val2017/000000401446.jpg"}
+{"image": "../coco/val2017/000000341058.jpg"}
+{"image": "../coco/val2017/000000086956.jpg"}

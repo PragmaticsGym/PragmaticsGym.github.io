@@ -1,0 +1,6 @@
+{"utterance": "There are white sinks or white refrigerators in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000308466.jpg", "../coco/val2017/000000159791.jpg"]}
+{"image": "../coco/val2017/000000308466.jpg"}
+{"image": "../coco/val2017/000000159791.jpg"}
+{"image": "../coco/val2017/000000030213.jpg"}
+{"image": "../coco/val2017/000000037777.jpg"}
+{"image": "../coco/val2017/000000078266.jpg"}

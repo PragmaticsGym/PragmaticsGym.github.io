@@ -1,0 +1,6 @@
+{"utterance": "There are blue ties or opaque tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000271116.jpg", "../coco/val2017/000000527616.jpg"]}
+{"image": "../coco/val2017/000000271116.jpg"}
+{"image": "../coco/val2017/000000527616.jpg"}
+{"image": "../coco/val2017/000000009483.jpg"}
+{"image": "../coco/val2017/000000133343.jpg"}
+{"image": "../coco/val2017/000000331817.jpg"}

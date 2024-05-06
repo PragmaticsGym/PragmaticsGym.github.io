@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored oranges or black handbags in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000189078.jpg", "../coco/val2017/000000033221.jpg"]}
+{"image": "../coco/val2017/000000189078.jpg"}
+{"image": "../coco/val2017/000000033221.jpg"}
+{"image": "../coco/val2017/000000259640.jpg"}
+{"image": "../coco/val2017/000000138115.jpg"}
+{"image": "../coco/val2017/000000476514.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned cups or yellow bananas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000119452.jpg", "../coco/val2017/000000242946.jpg"]}
+{"image": "../coco/val2017/000000119452.jpg"}
+{"image": "../coco/val2017/000000242946.jpg"}
+{"image": "../coco/val2017/000000312406.jpg"}
+{"image": "../coco/val2017/000000078959.jpg"}
+{"image": "../coco/val2017/000000117425.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are brown dogs or unicolored tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000185250.jpg", "../coco/val2017/000000218439.jpg"]}
+{"image": "../coco/val2017/000000185250.jpg"}
+{"image": "../coco/val2017/000000218439.jpg"}
+{"image": "../coco/val2017/000000072813.jpg"}
+{"image": "../coco/val2017/000000357459.jpg"}
+{"image": "../coco/val2017/000000056288.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are standing umbrellas or two-colored stop signs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000407943.jpg", "../coco/val2017/000000283038.jpg"]}
+{"image": "../coco/val2017/000000407943.jpg"}
+{"image": "../coco/val2017/000000283038.jpg"}
+{"image": "../coco/val2017/000000528980.jpg"}
+{"image": "../coco/val2017/000000250137.jpg"}
+{"image": "../coco/val2017/000000344611.jpg"}

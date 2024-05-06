@@ -1,0 +1,6 @@
+{"utterance": "There are red teddy bears or brown vases in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000276921.jpg", "../coco/val2017/000000057232.jpg"]}
+{"image": "../coco/val2017/000000276921.jpg"}
+{"image": "../coco/val2017/000000057232.jpg"}
+{"image": "../coco/val2017/000000020553.jpg"}
+{"image": "../coco/val2017/000000106330.jpg"}
+{"image": "../coco/val2017/000000051326.jpg"}

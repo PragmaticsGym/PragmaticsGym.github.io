@@ -1,0 +1,6 @@
+{"utterance": "There are white fire hydrants or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000244019.jpg", "../coco/val2017/000000482275.jpg"]}
+{"image": "../coco/val2017/000000244019.jpg"}
+{"image": "../coco/val2017/000000482275.jpg"}
+{"image": "../coco/val2017/000000158744.jpg"}
+{"image": "../coco/val2017/000000028993.jpg"}
+{"image": "../coco/val2017/000000059598.jpg"}

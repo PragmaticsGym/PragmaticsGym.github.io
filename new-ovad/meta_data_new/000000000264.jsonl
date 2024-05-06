@@ -1,0 +1,6 @@
+{"utterance": "There are yellow refrigerators or white books in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000323202.jpg", "../coco/val2017/000000168593.jpg"]}
+{"image": "../coco/val2017/000000323202.jpg"}
+{"image": "../coco/val2017/000000168593.jpg"}
+{"image": "../coco/val2017/000000240940.jpg"}
+{"image": "../coco/val2017/000000017182.jpg"}
+{"image": "../coco/val2017/000000186980.jpg"}

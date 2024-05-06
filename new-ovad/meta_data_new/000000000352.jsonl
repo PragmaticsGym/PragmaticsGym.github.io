@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or red stop signs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000126592.jpg", "../coco/val2017/000000106757.jpg"]}
+{"image": "../coco/val2017/000000126592.jpg"}
+{"image": "../coco/val2017/000000106757.jpg"}
+{"image": "../coco/val2017/000000417779.jpg"}
+{"image": "../coco/val2017/000000476491.jpg"}
+{"image": "../coco/val2017/000000381639.jpg"}

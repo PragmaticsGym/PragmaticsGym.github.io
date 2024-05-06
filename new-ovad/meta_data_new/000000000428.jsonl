@@ -1,0 +1,6 @@
+{"utterance": "There are white trains or unicolored benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000416269.jpg", "../coco/val2017/000000254516.jpg"]}
+{"image": "../coco/val2017/000000416269.jpg"}
+{"image": "../coco/val2017/000000254516.jpg"}
+{"image": "../coco/val2017/000000323751.jpg"}
+{"image": "../coco/val2017/000000039670.jpg"}
+{"image": "../coco/val2017/000000190753.jpg"}

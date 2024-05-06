@@ -1,0 +1,6 @@
+{"utterance": "There are lying tennis rackets or green sports balls in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000201072.jpg", "../coco/val2017/000000042296.jpg"]}
+{"image": "../coco/val2017/000000201072.jpg"}
+{"image": "../coco/val2017/000000042296.jpg"}
+{"image": "../coco/val2017/000000151629.jpg"}
+{"image": "../coco/val2017/000000117744.jpg"}
+{"image": "../coco/val2017/000000022935.jpg"}

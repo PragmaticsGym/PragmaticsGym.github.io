@@ -1,0 +1,6 @@
+{"utterance": "There are opaque sinks or two-colored tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000366225.jpg", "../coco/val2017/000000255401.jpg"]}
+{"image": "../coco/val2017/000000366225.jpg"}
+{"image": "../coco/val2017/000000255401.jpg"}
+{"image": "../coco/val2017/000000009772.jpg"}
+{"image": "../coco/val2017/000000331817.jpg"}
+{"image": "../coco/val2017/000000074209.jpg"}

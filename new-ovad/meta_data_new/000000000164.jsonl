@@ -1,0 +1,6 @@
+{"utterance": "There are standing cups or plain patterned chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000189310.jpg", "../coco/val2017/000000395343.jpg"]}
+{"image": "../coco/val2017/000000189310.jpg"}
+{"image": "../coco/val2017/000000395343.jpg"}
+{"image": "../coco/val2017/000000467176.jpg"}
+{"image": "../coco/val2017/000000106389.jpg"}
+{"image": "../coco/val2017/000000192904.jpg"}

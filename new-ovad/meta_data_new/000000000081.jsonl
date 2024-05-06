@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned boats or white trucks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000410612.jpg", "../coco/val2017/000000067616.jpg"]}
+{"image": "../coco/val2017/000000410612.jpg"}
+{"image": "../coco/val2017/000000067616.jpg"}
+{"image": "../coco/val2017/000000448256.jpg"}
+{"image": "../coco/val2017/000000088848.jpg"}
+{"image": "../coco/val2017/000000453841.jpg"}

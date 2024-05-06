@@ -1,0 +1,6 @@
+{"utterance": "There are white cars or two-colored giraffes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000064359.jpg", "../coco/val2017/000000493286.jpg"]}
+{"image": "../coco/val2017/000000064359.jpg"}
+{"image": "../coco/val2017/000000493286.jpg"}
+{"image": "../coco/val2017/000000059386.jpg"}
+{"image": "../coco/val2017/000000311295.jpg"}
+{"image": "../coco/val2017/000000132544.jpg"}

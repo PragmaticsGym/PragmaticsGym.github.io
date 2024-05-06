@@ -1,0 +1,6 @@
+{"utterance": "There are black umbrellas or lying dining tables in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000093437.jpg", "../coco/val2017/000000530162.jpg"]}
+{"image": "../coco/val2017/000000093437.jpg"}
+{"image": "../coco/val2017/000000530162.jpg"}
+{"image": "../coco/val2017/000000151938.jpg"}
+{"image": "../coco/val2017/000000322163.jpg"}
+{"image": "../coco/val2017/000000040083.jpg"}

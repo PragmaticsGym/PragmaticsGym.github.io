@@ -1,0 +1,6 @@
+{"utterance": "There are white pizzas or reflective forks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000322163.jpg", "../coco/val2017/000000092053.jpg"]}
+{"image": "../coco/val2017/000000322163.jpg"}
+{"image": "../coco/val2017/000000092053.jpg"}
+{"image": "../coco/val2017/000000163611.jpg"}
+{"image": "../coco/val2017/000000334309.jpg"}
+{"image": "../coco/val2017/000000110999.jpg"}

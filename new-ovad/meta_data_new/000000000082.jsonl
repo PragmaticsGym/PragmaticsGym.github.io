@@ -1,0 +1,6 @@
+{"utterance": "There are lettered buss or blue trains in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000039670.jpg", "../coco/val2017/000000017207.jpg"]}
+{"image": "../coco/val2017/000000039670.jpg"}
+{"image": "../coco/val2017/000000017207.jpg"}
+{"image": "../coco/val2017/000000057149.jpg"}
+{"image": "../coco/val2017/000000419882.jpg"}
+{"image": "../coco/val2017/000000148508.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are yellow birds or multicolored potted plants in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000463618.jpg", "../coco/val2017/000000233033.jpg"]}
+{"image": "../coco/val2017/000000463618.jpg"}
+{"image": "../coco/val2017/000000233033.jpg"}
+{"image": "../coco/val2017/000000065288.jpg"}
+{"image": "../coco/val2017/000000119233.jpg"}
+{"image": "../coco/val2017/000000106235.jpg"}

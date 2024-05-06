@@ -1,0 +1,6 @@
+{"utterance": "There are white sports balls or tan baseball bats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000101068.jpg", "../coco/val2017/000000022935.jpg"]}
+{"image": "../coco/val2017/000000101068.jpg"}
+{"image": "../coco/val2017/000000022935.jpg"}
+{"image": "../coco/val2017/000000420069.jpg"}
+{"image": "../coco/val2017/000000345466.jpg"}
+{"image": "../coco/val2017/000000042296.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are gray remotes or plain patterned couchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000089045.jpg", "../coco/val2017/000000402765.jpg"]}
+{"image": "../coco/val2017/000000089045.jpg"}
+{"image": "../coco/val2017/000000402765.jpg"}
+{"image": "../coco/val2017/000000106235.jpg"}
+{"image": "../coco/val2017/000000344621.jpg"}
+{"image": "../coco/val2017/000000021503.jpg"}

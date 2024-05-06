@@ -1,0 +1,6 @@
+{"utterance": "There are white boats or unicolored benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000289741.jpg", "../coco/val2017/000000089697.jpg"]}
+{"image": "../coco/val2017/000000289741.jpg"}
+{"image": "../coco/val2017/000000089697.jpg"}
+{"image": "../coco/val2017/000000267940.jpg"}
+{"image": "../coco/val2017/000000047828.jpg"}
+{"image": "../coco/val2017/000000029397.jpg"}

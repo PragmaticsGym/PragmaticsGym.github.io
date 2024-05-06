@@ -1,0 +1,6 @@
+{"utterance": "There are white sheeps or adult dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000094871.jpg", "../coco/val2017/000000052891.jpg"]}
+{"image": "../coco/val2017/000000094871.jpg"}
+{"image": "../coco/val2017/000000052891.jpg"}
+{"image": "../coco/val2017/000000288685.jpg"}
+{"image": "../coco/val2017/000000534394.jpg"}
+{"image": "../coco/val2017/000000139099.jpg"}

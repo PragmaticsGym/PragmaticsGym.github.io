@@ -1,0 +1,6 @@
+{"utterance": "There are males or standing snowboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000516677.jpg", "../coco/val2017/000000529939.jpg"]}
+{"image": "../coco/val2017/000000516677.jpg"}
+{"image": "../coco/val2017/000000529939.jpg"}
+{"image": "../coco/val2017/000000341719.jpg"}
+{"image": "../coco/val2017/000000493772.jpg"}
+{"image": "../coco/val2017/000000097278.jpg"}

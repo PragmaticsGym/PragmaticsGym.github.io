@@ -1,0 +1,6 @@
+{"utterance": "There are white books or green benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000190753.jpg", "../coco/val2017/000000467176.jpg"]}
+{"image": "../coco/val2017/000000190753.jpg"}
+{"image": "../coco/val2017/000000467176.jpg"}
+{"image": "../coco/val2017/000000264535.jpg"}
+{"image": "../coco/val2017/000000259690.jpg"}
+{"image": "../coco/val2017/000000167159.jpg"}

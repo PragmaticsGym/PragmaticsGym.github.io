@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored bowls or blue beds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000134882.jpg", "../coco/val2017/000000050811.jpg"]}
+{"image": "../coco/val2017/000000134882.jpg"}
+{"image": "../coco/val2017/000000050811.jpg"}
+{"image": "../coco/val2017/000000060835.jpg"}
+{"image": "../coco/val2017/000000422670.jpg"}
+{"image": "../coco/val2017/000000248400.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are blue chairs or two-colored sandwichs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000449190.jpg", "../coco/val2017/000000051738.jpg"]}
+{"image": "../coco/val2017/000000449190.jpg"}
+{"image": "../coco/val2017/000000051738.jpg"}
+{"image": "../coco/val2017/000000025386.jpg"}
+{"image": "../coco/val2017/000000170595.jpg"}
+{"image": "../coco/val2017/000000074209.jpg"}

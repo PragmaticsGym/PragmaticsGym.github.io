@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored umbrellas or reflective knifes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000255536.jpg", "../coco/val2017/000000113720.jpg"]}
+{"image": "../coco/val2017/000000255536.jpg"}
+{"image": "../coco/val2017/000000113720.jpg"}
+{"image": "../coco/val2017/000000338905.jpg"}
+{"image": "../coco/val2017/000000181421.jpg"}
+{"image": "../coco/val2017/000000209142.jpg"}

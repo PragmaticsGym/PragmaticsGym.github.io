@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned buss or standing kites in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000315450.jpg", "../coco/val2017/000000143068.jpg"]}
+{"image": "../coco/val2017/000000315450.jpg"}
+{"image": "../coco/val2017/000000143068.jpg"}
+{"image": "../coco/val2017/000000532481.jpg"}
+{"image": "../coco/val2017/000000357748.jpg"}
+{"image": "../coco/val2017/000000181303.jpg"}

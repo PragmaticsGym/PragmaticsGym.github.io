@@ -1,0 +1,6 @@
+{"utterance": "There are opaque microwaves or reflective ovens in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000207538.jpg", "../coco/val2017/000000097022.jpg"]}
+{"image": "../coco/val2017/000000207538.jpg"}
+{"image": "../coco/val2017/000000097022.jpg"}
+{"image": "../coco/val2017/000000283717.jpg"}
+{"image": "../coco/val2017/000000068833.jpg"}
+{"image": "../coco/val2017/000000173008.jpg"}

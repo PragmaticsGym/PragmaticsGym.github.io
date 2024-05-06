@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored books or black ovens in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000421923.jpg", "../coco/val2017/000000056127.jpg"]}
+{"image": "../coco/val2017/000000421923.jpg"}
+{"image": "../coco/val2017/000000056127.jpg"}
+{"image": "../coco/val2017/000000211825.jpg"}
+{"image": "../coco/val2017/000000179392.jpg"}
+{"image": "../coco/val2017/000000136466.jpg"}

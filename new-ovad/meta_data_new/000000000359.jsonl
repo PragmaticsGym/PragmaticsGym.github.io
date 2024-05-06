@@ -1,0 +1,6 @@
+{"utterance": "There are lying umbrellas or persons with plain clothes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000292155.jpg", "../coco/val2017/000000577864.jpg"]}
+{"image": "../coco/val2017/000000292155.jpg"}
+{"image": "../coco/val2017/000000577864.jpg"}
+{"image": "../coco/val2017/000000322610.jpg"}
+{"image": "../coco/val2017/000000127517.jpg"}
+{"image": "../coco/val2017/000000391140.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are black microwaves or yellow cakes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000095707.jpg", "../coco/val2017/000000283717.jpg"]}
+{"image": "../coco/val2017/000000095707.jpg"}
+{"image": "../coco/val2017/000000283717.jpg"}
+{"image": "../coco/val2017/000000173008.jpg"}
+{"image": "../coco/val2017/000000450100.jpg"}
+{"image": "../coco/val2017/000000246436.jpg"}

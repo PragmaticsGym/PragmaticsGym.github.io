@@ -1,0 +1,6 @@
+{"utterance": "There are white dining tables or black parking meters in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000051961.jpg", "../coco/val2017/000000275749.jpg"]}
+{"image": "../coco/val2017/000000051961.jpg"}
+{"image": "../coco/val2017/000000275749.jpg"}
+{"image": "../coco/val2017/000000067616.jpg"}
+{"image": "../coco/val2017/000000328683.jpg"}
+{"image": "../coco/val2017/000000013729.jpg"}

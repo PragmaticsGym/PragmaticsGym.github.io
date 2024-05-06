@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored kites or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000085665.jpg", "../coco/val2017/000000261535.jpg"]}
+{"image": "../coco/val2017/000000085665.jpg"}
+{"image": "../coco/val2017/000000261535.jpg"}
+{"image": "../coco/val2017/000000236599.jpg"}
+{"image": "../coco/val2017/000000235778.jpg"}
+{"image": "../coco/val2017/000000145597.jpg"}

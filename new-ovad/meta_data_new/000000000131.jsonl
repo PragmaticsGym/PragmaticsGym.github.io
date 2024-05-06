@@ -1,0 +1,6 @@
+{"utterance": "There are blue ties or tan benchs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000433103.jpg", "../coco/val2017/000000018770.jpg"]}
+{"image": "../coco/val2017/000000433103.jpg"}
+{"image": "../coco/val2017/000000018770.jpg"}
+{"image": "../coco/val2017/000000323751.jpg"}
+{"image": "../coco/val2017/000000345027.jpg"}
+{"image": "../coco/val2017/000000258541.jpg"}

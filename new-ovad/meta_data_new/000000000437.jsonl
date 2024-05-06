@@ -1,0 +1,6 @@
+{"utterance": "There are gray remotes or black backpacks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000402765.jpg", "../coco/val2017/000000024610.jpg"]}
+{"image": "../coco/val2017/000000402765.jpg"}
+{"image": "../coco/val2017/000000024610.jpg"}
+{"image": "../coco/val2017/000000010707.jpg"}
+{"image": "../coco/val2017/000000182155.jpg"}
+{"image": "../coco/val2017/000000052996.jpg"}

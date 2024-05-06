@@ -1,0 +1,6 @@
+{"utterance": "There are black bicycles or yellow stop signs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000344611.jpg", "../coco/val2017/000000356387.jpg"]}
+{"image": "../coco/val2017/000000344611.jpg"}
+{"image": "../coco/val2017/000000356387.jpg"}
+{"image": "../coco/val2017/000000011197.jpg"}
+{"image": "../coco/val2017/000000100723.jpg"}
+{"image": "../coco/val2017/000000008899.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned potted plants or standing teddy bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000117492.jpg", "../coco/val2017/000000086582.jpg"]}
+{"image": "../coco/val2017/000000117492.jpg"}
+{"image": "../coco/val2017/000000086582.jpg"}
+{"image": "../coco/val2017/000000475572.jpg"}
+{"image": "../coco/val2017/000000446703.jpg"}
+{"image": "../coco/val2017/000000277197.jpg"}

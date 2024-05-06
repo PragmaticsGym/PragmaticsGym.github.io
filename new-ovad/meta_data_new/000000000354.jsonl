@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored keyboards or plain patterned cats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000346638.jpg", "../coco/val2017/000000525247.jpg"]}
+{"image": "../coco/val2017/000000346638.jpg"}
+{"image": "../coco/val2017/000000525247.jpg"}
+{"image": "../coco/val2017/000000316015.jpg"}
+{"image": "../coco/val2017/000000131138.jpg"}
+{"image": "../coco/val2017/000000039769.jpg"}

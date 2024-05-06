@@ -1,0 +1,6 @@
+{"utterance": "There are standing handbags or standing bicycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000291634.jpg", "../coco/val2017/000000280891.jpg"]}
+{"image": "../coco/val2017/000000291634.jpg"}
+{"image": "../coco/val2017/000000280891.jpg"}
+{"image": "../coco/val2017/000000119516.jpg"}
+{"image": "../coco/val2017/000000295809.jpg"}
+{"image": "../coco/val2017/000000553664.jpg"}

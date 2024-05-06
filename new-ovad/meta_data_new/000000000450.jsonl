@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or gray toilets in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000352584.jpg", "../coco/val2017/000000276018.jpg"]}
+{"image": "../coco/val2017/000000352584.jpg"}
+{"image": "../coco/val2017/000000276018.jpg"}
+{"image": "../coco/val2017/000000055002.jpg"}
+{"image": "../coco/val2017/000000092124.jpg"}
+{"image": "../coco/val2017/000000311394.jpg"}

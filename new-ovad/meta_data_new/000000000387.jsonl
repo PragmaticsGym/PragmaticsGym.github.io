@@ -1,0 +1,6 @@
+{"utterance": "There are brown sandwichs or standing chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000227985.jpg", "../coco/val2017/000000429623.jpg"]}
+{"image": "../coco/val2017/000000227985.jpg"}
+{"image": "../coco/val2017/000000429623.jpg"}
+{"image": "../coco/val2017/000000363666.jpg"}
+{"image": "../coco/val2017/000000334417.jpg"}
+{"image": "../coco/val2017/000000116479.jpg"}

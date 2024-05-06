@@ -1,0 +1,6 @@
+{"utterance": "There are yellow pizzas or black ovens in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000343466.jpg", "../coco/val2017/000000322163.jpg"]}
+{"image": "../coco/val2017/000000343466.jpg"}
+{"image": "../coco/val2017/000000322163.jpg"}
+{"image": "../coco/val2017/000000172396.jpg"}
+{"image": "../coco/val2017/000000182611.jpg"}
+{"image": "../coco/val2017/000000099039.jpg"}

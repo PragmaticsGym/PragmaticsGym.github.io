@@ -1,0 +1,6 @@
+{"utterance": "There are gray cars or unicolored cell phones in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000338718.jpg", "../coco/val2017/000000302882.jpg"]}
+{"image": "../coco/val2017/000000338718.jpg"}
+{"image": "../coco/val2017/000000302882.jpg"}
+{"image": "../coco/val2017/000000334555.jpg"}
+{"image": "../coco/val2017/000000013546.jpg"}
+{"image": "../coco/val2017/000000001296.jpg"}

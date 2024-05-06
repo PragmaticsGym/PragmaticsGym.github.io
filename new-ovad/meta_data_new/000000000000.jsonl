@@ -1,0 +1,6 @@
+{"utterance": "There are brown dogs or lying surfboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000390246.jpg", "../coco/val2017/000000355240.jpg"]}
+{"image": "../coco/val2017/000000390246.jpg"}
+{"image": "../coco/val2017/000000355240.jpg"}
+{"image": "../coco/val2017/000000490171.jpg"}
+{"image": "../coco/val2017/000000331604.jpg"}
+{"image": "../coco/val2017/000000309484.jpg"}

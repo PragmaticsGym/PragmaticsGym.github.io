@@ -1,0 +1,6 @@
+{"utterance": "There are lying bowls or reflective spoons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000231097.jpg", "../coco/val2017/000000064084.jpg"]}
+{"image": "../coco/val2017/000000231097.jpg"}
+{"image": "../coco/val2017/000000064084.jpg"}
+{"image": "../coco/val2017/000000236721.jpg"}
+{"image": "../coco/val2017/000000304984.jpg"}
+{"image": "../coco/val2017/000000129113.jpg"}

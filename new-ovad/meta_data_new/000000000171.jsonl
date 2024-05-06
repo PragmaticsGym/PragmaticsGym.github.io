@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned cars or black birds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000572517.jpg", "../coco/val2017/000000463730.jpg"]}
+{"image": "../coco/val2017/000000572517.jpg"}
+{"image": "../coco/val2017/000000463730.jpg"}
+{"image": "../coco/val2017/000000019042.jpg"}
+{"image": "../coco/val2017/000000245513.jpg"}
+{"image": "../coco/val2017/000000341094.jpg"}

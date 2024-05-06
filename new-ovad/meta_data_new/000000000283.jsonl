@@ -1,0 +1,6 @@
+{"utterance": "There are brown fire hydrants or yellow stop signs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000255718.jpg", "../coco/val2017/000000454978.jpg"]}
+{"image": "../coco/val2017/000000255718.jpg"}
+{"image": "../coco/val2017/000000454978.jpg"}
+{"image": "../coco/val2017/000000417779.jpg"}
+{"image": "../coco/val2017/000000293071.jpg"}
+{"image": "../coco/val2017/000000095899.jpg"}

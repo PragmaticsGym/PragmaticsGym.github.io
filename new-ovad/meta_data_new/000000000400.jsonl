@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or unicolored trains in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000106281.jpg", "../coco/val2017/000000507473.jpg"]}
+{"image": "../coco/val2017/000000106281.jpg"}
+{"image": "../coco/val2017/000000507473.jpg"}
+{"image": "../coco/val2017/000000186624.jpg"}
+{"image": "../coco/val2017/000000492937.jpg"}
+{"image": "../coco/val2017/000000261061.jpg"}

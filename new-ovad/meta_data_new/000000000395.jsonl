@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored benchs or plain patterned surfboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000052507.jpg", "../coco/val2017/000000016249.jpg"]}
+{"image": "../coco/val2017/000000052507.jpg"}
+{"image": "../coco/val2017/000000016249.jpg"}
+{"image": "../coco/val2017/000000039785.jpg"}
+{"image": "../coco/val2017/000000015660.jpg"}
+{"image": "../coco/val2017/000000181816.jpg"}

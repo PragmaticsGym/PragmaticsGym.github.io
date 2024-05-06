@@ -1,0 +1,6 @@
+{"utterance": "There are black baseball gloves or yellow baseball bats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000197658.jpg", "../coco/val2017/000000086956.jpg"]}
+{"image": "../coco/val2017/000000197658.jpg"}
+{"image": "../coco/val2017/000000086956.jpg"}
+{"image": "../coco/val2017/000000072795.jpg"}
+{"image": "../coco/val2017/000000129945.jpg"}
+{"image": "../coco/val2017/000000254516.jpg"}

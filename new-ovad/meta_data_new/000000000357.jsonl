@@ -1,0 +1,6 @@
+{"utterance": "There are adult dogs or plain patterned boats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000126110.jpg", "../coco/val2017/000000148730.jpg"]}
+{"image": "../coco/val2017/000000126110.jpg"}
+{"image": "../coco/val2017/000000148730.jpg"}
+{"image": "../coco/val2017/000000489014.jpg"}
+{"image": "../coco/val2017/000000412240.jpg"}
+{"image": "../coco/val2017/000000160772.jpg"}

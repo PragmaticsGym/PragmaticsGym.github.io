@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned airplanes or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000187745.jpg", "../coco/val2017/000000154425.jpg"]}
+{"image": "../coco/val2017/000000187745.jpg"}
+{"image": "../coco/val2017/000000154425.jpg"}
+{"image": "../coco/val2017/000000099054.jpg"}
+{"image": "../coco/val2017/000000463037.jpg"}
+{"image": "../coco/val2017/000000180487.jpg"}

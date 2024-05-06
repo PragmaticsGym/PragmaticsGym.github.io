@@ -1,0 +1,6 @@
+{"utterance": "There are black suitcases or unicolored trucks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000190753.jpg", "../coco/val2017/000000126110.jpg"]}
+{"image": "../coco/val2017/000000190753.jpg"}
+{"image": "../coco/val2017/000000126110.jpg"}
+{"image": "../coco/val2017/000000579158.jpg"}
+{"image": "../coco/val2017/000000163314.jpg"}
+{"image": "../coco/val2017/000000046872.jpg"}

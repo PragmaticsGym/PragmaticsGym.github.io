@@ -1,0 +1,6 @@
+{"utterance": "There are lying skiss or plain patterned boats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000289417.jpg", "../coco/val2017/000000228436.jpg"]}
+{"image": "../coco/val2017/000000289417.jpg"}
+{"image": "../coco/val2017/000000228436.jpg"}
+{"image": "../coco/val2017/000000172935.jpg"}
+{"image": "../coco/val2017/000000129812.jpg"}
+{"image": "../coco/val2017/000000160772.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are reflective tvs or transparent vases in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000007818.jpg", "../coco/val2017/000000072813.jpg"]}
+{"image": "../coco/val2017/000000007818.jpg"}
+{"image": "../coco/val2017/000000072813.jpg"}
+{"image": "../coco/val2017/000000091615.jpg"}
+{"image": "../coco/val2017/000000512657.jpg"}
+{"image": "../coco/val2017/000000017379.jpg"}

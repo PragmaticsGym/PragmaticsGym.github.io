@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored chairs or lying beds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000542776.jpg", "../coco/val2017/000000293858.jpg"]}
+{"image": "../coco/val2017/000000542776.jpg"}
+{"image": "../coco/val2017/000000293858.jpg"}
+{"image": "../coco/val2017/000000001993.jpg"}
+{"image": "../coco/val2017/000000290843.jpg"}
+{"image": "../coco/val2017/000000242946.jpg"}

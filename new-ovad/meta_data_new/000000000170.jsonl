@@ -1,0 +1,6 @@
+{"utterance": "There are persons with curled hair or two-colored laptops in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000046031.jpg", "../coco/val2017/000000127263.jpg"]}
+{"image": "../coco/val2017/000000046031.jpg"}
+{"image": "../coco/val2017/000000127263.jpg"}
+{"image": "../coco/val2017/000000063740.jpg"}
+{"image": "../coco/val2017/000000324715.jpg"}
+{"image": "../coco/val2017/000000153011.jpg"}

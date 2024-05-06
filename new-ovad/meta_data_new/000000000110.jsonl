@@ -1,0 +1,6 @@
+{"utterance": "There are standing bicycles or unicolored trucks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000453841.jpg", "../coco/val2017/000000036844.jpg"]}
+{"image": "../coco/val2017/000000453841.jpg"}
+{"image": "../coco/val2017/000000036844.jpg"}
+{"image": "../coco/val2017/000000296649.jpg"}
+{"image": "../coco/val2017/000000082821.jpg"}
+{"image": "../coco/val2017/000000356612.jpg"}

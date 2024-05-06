@@ -1,0 +1,6 @@
+{"utterance": "There are red apples or yellow bananas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000457262.jpg", "../coco/val2017/000000158660.jpg"]}
+{"image": "../coco/val2017/000000457262.jpg"}
+{"image": "../coco/val2017/000000158660.jpg"}
+{"image": "../coco/val2017/000000272566.jpg"}
+{"image": "../coco/val2017/000000078959.jpg"}
+{"image": "../coco/val2017/000000192871.jpg"}

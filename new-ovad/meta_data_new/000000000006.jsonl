@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or unicolored sheeps in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000290592.jpg", "../coco/val2017/000000011051.jpg"]}
+{"image": "../coco/val2017/000000290592.jpg"}
+{"image": "../coco/val2017/000000011051.jpg"}
+{"image": "../coco/val2017/000000008690.jpg"}
+{"image": "../coco/val2017/000000066561.jpg"}
+{"image": "../coco/val2017/000000190637.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored trucks or standing airplanes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000338325.jpg", "../coco/val2017/000000158548.jpg"]}
+{"image": "../coco/val2017/000000338325.jpg"}
+{"image": "../coco/val2017/000000158548.jpg"}
+{"image": "../coco/val2017/000000272049.jpg"}
+{"image": "../coco/val2017/000000033114.jpg"}
+{"image": "../coco/val2017/000000356612.jpg"}

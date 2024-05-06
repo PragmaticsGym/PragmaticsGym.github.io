@@ -1,0 +1,6 @@
+{"utterance": "There are lying benchs or plain patterned skateboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000093717.jpg", "../coco/val2017/000000295713.jpg"]}
+{"image": "../coco/val2017/000000093717.jpg"}
+{"image": "../coco/val2017/000000295713.jpg"}
+{"image": "../coco/val2017/000000013546.jpg"}
+{"image": "../coco/val2017/000000243989.jpg"}
+{"image": "../coco/val2017/000000288685.jpg"}

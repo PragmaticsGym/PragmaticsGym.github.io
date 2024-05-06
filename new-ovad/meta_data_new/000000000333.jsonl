@@ -1,0 +1,6 @@
+{"utterance": "There are lettered surfboards or standing snowboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000380711.jpg", "../coco/val2017/000000341719.jpg"]}
+{"image": "../coco/val2017/000000380711.jpg"}
+{"image": "../coco/val2017/000000341719.jpg"}
+{"image": "../coco/val2017/000000529939.jpg"}
+{"image": "../coco/val2017/000000027972.jpg"}
+{"image": "../coco/val2017/000000044195.jpg"}

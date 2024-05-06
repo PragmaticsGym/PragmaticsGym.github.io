@@ -1,0 +1,6 @@
+{"utterance": "There are black bicycles or lying motorcycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000143556.jpg", "../coco/val2017/000000226903.jpg"]}
+{"image": "../coco/val2017/000000143556.jpg"}
+{"image": "../coco/val2017/000000226903.jpg"}
+{"image": "../coco/val2017/000000135410.jpg"}
+{"image": "../coco/val2017/000000507667.jpg"}
+{"image": "../coco/val2017/000000008899.jpg"}

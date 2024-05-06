@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or opaque frisbees in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000341828.jpg", "../coco/val2017/000000357459.jpg"]}
+{"image": "../coco/val2017/000000341828.jpg"}
+{"image": "../coco/val2017/000000357459.jpg"}
+{"image": "../coco/val2017/000000185250.jpg"}
+{"image": "../coco/val2017/000000315492.jpg"}
+{"image": "../coco/val2017/000000163562.jpg"}

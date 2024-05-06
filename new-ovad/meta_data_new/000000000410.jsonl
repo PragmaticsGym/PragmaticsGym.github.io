@@ -1,0 +1,6 @@
+{"utterance": "There are brown elephants or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000110638.jpg", "../coco/val2017/000000008021.jpg"]}
+{"image": "../coco/val2017/000000110638.jpg"}
+{"image": "../coco/val2017/000000008021.jpg"}
+{"image": "../coco/val2017/000000048504.jpg"}
+{"image": "../coco/val2017/000000384468.jpg"}
+{"image": "../coco/val2017/000000188592.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are standing persons or gray elephants in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000565624.jpg", "../coco/val2017/000000270474.jpg"]}
+{"image": "../coco/val2017/000000565624.jpg"}
+{"image": "../coco/val2017/000000270474.jpg"}
+{"image": "../coco/val2017/000000053624.jpg"}
+{"image": "../coco/val2017/000000166664.jpg"}
+{"image": "../coco/val2017/000000030828.jpg"}

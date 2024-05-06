@@ -1,0 +1,6 @@
+{"utterance": "There are white airplanes or unicolored cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000167540.jpg", "../coco/val2017/000000160012.jpg"]}
+{"image": "../coco/val2017/000000167540.jpg"}
+{"image": "../coco/val2017/000000160012.jpg"}
+{"image": "../coco/val2017/000000463037.jpg"}
+{"image": "../coco/val2017/000000187745.jpg"}
+{"image": "../coco/val2017/000000054967.jpg"}

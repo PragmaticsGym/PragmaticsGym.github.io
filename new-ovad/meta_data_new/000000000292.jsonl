@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned buss or plain patterned motorcycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000457848.jpg", "../coco/val2017/000000133819.jpg"]}
+{"image": "../coco/val2017/000000457848.jpg"}
+{"image": "../coco/val2017/000000133819.jpg"}
+{"image": "../coco/val2017/000000463730.jpg"}
+{"image": "../coco/val2017/000000144300.jpg"}
+{"image": "../coco/val2017/000000179265.jpg"}

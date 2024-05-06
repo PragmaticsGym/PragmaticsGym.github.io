@@ -1,0 +1,6 @@
+{"utterance": "There are lying couchs or plain patterned suitcases in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000031735.jpg", "../coco/val2017/000000026941.jpg"]}
+{"image": "../coco/val2017/000000031735.jpg"}
+{"image": "../coco/val2017/000000026941.jpg"}
+{"image": "../coco/val2017/000000112626.jpg"}
+{"image": "../coco/val2017/000000222317.jpg"}
+{"image": "../coco/val2017/000000034139.jpg"}

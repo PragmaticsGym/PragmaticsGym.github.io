@@ -1,0 +1,6 @@
+{"utterance": "There are black chairs or two-colored skateboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000035197.jpg", "../coco/val2017/000000325838.jpg"]}
+{"image": "../coco/val2017/000000035197.jpg"}
+{"image": "../coco/val2017/000000325838.jpg"}
+{"image": "../coco/val2017/000000257084.jpg"}
+{"image": "../coco/val2017/000000087476.jpg"}
+{"image": "../coco/val2017/000000473237.jpg"}

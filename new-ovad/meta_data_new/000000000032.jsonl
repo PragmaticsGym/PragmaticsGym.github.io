@@ -1,0 +1,6 @@
+{"utterance": "There are persons with straight hair or multicolored pizzas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000451571.jpg", "../coco/val2017/000000321333.jpg"]}
+{"image": "../coco/val2017/000000451571.jpg"}
+{"image": "../coco/val2017/000000321333.jpg"}
+{"image": "../coco/val2017/000000322163.jpg"}
+{"image": "../coco/val2017/000000163611.jpg"}
+{"image": "../coco/val2017/000000009378.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored keyboards or red cell phones in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000360951.jpg", "../coco/val2017/000000300039.jpg"]}
+{"image": "../coco/val2017/000000360951.jpg"}
+{"image": "../coco/val2017/000000300039.jpg"}
+{"image": "../coco/val2017/000000316015.jpg"}
+{"image": "../coco/val2017/000000363840.jpg"}
+{"image": "../coco/val2017/000000216277.jpg"}

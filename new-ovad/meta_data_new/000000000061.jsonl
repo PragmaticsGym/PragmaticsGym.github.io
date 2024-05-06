@@ -1,0 +1,6 @@
+{"utterance": "There are black scissorss or lying books in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000005001.jpg", "../coco/val2017/000000026564.jpg"]}
+{"image": "../coco/val2017/000000005001.jpg"}
+{"image": "../coco/val2017/000000026564.jpg"}
+{"image": "../coco/val2017/000000255483.jpg"}
+{"image": "../coco/val2017/000000311180.jpg"}
+{"image": "../coco/val2017/000000215778.jpg"}

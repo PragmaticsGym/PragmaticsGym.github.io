@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned motorcycles or unicolored apples in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000142324.jpg", "../coco/val2017/000000110999.jpg"]}
+{"image": "../coco/val2017/000000142324.jpg"}
+{"image": "../coco/val2017/000000110999.jpg"}
+{"image": "../coco/val2017/000000146667.jpg"}
+{"image": "../coco/val2017/000000149406.jpg"}
+{"image": "../coco/val2017/000000479596.jpg"}

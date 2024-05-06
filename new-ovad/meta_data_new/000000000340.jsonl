@@ -1,0 +1,6 @@
+{"utterance": "There are sitting dogs or tan potted plants in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000446522.jpg", "../coco/val2017/000000372260.jpg"]}
+{"image": "../coco/val2017/000000446522.jpg"}
+{"image": "../coco/val2017/000000372260.jpg"}
+{"image": "../coco/val2017/000000267300.jpg"}
+{"image": "../coco/val2017/000000575357.jpg"}
+{"image": "../coco/val2017/000000340175.jpg"}

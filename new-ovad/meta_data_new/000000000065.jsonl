@@ -1,0 +1,6 @@
+{"utterance": "There are red apples or reflective knifes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000562059.jpg", "../coco/val2017/000000002157.jpg"]}
+{"image": "../coco/val2017/000000562059.jpg"}
+{"image": "../coco/val2017/000000002157.jpg"}
+{"image": "../coco/val2017/000000066231.jpg"}
+{"image": "../coco/val2017/000000014226.jpg"}
+{"image": "../coco/val2017/000000130613.jpg"}

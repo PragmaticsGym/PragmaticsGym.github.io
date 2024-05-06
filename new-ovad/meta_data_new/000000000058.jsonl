@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned potted plants or opaque spoons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000562059.jpg", "../coco/val2017/000000248400.jpg"]}
+{"image": "../coco/val2017/000000562059.jpg"}
+{"image": "../coco/val2017/000000248400.jpg"}
+{"image": "../coco/val2017/000000131138.jpg"}
+{"image": "../coco/val2017/000000236721.jpg"}
+{"image": "../coco/val2017/000000267300.jpg"}

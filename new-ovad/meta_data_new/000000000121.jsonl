@@ -1,0 +1,6 @@
+{"utterance": "There are standing ovens or transparent wine glasss in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000182611.jpg", "../coco/val2017/000000425361.jpg"]}
+{"image": "../coco/val2017/000000182611.jpg"}
+{"image": "../coco/val2017/000000425361.jpg"}
+{"image": "../coco/val2017/000000519569.jpg"}
+{"image": "../coco/val2017/000000029640.jpg"}
+{"image": "../coco/val2017/000000213035.jpg"}

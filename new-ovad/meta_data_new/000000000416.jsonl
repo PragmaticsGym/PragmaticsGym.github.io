@@ -1,0 +1,6 @@
+{"utterance": "There are opaque cell phones or standing persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000180878.jpg", "../coco/val2017/000000024567.jpg"]}
+{"image": "../coco/val2017/000000180878.jpg"}
+{"image": "../coco/val2017/000000024567.jpg"}
+{"image": "../coco/val2017/000000213035.jpg"}
+{"image": "../coco/val2017/000000563882.jpg"}
+{"image": "../coco/val2017/000000181421.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored chairs or unicolored tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000181753.jpg", "../coco/val2017/000000316015.jpg"]}
+{"image": "../coco/val2017/000000181753.jpg"}
+{"image": "../coco/val2017/000000316015.jpg"}
+{"image": "../coco/val2017/000000189820.jpg"}
+{"image": "../coco/val2017/000000249129.jpg"}
+{"image": "../coco/val2017/000000302030.jpg"}

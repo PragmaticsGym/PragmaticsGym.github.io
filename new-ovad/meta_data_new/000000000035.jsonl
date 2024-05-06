@@ -1,0 +1,6 @@
+{"utterance": "There are gray keyboards or lying books in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000311789.jpg", "../coco/val2017/000000093353.jpg"]}
+{"image": "../coco/val2017/000000311789.jpg"}
+{"image": "../coco/val2017/000000093353.jpg"}
+{"image": "../coco/val2017/000000147415.jpg"}
+{"image": "../coco/val2017/000000042889.jpg"}
+{"image": "../coco/val2017/000000215778.jpg"}

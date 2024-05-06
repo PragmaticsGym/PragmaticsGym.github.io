@@ -1,0 +1,6 @@
+{"utterance": "There are standing bottles or opaque cars in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000309964.jpg", "../coco/val2017/000000150638.jpg"]}
+{"image": "../coco/val2017/000000309964.jpg"}
+{"image": "../coco/val2017/000000150638.jpg"}
+{"image": "../coco/val2017/000000054593.jpg"}
+{"image": "../coco/val2017/000000023272.jpg"}
+{"image": "../coco/val2017/000000460841.jpg"}

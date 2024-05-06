@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored baseball bats or blue bottles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000203931.jpg", "../coco/val2017/000000322163.jpg"]}
+{"image": "../coco/val2017/000000203931.jpg"}
+{"image": "../coco/val2017/000000322163.jpg"}
+{"image": "../coco/val2017/000000006471.jpg"}
+{"image": "../coco/val2017/000000188465.jpg"}
+{"image": "../coco/val2017/000000578922.jpg"}

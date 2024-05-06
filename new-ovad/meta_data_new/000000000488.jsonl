@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored bottles or gray toasters in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000232348.jpg", "../coco/val2017/000000173091.jpg"]}
+{"image": "../coco/val2017/000000232348.jpg"}
+{"image": "../coco/val2017/000000173091.jpg"}
+{"image": "../coco/val2017/000000066841.jpg"}
+{"image": "../coco/val2017/000000173008.jpg"}
+{"image": "../coco/val2017/000000026564.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are black toasters or transparent wine glasss in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000173008.jpg", "../coco/val2017/000000172571.jpg"]}
+{"image": "../coco/val2017/000000173008.jpg"}
+{"image": "../coco/val2017/000000172571.jpg"}
+{"image": "../coco/val2017/000000175364.jpg"}
+{"image": "../coco/val2017/000000135561.jpg"}
+{"image": "../coco/val2017/000000213035.jpg"}

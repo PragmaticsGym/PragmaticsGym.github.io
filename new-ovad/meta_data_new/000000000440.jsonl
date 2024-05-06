@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored microwaves or opaque ovens in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000030213.jpg", "../coco/val2017/000000319696.jpg"]}
+{"image": "../coco/val2017/000000030213.jpg"}
+{"image": "../coco/val2017/000000319696.jpg"}
+{"image": "../coco/val2017/000000222455.jpg"}
+{"image": "../coco/val2017/000000084241.jpg"}
+{"image": "../coco/val2017/000000091615.jpg"}

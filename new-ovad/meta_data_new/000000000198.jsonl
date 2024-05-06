@@ -1,0 +1,6 @@
+{"utterance": "There are brown cakes or neutral-minded persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000089670.jpg", "../coco/val2017/000000376307.jpg"]}
+{"image": "../coco/val2017/000000089670.jpg"}
+{"image": "../coco/val2017/000000376307.jpg"}
+{"image": "../coco/val2017/000000211825.jpg"}
+{"image": "../coco/val2017/000000180560.jpg"}
+{"image": "../coco/val2017/000000227491.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned bottles or black skateboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000087476.jpg", "../coco/val2017/000000346638.jpg"]}
+{"image": "../coco/val2017/000000087476.jpg"}
+{"image": "../coco/val2017/000000346638.jpg"}
+{"image": "../coco/val2017/000000572620.jpg"}
+{"image": "../coco/val2017/000000535306.jpg"}
+{"image": "../coco/val2017/000000520077.jpg"}

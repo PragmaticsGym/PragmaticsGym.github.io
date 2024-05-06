@@ -1,0 +1,6 @@
+{"utterance": "There are red stop signs or unicolored backpacks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000516677.jpg", "../coco/val2017/000000239843.jpg"]}
+{"image": "../coco/val2017/000000516677.jpg"}
+{"image": "../coco/val2017/000000239843.jpg"}
+{"image": "../coco/val2017/000000100723.jpg"}
+{"image": "../coco/val2017/000000286458.jpg"}
+{"image": "../coco/val2017/000000228771.jpg"}

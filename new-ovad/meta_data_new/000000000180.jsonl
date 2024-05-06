@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored microwaves or white refrigerators in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000160556.jpg", "../coco/val2017/000000036844.jpg"]}
+{"image": "../coco/val2017/000000160556.jpg"}
+{"image": "../coco/val2017/000000036844.jpg"}
+{"image": "../coco/val2017/000000068833.jpg"}
+{"image": "../coco/val2017/000000319696.jpg"}
+{"image": "../coco/val2017/000000007574.jpg"}

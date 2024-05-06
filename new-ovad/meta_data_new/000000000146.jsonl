@@ -1,0 +1,6 @@
+{"utterance": "There are transparent bottles or white refrigerators in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000446522.jpg", "../coco/val2017/000000336356.jpg"]}
+{"image": "../coco/val2017/000000446522.jpg"}
+{"image": "../coco/val2017/000000336356.jpg"}
+{"image": "../coco/val2017/000000030213.jpg"}
+{"image": "../coco/val2017/000000056127.jpg"}
+{"image": "../coco/val2017/000000079651.jpg"}

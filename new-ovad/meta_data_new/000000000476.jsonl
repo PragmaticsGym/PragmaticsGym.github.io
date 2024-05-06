@@ -1,0 +1,6 @@
+{"utterance": "There are brown dogs or opaque cups in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000222317.jpg", "../coco/val2017/000000035682.jpg"]}
+{"image": "../coco/val2017/000000222317.jpg"}
+{"image": "../coco/val2017/000000035682.jpg"}
+{"image": "../coco/val2017/000000279278.jpg"}
+{"image": "../coco/val2017/000000061108.jpg"}
+{"image": "../coco/val2017/000000345356.jpg"}

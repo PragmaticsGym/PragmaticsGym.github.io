@@ -1,0 +1,6 @@
+{"utterance": "There are black handbags or black backpacks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000280891.jpg", "../coco/val2017/000000516677.jpg"]}
+{"image": "../coco/val2017/000000280891.jpg"}
+{"image": "../coco/val2017/000000516677.jpg"}
+{"image": "../coco/val2017/000000303566.jpg"}
+{"image": "../coco/val2017/000000194875.jpg"}
+{"image": "../coco/val2017/000000193926.jpg"}

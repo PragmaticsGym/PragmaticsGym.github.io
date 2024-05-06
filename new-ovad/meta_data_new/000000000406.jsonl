@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored refrigerators or brown knifes in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000022705.jpg", "../coco/val2017/000000287667.jpg"]}
+{"image": "../coco/val2017/000000022705.jpg"}
+{"image": "../coco/val2017/000000287667.jpg"}
+{"image": "../coco/val2017/000000078266.jpg"}
+{"image": "../coco/val2017/000000446522.jpg"}
+{"image": "../coco/val2017/000000007991.jpg"}

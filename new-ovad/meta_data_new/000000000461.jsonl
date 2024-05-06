@@ -1,0 +1,6 @@
+{"utterance": "There are lying microwaves or gray birds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000444275.jpg", "../coco/val2017/000000123585.jpg"]}
+{"image": "../coco/val2017/000000444275.jpg"}
+{"image": "../coco/val2017/000000123585.jpg"}
+{"image": "../coco/val2017/000000159791.jpg"}
+{"image": "../coco/val2017/000000319696.jpg"}
+{"image": "../coco/val2017/000000015751.jpg"}

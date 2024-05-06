@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored backpacks or lying snowboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000044195.jpg", "../coco/val2017/000000549390.jpg"]}
+{"image": "../coco/val2017/000000044195.jpg"}
+{"image": "../coco/val2017/000000549390.jpg"}
+{"image": "../coco/val2017/000000326128.jpg"}
+{"image": "../coco/val2017/000000563349.jpg"}
+{"image": "../coco/val2017/000000030828.jpg"}

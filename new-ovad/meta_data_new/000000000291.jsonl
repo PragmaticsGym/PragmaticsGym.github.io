@@ -1,0 +1,6 @@
+{"utterance": "There are brown bears or gray birds in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000000285.jpg", "../coco/val2017/000000123585.jpg"]}
+{"image": "../coco/val2017/000000000285.jpg"}
+{"image": "../coco/val2017/000000123585.jpg"}
+{"image": "../coco/val2017/000000186422.jpg"}
+{"image": "../coco/val2017/000000308753.jpg"}
+{"image": "../coco/val2017/000000523811.jpg"}

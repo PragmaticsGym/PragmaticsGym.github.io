@@ -1,0 +1,6 @@
+{"utterance": "There are tan sandwichs or lying keyboards in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000250901.jpg", "../coco/val2017/000000046031.jpg"]}
+{"image": "../coco/val2017/000000250901.jpg"}
+{"image": "../coco/val2017/000000046031.jpg"}
+{"image": "../coco/val2017/000000197004.jpg"}
+{"image": "../coco/val2017/000000038678.jpg"}
+{"image": "../coco/val2017/000000301421.jpg"}

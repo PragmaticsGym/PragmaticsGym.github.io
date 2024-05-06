@@ -1,0 +1,6 @@
+{"utterance": "There are white remotes or unicolored chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000210032.jpg", "../coco/val2017/000000037670.jpg"]}
+{"image": "../coco/val2017/000000210032.jpg"}
+{"image": "../coco/val2017/000000037670.jpg"}
+{"image": "../coco/val2017/000000156924.jpg"}
+{"image": "../coco/val2017/000000092091.jpg"}
+{"image": "../coco/val2017/000000348481.jpg"}

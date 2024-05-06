@@ -1,0 +1,6 @@
+{"utterance": "There are standing benchs or black traffic lights in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000017905.jpg", "../coco/val2017/000000340175.jpg"]}
+{"image": "../coco/val2017/000000017905.jpg"}
+{"image": "../coco/val2017/000000340175.jpg"}
+{"image": "../coco/val2017/000000281179.jpg"}
+{"image": "../coco/val2017/000000430871.jpg"}
+{"image": "../coco/val2017/000000282046.jpg"}

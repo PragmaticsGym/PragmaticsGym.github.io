@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored refrigerators or standing microwaves in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000246968.jpg", "../coco/val2017/000000014038.jpg"]}
+{"image": "../coco/val2017/000000246968.jpg"}
+{"image": "../coco/val2017/000000014038.jpg"}
+{"image": "../coco/val2017/000000237928.jpg"}
+{"image": "../coco/val2017/000000109976.jpg"}
+{"image": "../coco/val2017/000000502732.jpg"}

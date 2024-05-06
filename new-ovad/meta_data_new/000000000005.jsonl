@@ -1,0 +1,6 @@
+{"utterance": "There are black teddy bears or standing chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000070229.jpg", "../coco/val2017/000000031620.jpg"]}
+{"image": "../coco/val2017/000000070229.jpg"}
+{"image": "../coco/val2017/000000031620.jpg"}
+{"image": "../coco/val2017/000000082180.jpg"}
+{"image": "../coco/val2017/000000012670.jpg"}
+{"image": "../coco/val2017/000000084477.jpg"}

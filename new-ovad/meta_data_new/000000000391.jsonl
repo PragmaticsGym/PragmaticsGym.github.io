@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored laptops or two-colored tvs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000136600.jpg", "../coco/val2017/000000187249.jpg"]}
+{"image": "../coco/val2017/000000136600.jpg"}
+{"image": "../coco/val2017/000000187249.jpg"}
+{"image": "../coco/val2017/000000046031.jpg"}
+{"image": "../coco/val2017/000000037740.jpg"}
+{"image": "../coco/val2017/000000131138.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned cars or happy persons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000390555.jpg", "../coco/val2017/000000126592.jpg"]}
+{"image": "../coco/val2017/000000390555.jpg"}
+{"image": "../coco/val2017/000000126592.jpg"}
+{"image": "../coco/val2017/000000491464.jpg"}
+{"image": "../coco/val2017/000000512657.jpg"}
+{"image": "../coco/val2017/000000507667.jpg"}

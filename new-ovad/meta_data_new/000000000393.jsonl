@@ -1,0 +1,6 @@
+{"utterance": "There are multicolored cakes or opaque cell phones in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000453040.jpg", "../coco/val2017/000000036660.jpg"]}
+{"image": "../coco/val2017/000000453040.jpg"}
+{"image": "../coco/val2017/000000036660.jpg"}
+{"image": "../coco/val2017/000000180878.jpg"}
+{"image": "../coco/val2017/000000253452.jpg"}
+{"image": "../coco/val2017/000000216277.jpg"}

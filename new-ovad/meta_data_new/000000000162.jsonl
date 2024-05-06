@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored tvs or red teddy bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000276921.jpg", "../coco/val2017/000000121586.jpg"]}
+{"image": "../coco/val2017/000000276921.jpg"}
+{"image": "../coco/val2017/000000121586.jpg"}
+{"image": "../coco/val2017/000000297085.jpg"}
+{"image": "../coco/val2017/000000050638.jpg"}
+{"image": "../coco/val2017/000000039477.jpg"}

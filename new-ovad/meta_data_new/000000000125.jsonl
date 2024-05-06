@@ -1,0 +1,6 @@
+{"utterance": "There are tan surfboards or tiled kites in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000116068.jpg", "../coco/val2017/000000142971.jpg"]}
+{"image": "../coco/val2017/000000116068.jpg"}
+{"image": "../coco/val2017/000000142971.jpg"}
+{"image": "../coco/val2017/000000477955.jpg"}
+{"image": "../coco/val2017/000000447314.jpg"}
+{"image": "../coco/val2017/000000252701.jpg"}

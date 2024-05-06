@@ -1,0 +1,6 @@
+{"utterance": "There are neutral-minded persons or standing chairs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000233033.jpg", "../coco/val2017/000000188465.jpg"]}
+{"image": "../coco/val2017/000000233033.jpg"}
+{"image": "../coco/val2017/000000188465.jpg"}
+{"image": "../coco/val2017/000000160864.jpg"}
+{"image": "../coco/val2017/000000158945.jpg"}
+{"image": "../coco/val2017/000000364102.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored birds or two-colored cows in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000315001.jpg", "../coco/val2017/000000118594.jpg"]}
+{"image": "../coco/val2017/000000315001.jpg"}
+{"image": "../coco/val2017/000000118594.jpg"}
+{"image": "../coco/val2017/000000166287.jpg"}
+{"image": "../coco/val2017/000000314034.jpg"}
+{"image": "../coco/val2017/000000507667.jpg"}

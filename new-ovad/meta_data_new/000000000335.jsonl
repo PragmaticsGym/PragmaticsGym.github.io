@@ -1,0 +1,6 @@
+{"utterance": "There are pink toothbrushs or adult cats in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000578922.jpg", "../coco/val2017/000000460841.jpg"]}
+{"image": "../coco/val2017/000000578922.jpg"}
+{"image": "../coco/val2017/000000460841.jpg"}
+{"image": "../coco/val2017/000000284623.jpg"}
+{"image": "../coco/val2017/000000218439.jpg"}
+{"image": "../coco/val2017/000000179392.jpg"}

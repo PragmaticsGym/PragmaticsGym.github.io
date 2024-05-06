@@ -1,0 +1,6 @@
+{"utterance": "There are adult persons or two-colored cell phones in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000180798.jpg", "../coco/val2017/000000201072.jpg"]}
+{"image": "../coco/val2017/000000180798.jpg"}
+{"image": "../coco/val2017/000000201072.jpg"}
+{"image": "../coco/val2017/000000216277.jpg"}
+{"image": "../coco/val2017/000000014038.jpg"}
+{"image": "../coco/val2017/000000285894.jpg"}

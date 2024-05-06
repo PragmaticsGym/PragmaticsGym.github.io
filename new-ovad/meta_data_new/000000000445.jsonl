@@ -1,0 +1,6 @@
+{"utterance": "There are reflective knifes or gray spoons in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000066841.jpg", "../coco/val2017/000000007991.jpg"]}
+{"image": "../coco/val2017/000000066841.jpg"}
+{"image": "../coco/val2017/000000007991.jpg"}
+{"image": "../coco/val2017/000000099039.jpg"}
+{"image": "../coco/val2017/000000349152.jpg"}
+{"image": "../coco/val2017/000000130613.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored knifes or multicolored donuts in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000345469.jpg", "../coco/val2017/000000116206.jpg"]}
+{"image": "../coco/val2017/000000345469.jpg"}
+{"image": "../coco/val2017/000000116206.jpg"}
+{"image": "../coco/val2017/000000349152.jpg"}
+{"image": "../coco/val2017/000000069224.jpg"}
+{"image": "../coco/val2017/000000287667.jpg"}

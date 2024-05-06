@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned toothbrushs or multicolored dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000544519.jpg", "../coco/val2017/000000392818.jpg"]}
+{"image": "../coco/val2017/000000544519.jpg"}
+{"image": "../coco/val2017/000000392818.jpg"}
+{"image": "../coco/val2017/000000309484.jpg"}
+{"image": "../coco/val2017/000000578922.jpg"}
+{"image": "../coco/val2017/000000089880.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are opaque motorcycles or lying umbrellas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000309964.jpg", "../coco/val2017/000000467511.jpg"]}
+{"image": "../coco/val2017/000000309964.jpg"}
+{"image": "../coco/val2017/000000467511.jpg"}
+{"image": "../coco/val2017/000000139099.jpg"}
+{"image": "../coco/val2017/000000289741.jpg"}
+{"image": "../coco/val2017/000000491213.jpg"}

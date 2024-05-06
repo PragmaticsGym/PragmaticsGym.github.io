@@ -1,0 +1,6 @@
+{"utterance": "There are green bananas or transparent bowls in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000535253.jpg", "../coco/val2017/000000562059.jpg"]}
+{"image": "../coco/val2017/000000535253.jpg"}
+{"image": "../coco/val2017/000000562059.jpg"}
+{"image": "../coco/val2017/000000236721.jpg"}
+{"image": "../coco/val2017/000000050149.jpg"}
+{"image": "../coco/val2017/000000157390.jpg"}

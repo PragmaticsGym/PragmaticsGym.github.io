@@ -1,0 +1,6 @@
+{"utterance": "There are plain patterned skiss or two-colored backpacks in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000032887.jpg", "../coco/val2017/000000197388.jpg"]}
+{"image": "../coco/val2017/000000032887.jpg"}
+{"image": "../coco/val2017/000000197388.jpg"}
+{"image": "../coco/val2017/000000451144.jpg"}
+{"image": "../coco/val2017/000000312237.jpg"}
+{"image": "../coco/val2017/000000327605.jpg"}

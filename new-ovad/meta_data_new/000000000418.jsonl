@@ -1,0 +1,6 @@
+{"utterance": "There are lying cars or white motorcycles in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000279887.jpg", "../coco/val2017/000000442456.jpg"]}
+{"image": "../coco/val2017/000000279887.jpg"}
+{"image": "../coco/val2017/000000442456.jpg"}
+{"image": "../coco/val2017/000000507667.jpg"}
+{"image": "../coco/val2017/000000007386.jpg"}
+{"image": "../coco/val2017/000000068093.jpg"}

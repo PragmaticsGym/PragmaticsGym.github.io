@@ -1,0 +1,6 @@
+{"utterance": "There are white surfboards or unicolored dogs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000210915.jpg", "../coco/val2017/000000401991.jpg"]}
+{"image": "../coco/val2017/000000210915.jpg"}
+{"image": "../coco/val2017/000000401991.jpg"}
+{"image": "../coco/val2017/000000273232.jpg"}
+{"image": "../coco/val2017/000000052507.jpg"}
+{"image": "../coco/val2017/000000131273.jpg"}

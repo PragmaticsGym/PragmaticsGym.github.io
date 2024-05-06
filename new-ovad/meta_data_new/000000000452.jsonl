@@ -1,0 +1,6 @@
+{"utterance": "There are unicolored bottles or unicolored toilets in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000176778.jpg", "../coco/val2017/000000156643.jpg"]}
+{"image": "../coco/val2017/000000176778.jpg"}
+{"image": "../coco/val2017/000000156643.jpg"}
+{"image": "../coco/val2017/000000090108.jpg"}
+{"image": "../coco/val2017/000000437392.jpg"}
+{"image": "../coco/val2017/000000080949.jpg"}

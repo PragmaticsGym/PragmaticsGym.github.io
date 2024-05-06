@@ -1,0 +1,6 @@
+{"utterance": "There are opaque cars or standing zebras in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000069106.jpg", "../coco/val2017/000000026204.jpg"]}
+{"image": "../coco/val2017/000000069106.jpg"}
+{"image": "../coco/val2017/000000026204.jpg"}
+{"image": "../coco/val2017/000000305695.jpg"}
+{"image": "../coco/val2017/000000025096.jpg"}
+{"image": "../coco/val2017/000000476119.jpg"}

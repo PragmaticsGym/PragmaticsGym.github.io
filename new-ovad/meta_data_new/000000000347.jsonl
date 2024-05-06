@@ -1,0 +1,6 @@
+{"utterance": "There are adult cats or red cell phones in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000333772.jpg", "../coco/val2017/000000016598.jpg"]}
+{"image": "../coco/val2017/000000333772.jpg"}
+{"image": "../coco/val2017/000000016598.jpg"}
+{"image": "../coco/val2017/000000316015.jpg"}
+{"image": "../coco/val2017/000000179392.jpg"}
+{"image": "../coco/val2017/000000001296.jpg"}

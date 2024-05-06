@@ -1,0 +1,6 @@
+{"utterance": "There are yellow tennis rackets or plain patterned teddy bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000078915.jpg", "../coco/val2017/000000189436.jpg"]}
+{"image": "../coco/val2017/000000078915.jpg"}
+{"image": "../coco/val2017/000000189436.jpg"}
+{"image": "../coco/val2017/000000463802.jpg"}
+{"image": "../coco/val2017/000000541123.jpg"}
+{"image": "../coco/val2017/000000207306.jpg"}

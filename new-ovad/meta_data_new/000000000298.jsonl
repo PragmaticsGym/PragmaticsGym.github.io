@@ -1,0 +1,6 @@
+{"utterance": "There are lying airplanes or white dining tables in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000044652.jpg", "../coco/val2017/000000182611.jpg"]}
+{"image": "../coco/val2017/000000044652.jpg"}
+{"image": "../coco/val2017/000000182611.jpg"}
+{"image": "../coco/val2017/000000039484.jpg"}
+{"image": "../coco/val2017/000000217060.jpg"}
+{"image": "../coco/val2017/000000218249.jpg"}

@@ -1,0 +1,6 @@
+{"utterance": "There are reflective forks or green sandwichs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000157418.jpg", "../coco/val2017/000000288762.jpg"]}
+{"image": "../coco/val2017/000000157418.jpg"}
+{"image": "../coco/val2017/000000288762.jpg"}
+{"image": "../coco/val2017/000000175535.jpg"}
+{"image": "../coco/val2017/000000226903.jpg"}
+{"image": "../coco/val2017/000000231097.jpg"}

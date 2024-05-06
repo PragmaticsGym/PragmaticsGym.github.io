@@ -1,0 +1,6 @@
+{"utterance": "There are black keyboards or two-colored sandwichs in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000157601.jpg", "../coco/val2017/000000063740.jpg"]}
+{"image": "../coco/val2017/000000157601.jpg"}
+{"image": "../coco/val2017/000000063740.jpg"}
+{"image": "../coco/val2017/000000197004.jpg"}
+{"image": "../coco/val2017/000000046463.jpg"}
+{"image": "../coco/val2017/000000053909.jpg"}

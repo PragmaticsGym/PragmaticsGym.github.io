@@ -1,0 +1,6 @@
+{"utterance": "There are two-colored birds or standing bears in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000341094.jpg", "../coco/val2017/000000119233.jpg"]}
+{"image": "../coco/val2017/000000341094.jpg"}
+{"image": "../coco/val2017/000000119233.jpg"}
+{"image": "../coco/val2017/000000572517.jpg"}
+{"image": "../coco/val2017/000000205776.jpg"}
+{"image": "../coco/val2017/000000229997.jpg"}

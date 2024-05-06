@@ -1,0 +1,6 @@
+{"utterance": "There are black backpacks or multicolored umbrellas in the images", "type": "direct contextual cancellation", "referents": ["../coco/val2017/000000360960.jpg", "../coco/val2017/000000030828.jpg"]}
+{"image": "../coco/val2017/000000360960.jpg"}
+{"image": "../coco/val2017/000000030828.jpg"}
+{"image": "../coco/val2017/000000143961.jpg"}
+{"image": "../coco/val2017/000000550349.jpg"}
+{"image": "../coco/val2017/000000065288.jpg"}
