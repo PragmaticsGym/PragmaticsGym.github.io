@@ -1,0 +1,4 @@
+{"utterance": "Not wearable.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00026727.JPEG"]}
+{"image": "ILSVRC2012_val_00026727.JPEG", "category": "wooden spoon"}
+{"image": "ILSVRC2012_val_00007495.JPEG", "category": "seat belt, seatbelt"}
+{"image": "ILSVRC2012_val_00049767.JPEG", "category": "mortarboard"}

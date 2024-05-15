@@ -1,0 +1,4 @@
+{"utterance": "Not lakeside.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00001320.JPEG"]}
+{"image": "ILSVRC2012_val_00001320.JPEG", "category": "seashore, coast, seacoast, sea-coast"}
+{"image": "ILSVRC2012_val_00003311.JPEG", "category": "lakeside, lakeshore"}
+{"image": "ILSVRC2012_val_00035554.JPEG", "category": "artichoke, globe artichoke"}

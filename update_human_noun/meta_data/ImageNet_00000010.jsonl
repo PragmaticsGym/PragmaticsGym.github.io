@@ -1,0 +1,4 @@
+{"utterance": "Not shark.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00042245.JPEG"]}
+{"image": "ILSVRC2012_val_00042245.JPEG", "category": "electric ray, crampfish, numbfish, torpedo"}
+{"image": "ILSVRC2012_val_00007405.JPEG", "category": "hammerhead, hammerhead shark"}
+{"image": "ILSVRC2012_val_00032939.JPEG", "category": "guacamole"}

@@ -1,0 +1,4 @@
+{"utterance": "Not board.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00020897.JPEG"]}
+{"image": "ILSVRC2012_val_00020897.JPEG", "category": "wooden spoon"}
+{"image": "ILSVRC2012_val_00002156.JPEG", "category": "scoreboard"}
+{"image": "ILSVRC2012_val_00008865.JPEG", "category": "scoreboard"}

@@ -1,0 +1,4 @@
+{"utterance": "Not hunting dog.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00039730.JPEG"]}
+{"image": "ILSVRC2012_val_00039730.JPEG", "category": "Great Pyrenees"}
+{"image": "ILSVRC2012_val_00038438.JPEG", "category": "Italian greyhound"}
+{"image": "ILSVRC2012_val_00040796.JPEG", "category": "mushroom"}

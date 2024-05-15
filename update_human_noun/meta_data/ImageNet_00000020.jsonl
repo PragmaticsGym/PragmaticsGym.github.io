@@ -1,0 +1,4 @@
+{"utterance": "Not craft.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00026407.JPEG"]}
+{"image": "ILSVRC2012_val_00026407.JPEG", "category": "stage"}
+{"image": "ILSVRC2012_val_00043876.JPEG", "category": "wreck"}
+{"image": "ILSVRC2012_val_00005822.JPEG", "category": "space shuttle"}

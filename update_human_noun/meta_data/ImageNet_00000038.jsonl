@@ -1,0 +1,4 @@
+{"utterance": "Not pepper.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00025282.JPEG"]}
+{"image": "ILSVRC2012_val_00025282.JPEG", "category": "artichoke, globe artichoke"}
+{"image": "ILSVRC2012_val_00011410.JPEG", "category": "bell pepper"}
+{"image": "ILSVRC2012_val_00003536.JPEG", "category": "bell pepper"}

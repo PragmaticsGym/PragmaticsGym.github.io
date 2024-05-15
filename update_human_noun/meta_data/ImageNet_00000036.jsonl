@@ -1,0 +1,4 @@
+{"utterance": "Not aquatic mammal.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00008049.JPEG"]}
+{"image": "ILSVRC2012_val_00008049.JPEG", "category": "great grey owl, great gray owl, Strix nebulosa"}
+{"image": "ILSVRC2012_val_00012176.JPEG", "category": "sea lion"}
+{"image": "ILSVRC2012_val_00022669.JPEG", "category": "dugong, Dugong dugon"}

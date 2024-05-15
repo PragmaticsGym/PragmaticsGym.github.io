@@ -1,0 +1,4 @@
+{"utterance": "Not sweet.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00044260.JPEG"]}
+{"image": "ILSVRC2012_val_00044260.JPEG", "category": "meat loaf, meatloaf"}
+{"image": "ILSVRC2012_val_00036446.JPEG", "category": "trifle"}
+{"image": "ILSVRC2012_val_00033074.JPEG", "category": "ice lolly, lolly, lollipop, popsicle"}

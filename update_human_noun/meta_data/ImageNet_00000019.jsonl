@@ -1,0 +1,4 @@
+{"utterance": "Not insect.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00003308.JPEG"]}
+{"image": "ILSVRC2012_val_00003308.JPEG", "category": "fiddler crab"}
+{"image": "ILSVRC2012_val_00000125.JPEG", "category": "grasshopper, hopper"}
+{"image": "ILSVRC2012_val_00023444.JPEG", "category": "guacamole"}

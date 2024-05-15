@@ -1,0 +1,4 @@
+{"utterance": "Not Siamese cat.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00000130.JPEG"]}
+{"image": "ILSVRC2012_val_00000130.JPEG", "category": "Persian cat"}
+{"image": "ILSVRC2012_val_00012173.JPEG", "category": "Siamese cat, Siamese"}
+{"image": "ILSVRC2012_val_00006602.JPEG", "category": "consomme"}

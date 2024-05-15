@@ -1,0 +1,4 @@
+{"utterance": "Not household appliance.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00023181.JPEG"]}
+{"image": "ILSVRC2012_val_00023181.JPEG", "category": "rain barrel"}
+{"image": "ILSVRC2012_val_00021421.JPEG", "category": "dishwasher, dish washer, dishwashing machine"}
+{"image": "ILSVRC2012_val_00044218.JPEG", "category": "dishwasher, dish washer, dishwashing machine"}

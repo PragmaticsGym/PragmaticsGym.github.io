@@ -1,0 +1,4 @@
+{"utterance": "Not main course.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00045723.JPEG"]}
+{"image": "ILSVRC2012_val_00045723.JPEG", "category": "burrito"}
+{"image": "ILSVRC2012_val_00024184.JPEG", "category": "plate"}
+{"image": "ILSVRC2012_val_00005376.JPEG", "category": "plate"}

@@ -1,0 +1,4 @@
+{"utterance": "Not dome.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00027772.JPEG"]}
+{"image": "ILSVRC2012_val_00027772.JPEG", "category": "tile roof"}
+{"image": "ILSVRC2012_val_00049492.JPEG", "category": "dome"}
+{"image": "ILSVRC2012_val_00003764.JPEG", "category": "meat loaf, meatloaf"}

@@ -1,0 +1,4 @@
+{"utterance": "Not dessert.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00010606.JPEG"]}
+{"image": "ILSVRC2012_val_00010606.JPEG", "category": "potpie"}
+{"image": "ILSVRC2012_val_00002619.JPEG", "category": "ice lolly, lolly, lollipop, popsicle"}
+{"image": "ILSVRC2012_val_00006755.JPEG", "category": "trifle"}

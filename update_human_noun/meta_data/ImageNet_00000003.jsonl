@@ -1,0 +1,4 @@
+{"utterance": "Not scorpion.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00046868.JPEG"]}
+{"image": "ILSVRC2012_val_00046868.JPEG", "category": "tick"}
+{"image": "ILSVRC2012_val_00001007.JPEG", "category": "scorpion"}
+{"image": "ILSVRC2012_val_00049154.JPEG", "category": "hot pot, hotpot"}

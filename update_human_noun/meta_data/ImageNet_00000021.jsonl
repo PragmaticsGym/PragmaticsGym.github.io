@@ -1,0 +1,4 @@
+{"utterance": "Not insect.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00003392.JPEG"]}
+{"image": "ILSVRC2012_val_00003392.JPEG", "category": "brain coral"}
+{"image": "ILSVRC2012_val_00020657.JPEG", "category": "bee"}
+{"image": "ILSVRC2012_val_00002027.JPEG", "category": "lacewing, lacewing fly"}

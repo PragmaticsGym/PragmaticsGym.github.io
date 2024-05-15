@@ -1,0 +1,4 @@
+{"utterance": "Not squash.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00027571.JPEG"]}
+{"image": "ILSVRC2012_val_00027571.JPEG", "category": "bell pepper"}
+{"image": "ILSVRC2012_val_00042453.JPEG", "category": "acorn squash"}
+{"image": "ILSVRC2012_val_00006926.JPEG", "category": "puck, hockey puck"}

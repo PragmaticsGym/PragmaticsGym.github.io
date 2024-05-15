@@ -1,0 +1,4 @@
+{"utterance": "Not frozen dessert.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00049211.JPEG"]}
+{"image": "ILSVRC2012_val_00049211.JPEG", "category": "plate"}
+{"image": "ILSVRC2012_val_00032216.JPEG", "category": "ice lolly, lolly, lollipop, popsicle"}
+{"image": "ILSVRC2012_val_00031158.JPEG", "category": "ice cream, icecream"}

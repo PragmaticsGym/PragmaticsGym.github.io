@@ -1,0 +1,4 @@
+{"utterance": "Not African grey.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00014405.JPEG"]}
+{"image": "ILSVRC2012_val_00014405.JPEG", "category": "mushroom"}
+{"image": "ILSVRC2012_val_00007591.JPEG", "category": "African grey, African gray, Psittacus erithacus"}
+{"image": "ILSVRC2012_val_00013220.JPEG", "category": "African grey, African gray, Psittacus erithacus"}

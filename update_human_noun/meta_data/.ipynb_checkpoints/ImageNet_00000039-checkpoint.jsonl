@@ -1,0 +1,4 @@
+{"utterance": "Not ice lolly.", "type": "indirect contextual cancellation", "referents": ["ILSVRC2012_val_00040577.JPEG"]}
+{"image": "ILSVRC2012_val_00040577.JPEG", "category": "trifle"}
+{"image": "ILSVRC2012_val_00023996.JPEG", "category": "ice lolly, lolly, lollipop, popsicle"}
+{"image": "ILSVRC2012_val_00018588.JPEG", "category": "ice lolly, lolly, lollipop, popsicle"}

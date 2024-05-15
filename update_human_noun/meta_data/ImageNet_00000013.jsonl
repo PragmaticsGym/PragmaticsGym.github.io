@@ -1,0 +1,4 @@
+{"utterance": "Not insect.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00031723.JPEG"]}
+{"image": "ILSVRC2012_val_00031723.JPEG", "category": "trilobite"}
+{"image": "ILSVRC2012_val_00027844.JPEG", "category": "leafhopper"}
+{"image": "ILSVRC2012_val_00005608.JPEG", "category": "geyser"}

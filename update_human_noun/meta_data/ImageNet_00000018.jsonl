@@ -1,0 +1,4 @@
+{"utterance": "Not natural spring.", "type": "indirect implicature", "referents": ["ILSVRC2012_val_00002585.JPEG"]}
+{"image": "ILSVRC2012_val_00002585.JPEG", "category": "cliff, drop, drop-off"}
+{"image": "ILSVRC2012_val_00037151.JPEG", "category": "geyser"}
+{"image": "ILSVRC2012_val_00006067.JPEG", "category": "espresso"}
