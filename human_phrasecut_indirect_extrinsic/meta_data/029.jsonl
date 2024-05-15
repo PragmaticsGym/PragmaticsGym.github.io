@@ -1,4 +1,4 @@
-{"referent": ["087.png"], "utterance": "Not all greens are in sandwich", "type": "contextual cancellation"}
-{"image_filename": "087.png"}
-{"image_filename": "088.png"}
-{"image_filename": "089.png"}
+{"referent": ["000087.png"], "utterance": "Not all fire trucks are in the room", "type": "contextual cancellation"}
+{"image": "087.png", "image_index": 87}
+{"image": "088.png", "image_index": 88}
+{"image": "089.png", "image_index": 89}

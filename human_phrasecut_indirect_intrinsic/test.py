@@ -71,6 +71,9 @@ def main():
                 if "image_filename" in item:
                     image_filename = item['image_filename']
                     images.append(os.path.join("./images", image_filename))
+                elif 'image' in item:
+                    image_filename = item['image']
+                    images.append(os.path.join("./images", image_filename))
                 if "utterance" in item:
                     utterance = item["utterance"].replace("novel ", "")
                     impli_type = item["type"]

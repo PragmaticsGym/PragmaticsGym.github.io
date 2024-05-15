@@ -1,4 +1,4 @@
-{"referent": ["084.png"], "utterance": "Not all machines are video game machines", "type": "contextual cancellation"}
-{"image_filename": "084.png"}
-{"image_filename": "085.png"}
-{"image_filename": "086.png"}
+{"referent": ["000084.png"], "utterance": "Not all refrigerators are white", "type": "contextual cancellation"}
+{"image": "084.png", "image_index": 84}
+{"image": "085.png", "image_index": 85}
+{"image": "086.png", "image_index": 86}

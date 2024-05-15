@@ -1,4 +1,4 @@
-{"referent": ["069.png"], "utterance": "Not all skirts are black", "type": "contextual cancellation"}
-{"image_filename": "069.png"}
-{"image_filename": "070.png"}
-{"image_filename": "071.png"}
+{"referent": ["000069.png"], "utterance": "Not all fishes are green", "type": "contextual cancellation"}
+{"image": "069.png", "image_index": 69}
+{"image": "070.png", "image_index": 70}
+{"image": "071.png", "image_index": 71}
