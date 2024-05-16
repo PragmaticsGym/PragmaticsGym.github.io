@@ -1,0 +1,869 @@
+<html>
+<head>
+<title>Quantifier Implicature, 200</title>
+<style>
+td {vertical-align:top;padding:5px}
+pre {white-space: pre-wrap;}
+</style>
+</head>
+<body>
+<h1>Quantifier Implicature, 200</h1>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+></script>
+<script>
+function frameMove(elem, offset) {
+    elem = $(elem);
+    window.elem = elem;
+    data = JSON.parse(elem.parent().find(".data").html());
+    index = parseInt(elem.parent().find(".index").val());
+
+    nextIndex = index + offset;
+    if (nextIndex < 0) nextIndex = 0;
+    if (nextIndex >= data.length) nextIndex = data.length - 1;
+
+    elem.parent().find(".index").val(nextIndex);
+    if ("image" in data[nextIndex]) {
+        elem.parent().find(".image").attr("src", data[nextIndex]["image"][0]).attr("alt", data[nextIndex]["image"][1]);
+    } else {
+        elem.parent().find(".text").html(data[nextIndex]["text"]);
+    }
+
+    if ("info" in data[nextIndex]) {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString() + " :: " + data[nextIndex]["info"]);
+    } else {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString());
+    }
+}
+</script>
+    
+<style>
+.table0_column_text {  }
+.table0_td_text {  }
+.table0_column_text1 {  }
+.table0_td_text1 {  }
+.table0_column_image1 {  }
+.table0_td_image1 {  }
+.table0_column_image2 {  }
+.table0_td_image2 {  }
+.table0_column_image3 {  }
+.table0_td_image3 {  }
+.table0_column_answer {  }
+.table0_td_answer {  }
+</style>
+<h3>In this reference game, the speaker will generate a statement to describe the referent image, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical object index.</h3>
+<table>
+<tr>
+  <td><b>Text</b></td>
+  <td><b>ID</b></td>
+  <td><b>Image 1</b></td>
+  <td><b>Image 2</b></td>
+  <td><b>Image 3</b></td>
+  <td><b>Answer</b></td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small blue rubber cylinders that have some small blue metal cubes on the right of them
+  </td>
+  <td class="table0_td_text1">
+    0
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000074.png" alt="CLEVR_000074.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000073.png" alt="CLEVR_000073.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000072.png" alt="CLEVR_000072.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large rubber cubes that have some small rubber cylinders behind them
+  </td>
+  <td class="table0_td_text1">
+    1
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000100.png" alt="CLEVR_000100.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000101.png" alt="CLEVR_000101.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000099.png" alt="CLEVR_000099.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small red metal cylinders that have some small green metal cubes in front of them
+  </td>
+  <td class="table0_td_text1">
+    2
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000103.png" alt="CLEVR_000103.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000102.png" alt="CLEVR_000102.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000104.png" alt="CLEVR_000104.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small red rubber spheres that have some small blue rubber cubes on the right of them
+  </td>
+  <td class="table0_td_text1">
+    3
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000005.png" alt="CLEVR_000005.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000003.png" alt="CLEVR_000003.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000004.png" alt="CLEVR_000004.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some red rubber cylinders that have some gray metal cubes on the left of them
+  </td>
+  <td class="table0_td_text1">
+    4
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000010.png" alt="CLEVR_000010.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000011.png" alt="CLEVR_000011.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000009.png" alt="CLEVR_000009.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some gray metal cubes that have some red rubber spheres behind them
+  </td>
+  <td class="table0_td_text1">
+    5
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000032.png" alt="CLEVR_000032.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000030.png" alt="CLEVR_000030.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000031.png" alt="CLEVR_000031.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large rubber cubes that have some large metal cylinders behind them
+  </td>
+  <td class="table0_td_text1">
+    6
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000052.png" alt="CLEVR_000052.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000051.png" alt="CLEVR_000051.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000053.png" alt="CLEVR_000053.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some metal spheres that have some rubber cubes in front of them
+  </td>
+  <td class="table0_td_text1">
+    7
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000029.png" alt="CLEVR_000029.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000028.png" alt="CLEVR_000028.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000027.png" alt="CLEVR_000027.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some metal cylinders that have some metal spheres behind them
+  </td>
+  <td class="table0_td_text1">
+    8
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000107.png" alt="CLEVR_000107.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000106.png" alt="CLEVR_000106.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000105.png" alt="CLEVR_000105.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small red metal cylinders that have some small green metal cubes on the left of them
+  </td>
+  <td class="table0_td_text1">
+    9
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000110.png" alt="CLEVR_000110.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000109.png" alt="CLEVR_000109.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000108.png" alt="CLEVR_000108.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large rubber cubes that have some small rubber cylinders on the left of them
+  </td>
+  <td class="table0_td_text1">
+    10
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000016.png" alt="CLEVR_000016.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000017.png" alt="CLEVR_000017.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000015.png" alt="CLEVR_000015.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small gray rubber cubes that have some small yellow rubber cylinders behind them
+  </td>
+  <td class="table0_td_text1">
+    11
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000076.png" alt="CLEVR_000076.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000077.png" alt="CLEVR_000077.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000075.png" alt="CLEVR_000075.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some purple cylinders that have some gray spheres behind them
+  </td>
+  <td class="table0_td_text1">
+    12
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000082.png" alt="CLEVR_000082.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000083.png" alt="CLEVR_000083.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000081.png" alt="CLEVR_000081.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small yellow cubes that have some small purple spheres in front of them
+  </td>
+  <td class="table0_td_text1">
+    13
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000111.png" alt="CLEVR_000111.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000112.png" alt="CLEVR_000112.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000113.png" alt="CLEVR_000113.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small blue cylinders that have some large blue spheres behind them
+  </td>
+  <td class="table0_td_text1">
+    14
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000089.png" alt="CLEVR_000089.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000087.png" alt="CLEVR_000087.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000088.png" alt="CLEVR_000088.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some spheres that have some cubes behind them
+  </td>
+  <td class="table0_td_text1">
+    15
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000117.png" alt="CLEVR_000117.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000118.png" alt="CLEVR_000118.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000119.png" alt="CLEVR_000119.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some red rubber cylinders that have some gray metal cubes on the left of them
+  </td>
+  <td class="table0_td_text1">
+    16
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000066.png" alt="CLEVR_000066.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000068.png" alt="CLEVR_000068.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000067.png" alt="CLEVR_000067.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small gray rubber cubes that have some small yellow rubber cylinders on the left of them
+  </td>
+  <td class="table0_td_text1">
+    17
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000008.png" alt="CLEVR_000008.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000006.png" alt="CLEVR_000006.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000007.png" alt="CLEVR_000007.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small blue rubber cylinders that have some small blue metal cubes on the left of them
+  </td>
+  <td class="table0_td_text1">
+    18
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000021.png" alt="CLEVR_000021.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000022.png" alt="CLEVR_000022.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000023.png" alt="CLEVR_000023.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small red metal cylinders that have some large green metal cubes on the right of them
+  </td>
+  <td class="table0_td_text1">
+    19
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000041.png" alt="CLEVR_000041.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000039.png" alt="CLEVR_000039.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000040.png" alt="CLEVR_000040.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some cubes that have some spheres behind them
+  </td>
+  <td class="table0_td_text1">
+    20
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000057.png" alt="CLEVR_000057.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000059.png" alt="CLEVR_000059.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000058.png" alt="CLEVR_000058.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some spheres that have some cubes on the right of them
+  </td>
+  <td class="table0_td_text1">
+    21
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000013.png" alt="CLEVR_000013.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000014.png" alt="CLEVR_000014.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000012.png" alt="CLEVR_000012.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large rubber cubes that have some large metal cylinders in front of them
+  </td>
+  <td class="table0_td_text1">
+    22
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000069.png" alt="CLEVR_000069.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000071.png" alt="CLEVR_000071.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000070.png" alt="CLEVR_000070.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large rubber cubes that have some large metal cylinders on the right of them
+  </td>
+  <td class="table0_td_text1">
+    23
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000116.png" alt="CLEVR_000116.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000115.png" alt="CLEVR_000115.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000114.png" alt="CLEVR_000114.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large cylinders that have some large spheres behind them
+  </td>
+  <td class="table0_td_text1">
+    24
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000001.png" alt="CLEVR_000001.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000002.png" alt="CLEVR_000002.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000000.png" alt="CLEVR_000000.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some green rubber cubes that have some blue metal spheres behind them
+  </td>
+  <td class="table0_td_text1">
+    25
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000048.png" alt="CLEVR_000048.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000050.png" alt="CLEVR_000050.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000049.png" alt="CLEVR_000049.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small blue cylinders that have some large blue spheres on the left of them
+  </td>
+  <td class="table0_td_text1">
+    26
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000036.png" alt="CLEVR_000036.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000037.png" alt="CLEVR_000037.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000038.png" alt="CLEVR_000038.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large cylinders that have some large spheres on the right of them
+  </td>
+  <td class="table0_td_text1">
+    27
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000097.png" alt="CLEVR_000097.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000096.png" alt="CLEVR_000096.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000098.png" alt="CLEVR_000098.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some cubes that have some spheres on the left of them
+  </td>
+  <td class="table0_td_text1">
+    28
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000079.png" alt="CLEVR_000079.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000080.png" alt="CLEVR_000080.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000078.png" alt="CLEVR_000078.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some large rubber cubes that have some large metal cylinders on the left of them
+  </td>
+  <td class="table0_td_text1">
+    29
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000024.png" alt="CLEVR_000024.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000025.png" alt="CLEVR_000025.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000026.png" alt="CLEVR_000026.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some cubes that have some spheres on the right of them
+  </td>
+  <td class="table0_td_text1">
+    30
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000034.png" alt="CLEVR_000034.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000033.png" alt="CLEVR_000033.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000035.png" alt="CLEVR_000035.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some spheres that have some cylinders in front of them
+  </td>
+  <td class="table0_td_text1">
+    31
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000061.png" alt="CLEVR_000061.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000062.png" alt="CLEVR_000062.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000060.png" alt="CLEVR_000060.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small yellow cubes that have some small purple spheres in front of them
+  </td>
+  <td class="table0_td_text1">
+    32
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000043.png" alt="CLEVR_000043.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000044.png" alt="CLEVR_000044.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000042.png" alt="CLEVR_000042.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small blue rubber cylinders that have some small blue metal cubes behind them
+  </td>
+  <td class="table0_td_text1">
+    33
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000090.png" alt="CLEVR_000090.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000092.png" alt="CLEVR_000092.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000091.png" alt="CLEVR_000091.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some spheres that have some cylinders on the right of them
+  </td>
+  <td class="table0_td_text1">
+    34
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000063.png" alt="CLEVR_000063.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000065.png" alt="CLEVR_000065.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000064.png" alt="CLEVR_000064.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some green rubber cubes that have some blue metal spheres on the right of them
+  </td>
+  <td class="table0_td_text1">
+    35
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000020.png" alt="CLEVR_000020.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000018.png" alt="CLEVR_000018.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000019.png" alt="CLEVR_000019.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small yellow cubes that have some small purple spheres on the right of them
+  </td>
+  <td class="table0_td_text1">
+    36
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000055.png" alt="CLEVR_000055.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000056.png" alt="CLEVR_000056.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000054.png" alt="CLEVR_000054.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 3<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some gray metal cubes that have some red rubber spheres on the right of them
+  </td>
+  <td class="table0_td_text1">
+    37
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000093.png" alt="CLEVR_000093.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000095.png" alt="CLEVR_000095.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000094.png" alt="CLEVR_000094.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 1<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some spheres that have some cubes behind them
+  </td>
+  <td class="table0_td_text1">
+    38
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000047.png" alt="CLEVR_000047.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000045.png" alt="CLEVR_000045.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000046.png" alt="CLEVR_000046.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> embedded implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Utterance:</b> There are some small red metal cylinders that have some large green metal cubes in front of them
+  </td>
+  <td class="table0_td_text1">
+    39
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../SoMs/CLEVR_000086.png" alt="CLEVR_000086.png" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../SoMs/CLEVR_000084.png" alt="CLEVR_000084.png" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../SoMs/CLEVR_000085.png" alt="CLEVR_000085.png" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referent:</b> Image 2<br><b>Type: </b> contextual cancellation
+  </td>
+</tr>
+</table>
+</body>
+</html>
