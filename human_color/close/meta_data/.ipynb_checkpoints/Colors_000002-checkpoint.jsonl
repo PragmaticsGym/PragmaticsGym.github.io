@@ -1,0 +1,4 @@
+{"utterance": "target is the green that is not lime green", "type": "close", "referent": ["Colors_000006.png"], "integer_outcome": 1, "listener_pred": "target", "game_id": "8782-f"}
+{"image_filename": "Colors_000006.png"}
+{"image_filename": "Colors_000007.png"}
+{"image_filename": "Colors_000008.png"}

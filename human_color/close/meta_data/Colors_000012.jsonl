@@ -1,4 +1,4 @@
-{"utterance": "Click the darkest color.", "type": "close", "referent": ["Colors_000036.png"], "integer_outcome": 0, "listener_pred": "distr1", "game_id": "0895-b"}
+{"utterance": "more like grass color", "type": "close", "referent": ["Colors_000036.png"], "integer_outcome": 1, "listener_pred": "target", "game_id": "8994-b"}
 {"image_filename": "Colors_000036.png"}
 {"image_filename": "Colors_000037.png"}
 {"image_filename": "Colors_000038.png"}
