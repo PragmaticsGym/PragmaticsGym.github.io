@@ -1,4 +1,4 @@
-{"referent": ["45.png"], "utterance": "Some sheep are wearing pink", "type": "direct implicature"}
-{"image_filename": "45.png"}
-{"image_filename": "46.png"}
-{"image_filename": "47.png"}
+{"referent": ["045.png"], "utterance": "Some people are walking in the city", "type": ["045.png"]}
+{"image_filename": "045.png"}
+{"image_filename": "046.png"}
+{"image_filename": "047.png"}

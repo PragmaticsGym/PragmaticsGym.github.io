@@ -1,4 +1,4 @@
-{"referent": ["81.png"], "utterance": "Some boys are on the bench", "type": "contextual cancellation"}
-{"image_filename": "81.png"}
-{"image_filename": "82.png"}
-{"image_filename": "83.png"}
+{"referent": ["081.png"], "utterance": "Some planes are flying in sky", "type": ["081.png"]}
+{"image_filename": "081.png"}
+{"image_filename": "082.png"}
+{"image_filename": "083.png"}

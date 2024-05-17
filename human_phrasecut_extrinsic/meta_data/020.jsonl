@@ -1,4 +1,4 @@
-{"referent": ["60.png"], "utterance": "Some deers are standing behind the rocks", "type": "contextual cancellation"}
-{"image_filename": "60.png"}
-{"image_filename": "61.png"}
-{"image_filename": "62.png"}
+{"referent": ["060.png"], "utterance": "Some pizza slices are on the plate", "type": ["060.png"]}
+{"image_filename": "060.png"}
+{"image_filename": "061.png"}
+{"image_filename": "062.png"}

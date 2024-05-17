@@ -1,4 +1,4 @@
-{"referent": ["3.png"], "utterance": "Some players are holding the gloves", "type": "direct implicature"}
-{"image_filename": "3.png"}
-{"image_filename": "4.png"}
-{"image_filename": "5.png"}
+{"referent": ["003.png"], "utterance": "Some men are standing in the rooms", "type": ["003.png"]}
+{"image_filename": "003.png"}
+{"image_filename": "004.png"}
+{"image_filename": "005.png"}

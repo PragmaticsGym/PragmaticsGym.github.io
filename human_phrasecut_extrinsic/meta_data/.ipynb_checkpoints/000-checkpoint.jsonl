@@ -1,4 +1,4 @@
-{"referent": ["0.png"], "utterance": "Some tires are on the vehicles", "type": "direct implicature"}
-{"image_filename": "0.png"}
-{"image_filename": "1.png"}
-{"image_filename": "2.png"}
+{"referent": ["000.png"], "utterance": "Some girls are in skirts", "type": ["000.png"]}
+{"image_filename": "000.png"}
+{"image_filename": "001.png"}
+{"image_filename": "002.png"}
