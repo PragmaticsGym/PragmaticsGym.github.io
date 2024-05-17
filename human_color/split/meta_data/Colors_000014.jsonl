@@ -1,4 +1,4 @@
-{"utterance": "The target is the purple with more gray in it.", "type": "split", "referent": ["Colors_000042.png"], "integer_outcome": 1, "listener_pred": "target", "game_id": "4139-d"}
+{"utterance": "dull green", "type": "split", "referent": ["Colors_000042.png"], "integer_outcome": 1, "listener_pred": "target", "game_id": "0581-b"}
 {"image_filename": "Colors_000042.png"}
 {"image_filename": "Colors_000043.png"}
 {"image_filename": "Colors_000044.png"}
