@@ -1,4 +1,4 @@
-{"utterance": "There are young children or multicolored kites in the images", "type": "direct contextual cancellation", "referents": ["000000085665.jpg", "000000368212.jpg"]}
+{"utterance": "There are young children or multicolored kites in the images", "type": "direct implicature", "referents": ["000000085665.jpg", "000000368212.jpg"]}
 {"image": "000000085665.jpg"}
 {"image": "000000368212.jpg"}
 {"image": "000000181303.jpg"}

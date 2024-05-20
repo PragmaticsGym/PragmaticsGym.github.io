@@ -61,6 +61,7 @@ def main():
             with open(json_filename, "r") as f:
                 data = list(f)
             data = [json.loads(_) for _ in data]
+            game_type = data[0]['type']
 
             images = []
             utterance = ""
@@ -99,7 +100,7 @@ def main():
             answer = f'<b>Referent Image ID:</b> {referent1_id+1}, {referent2_id+1}'
             
             #text = f'<b>Utterance:</b> {text1}'
-            answer = f'<b>Referents:</b> Image {referent1_id+1}, {referent2_id+1}<br><b>Type:</b> {implicature_type}'
+            answer = f'<b>Referents:</b> Image {referent1_id+1}, {referent2_id+1}<br><b>Type:</b> {game_type}'
             #type_ = f'<b>Type:</b> {implicature_type}'
             count += 1
 

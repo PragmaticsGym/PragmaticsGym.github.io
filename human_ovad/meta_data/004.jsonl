@@ -1,4 +1,4 @@
-{"utterance": "There are multicolored teddy bears or standing persons in the images", "type": "direct contextual cancellation", "referents": ["000000207585.jpg", "000000356125.jpg"]}
+{"utterance": "There are multicolored teddy bears or standing persons in the images", "type": "direct implicature", "referents": ["000000207585.jpg", "000000356125.jpg"]}
 {"image": "000000207585.jpg"}
 {"image": "000000356125.jpg"}
 {"image": "000000474293.jpg"}

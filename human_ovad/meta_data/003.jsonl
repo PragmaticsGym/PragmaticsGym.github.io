@@ -1,4 +1,4 @@
-{"utterance": "There are white books or brown cats in the images", "type": "direct contextual cancellation", "referents": ["000000574810.jpg", "000000255483.jpg"]}
+{"utterance": "There are white books or brown cats in the images", "type": "direct implicature", "referents": ["000000574810.jpg", "000000255483.jpg"]}
 {"image": "000000574810.jpg"}
 {"image": "000000255483.jpg"}
 {"image": "000000271728.jpg"}

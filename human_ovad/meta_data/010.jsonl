@@ -1,4 +1,4 @@
-{"utterance": "There are unicolored chairs or unicolored keyboards in the images", "type": "direct contextual cancellation", "referents": ["000000001503.jpg", "000000484404.jpg"]}
+{"utterance": "There are unicolored chairs or unicolored keyboards in the images", "type": "direct implicature", "referents": ["000000001503.jpg", "000000484404.jpg"]}
 {"image": "000000001503.jpg"}
 {"image": "000000484404.jpg"}
 {"image": "000000345252.jpg"}
