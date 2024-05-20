@@ -1,0 +1,1115 @@
+<html>
+<head>
+<title>Connective Implicature Visualization, Natural Domain, 100</title>
+<style>
+td {vertical-align:top;padding:5px}
+pre {white-space: pre-wrap;}
+</style>
+</head>
+<body>
+<h1>Connective Implicature Visualization, Natural Domain, 100</h1>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+></script>
+<script>
+function frameMove(elem, offset) {
+    elem = $(elem);
+    window.elem = elem;
+    data = JSON.parse(elem.parent().find(".data").html());
+    index = parseInt(elem.parent().find(".index").val());
+
+    nextIndex = index + offset;
+    if (nextIndex < 0) nextIndex = 0;
+    if (nextIndex >= data.length) nextIndex = data.length - 1;
+
+    elem.parent().find(".index").val(nextIndex);
+    if ("image" in data[nextIndex]) {
+        elem.parent().find(".image").attr("src", data[nextIndex]["image"][0]).attr("alt", data[nextIndex]["image"][1]);
+    } else {
+        elem.parent().find(".text").html(data[nextIndex]["text"]);
+    }
+
+    if ("info" in data[nextIndex]) {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString() + " :: " + data[nextIndex]["info"]);
+    } else {
+        elem.parent().find(".info").html("Frame #" + nextIndex.toString());
+    }
+}
+</script>
+    
+<style>
+.table0_column_text {  }
+.table0_td_text {  }
+.table0_column_idx {  }
+.table0_td_idx {  }
+.table0_column_image1 {  }
+.table0_td_image1 {  }
+.table0_column_image2 {  }
+.table0_td_image2 {  }
+.table0_column_image3 {  }
+.table0_td_image3 {  }
+.table0_column_image4 {  }
+.table0_td_image4 {  }
+.table0_column_image5 {  }
+.table0_td_image5 {  }
+.table0_column_answer {  }
+.table0_td_answer {  }
+</style>
+<h3>In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.</h3>
+<table>
+<tr>
+  <td><b>Text</b></td>
+  <td><b>Idx</b></td>
+  <td><b>Image 1</b></td>
+  <td><b>Image 2</b></td>
+  <td><b>Image 3</b></td>
+  <td><b>Image 4</b></td>
+  <td><b>Image 5</b></td>
+  <td><b>Answer</b></td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are lettered clocks or unicolored refrigerators in the images
+  </td>
+  <td class="table0_td_idx">
+    1
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000067896.jpg" alt="000000067896.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000446522.jpg" alt="000000446522.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000007574.jpg" alt="000000007574.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000056127.jpg" alt="000000056127.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000120584.jpg" alt="000000120584.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 4, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are unicolored bears or two-colored birds in the images
+  </td>
+  <td class="table0_td_idx">
+    2
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000471450.jpg" alt="000000471450.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000106881.jpg" alt="000000106881.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000542776.jpg" alt="000000542776.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000572517.jpg" alt="000000572517.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000298738.jpg" alt="000000298738.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 2<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are unicolored chairs or unicolored keyboards in the images
+  </td>
+  <td class="table0_td_idx">
+    3
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000311789.jpg" alt="000000311789.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000484404.jpg" alt="000000484404.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000345252.jpg" alt="000000345252.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000025386.jpg" alt="000000025386.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000001503.jpg" alt="000000001503.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are multicolored bottles or gray toasters in the images
+  </td>
+  <td class="table0_td_idx">
+    4
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000066841.jpg" alt="000000066841.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000173008.jpg" alt="000000173008.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000173091.jpg" alt="000000173091.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000026564.jpg" alt="000000026564.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000232348.jpg" alt="000000232348.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white buses or white trucks in the images
+  </td>
+  <td class="table0_td_idx">
+    5
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000147725.jpg" alt="000000147725.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000052007.jpg" alt="000000052007.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000443498.jpg" alt="000000443498.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000206487.jpg" alt="000000206487.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000476119.jpg" alt="000000476119.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white books or white keyboards in the images
+  </td>
+  <td class="table0_td_idx">
+    6
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000246308.jpg" alt="000000246308.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000529762.jpg" alt="000000529762.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000340894.jpg" alt="000000340894.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000135872.jpg" alt="000000135872.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000309938.jpg" alt="000000309938.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 4, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are young children or multicolored kites in the images
+  </td>
+  <td class="table0_td_idx">
+    7
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000085665.jpg" alt="000000085665.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000289960.jpg" alt="000000289960.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000181303.jpg" alt="000000181303.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000126137.jpg" alt="000000126137.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000368212.jpg" alt="000000368212.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are black remotes or green couches in the images
+  </td>
+  <td class="table0_td_idx">
+    8
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000300341.jpg" alt="000000300341.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000226058.jpg" alt="000000226058.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000399655.jpg" alt="000000399655.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000036844.jpg" alt="000000036844.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000157046.jpg" alt="000000157046.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are spotted ties or white cakes in the images
+  </td>
+  <td class="table0_td_idx">
+    9
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000021604.jpg" alt="000000021604.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000098633.jpg" alt="000000098633.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000482275.jpg" alt="000000482275.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000561465.jpg" alt="000000561465.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000580757.jpg" alt="000000580757.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 2<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are yellow bananas or red apples in the images
+  </td>
+  <td class="table0_td_idx">
+    10
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000193926.jpg" alt="000000193926.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000002149.jpg" alt="000000002149.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000147740.jpg" alt="000000147740.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000188592.jpg" alt="000000188592.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000006012.jpg" alt="000000006012.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 4, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are adult giraffes or standing zebras in the images
+  </td>
+  <td class="table0_td_idx">
+    11
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000392933.jpg" alt="000000392933.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000248810.jpg" alt="000000248810.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000122969.jpg" alt="000000122969.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000268729.jpg" alt="000000268729.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000376278.jpg" alt="000000376278.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 3<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white kites or lying snowboards in the images
+  </td>
+  <td class="table0_td_idx">
+    12
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000529939.jpg" alt="000000529939.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000428454.jpg" alt="000000428454.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000221291.jpg" alt="000000221291.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000039914.jpg" alt="000000039914.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000085911.jpg" alt="000000085911.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are standing zebras or two-colored trucks in the images
+  </td>
+  <td class="table0_td_idx">
+    13
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000356612.jpg" alt="000000356612.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000305695.jpg" alt="000000305695.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000445439.jpg" alt="000000445439.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000365745.jpg" alt="000000365745.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000376278.jpg" alt="000000376278.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are tan dogs or unicolored frisbees in the images
+  </td>
+  <td class="table0_td_idx">
+    14
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000328337.jpg" alt="000000328337.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000030494.jpg" alt="000000030494.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000235241.jpg" alt="000000235241.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000369541.jpg" alt="000000369541.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000149568.jpg" alt="000000149568.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 2<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are multicolored kites or standing people in the images
+  </td>
+  <td class="table0_td_idx">
+    15
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000236599.jpg" alt="000000236599.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000261535.jpg" alt="000000261535.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000085665.jpg" alt="000000085665.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000235778.jpg" alt="000000235778.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000145597.jpg" alt="000000145597.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 3<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are reflective tvs or transparent vases in the images
+  </td>
+  <td class="table0_td_idx">
+    16
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000091615.jpg" alt="000000091615.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000512657.jpg" alt="000000512657.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000007818.jpg" alt="000000007818.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000017379.jpg" alt="000000017379.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000072813.jpg" alt="000000072813.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are yellow apples or opaque kites in the images
+  </td>
+  <td class="table0_td_idx">
+    17
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000099024.jpg" alt="000000099024.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000002149.jpg" alt="000000002149.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000272566.jpg" alt="000000272566.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000156278.jpg" alt="000000156278.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000293200.jpg" alt="000000293200.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are standing toothbrushes or opaque toilets in the images
+  </td>
+  <td class="table0_td_idx">
+    18
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000544519.jpg" alt="000000544519.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000160666.jpg" alt="000000160666.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000055002.jpg" alt="000000055002.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000058029.jpg" alt="000000058029.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000368212.jpg" alt="000000368212.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 4, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are males or opaque sinks in the images
+  </td>
+  <td class="table0_td_idx">
+    19
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000346968.jpg" alt="000000346968.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000383606.jpg" alt="000000383606.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000298396.jpg" alt="000000298396.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000308466.jpg" alt="000000308466.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000221708.jpg" alt="000000221708.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are opaque bowls or sitting dogs in the images
+  </td>
+  <td class="table0_td_idx">
+    20
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000562059.jpg" alt="000000562059.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000273232.jpg" alt="000000273232.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000060835.jpg" alt="000000060835.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000355240.jpg" alt="000000355240.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000286182.jpg" alt="000000286182.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 4, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are black laptops or green motorcycles in the images
+  </td>
+  <td class="table0_td_idx">
+    21
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000037740.jpg" alt="000000037740.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000271728.jpg" alt="000000271728.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000085376.jpg" alt="000000085376.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000363875.jpg" alt="000000363875.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000430073.jpg" alt="000000430073.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 3<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are sitting people or brown teddy bears in the images
+  </td>
+  <td class="table0_td_idx">
+    22
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000013729.jpg" alt="000000013729.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000160556.jpg" alt="000000160556.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000349480.jpg" alt="000000349480.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000516677.jpg" alt="000000516677.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000199681.jpg" alt="000000199681.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are sitting cats or green potted plants in the images
+  </td>
+  <td class="table0_td_idx">
+    23
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000385997.jpg" alt="000000385997.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000112798.jpg" alt="000000112798.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000279145.jpg" alt="000000279145.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000233033.jpg" alt="000000233033.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000364297.jpg" alt="000000364297.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white sports balls or multicolored baseball bats in the images
+  </td>
+  <td class="table0_td_idx">
+    24
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000022935.jpg" alt="000000022935.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000042296.jpg" alt="000000042296.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000188465.jpg" alt="000000188465.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000126226.jpg" alt="000000126226.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000203931.jpg" alt="000000203931.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are standing people or blue airplanes in the images
+  </td>
+  <td class="table0_td_idx">
+    25
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000126226.jpg" alt="000000126226.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000090631.jpg" alt="000000090631.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000504000.jpg" alt="000000504000.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000018491.jpg" alt="000000018491.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000167540.jpg" alt="000000167540.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 4, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white cakes or transparent wine glasses in the images
+  </td>
+  <td class="table0_td_idx">
+    26
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000213035.jpg" alt="000000213035.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000277689.jpg" alt="000000277689.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000331817.jpg" alt="000000331817.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000117425.jpg" alt="000000117425.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000231822.jpg" alt="000000231822.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 3<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are multicolored refrigerators or black cats in the images
+  </td>
+  <td class="table0_td_idx">
+    27
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000318238.jpg" alt="000000318238.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000349837.jpg" alt="000000349837.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000466339.jpg" alt="000000466339.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000194724.jpg" alt="000000194724.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000037777.jpg" alt="000000037777.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are multicolored teddy bears or standing people in the images
+  </td>
+  <td class="table0_td_idx">
+    28
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000356125.jpg" alt="000000356125.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000113403.jpg" alt="000000113403.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000264535.jpg" alt="000000264535.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000474293.jpg" alt="000000474293.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000207585.jpg" alt="000000207585.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white keyboards or happy people in the images
+  </td>
+  <td class="table0_td_idx">
+    29
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000246308.jpg" alt="000000246308.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000163746.jpg" alt="000000163746.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000001503.jpg" alt="000000001503.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000426241.jpg" alt="000000426241.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000390555.jpg" alt="000000390555.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are brown bears or unicolored birds in the images
+  </td>
+  <td class="table0_td_idx">
+    30
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000042296.jpg" alt="000000042296.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000085478.jpg" alt="000000085478.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000421834.jpg" alt="000000421834.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000235064.jpg" alt="000000235064.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000561009.jpg" alt="000000561009.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are yellow birds or multicolored potted plants in the images
+  </td>
+  <td class="table0_td_idx">
+    31
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000233033.jpg" alt="000000233033.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000106235.jpg" alt="000000106235.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000065288.jpg" alt="000000065288.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000119233.jpg" alt="000000119233.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000463618.jpg" alt="000000463618.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white refrigerators or black ovens in the images
+  </td>
+  <td class="table0_td_idx">
+    32
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000491216.jpg" alt="000000491216.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000159791.jpg" alt="000000159791.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000172396.jpg" alt="000000172396.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000349837.jpg" alt="000000349837.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000040471.jpg" alt="000000040471.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are yellow bananas or red apples in the images
+  </td>
+  <td class="table0_td_idx">
+    33
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000147740.jpg" alt="000000147740.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000030213.jpg" alt="000000030213.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000189078.jpg" alt="000000189078.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000014226.jpg" alt="000000014226.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000479596.jpg" alt="000000479596.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are gray spoons or white cups in the images
+  </td>
+  <td class="table0_td_idx">
+    34
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000040471.jpg" alt="000000040471.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000286182.jpg" alt="000000286182.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000253452.jpg" alt="000000253452.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000361238.jpg" alt="000000361238.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000256518.jpg" alt="000000256518.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are white books or brown cats in the images
+  </td>
+  <td class="table0_td_idx">
+    35
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000271728.jpg" alt="000000271728.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000574810.jpg" alt="000000574810.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000255483.jpg" alt="000000255483.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000565962.jpg" alt="000000565962.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000176446.jpg" alt="000000176446.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 2, 3<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are brown benchs or unicolored donuts in the images
+  </td>
+  <td class="table0_td_idx">
+    36
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000326462.jpg" alt="000000326462.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000420916.jpg" alt="000000420916.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000190753.jpg" alt="000000190753.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000066926.jpg" alt="000000066926.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000341973.jpg" alt="000000341973.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 4<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are brown bears or unicolored birds in the images
+  </td>
+  <td class="table0_td_idx">
+    37
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000186422.jpg" alt="000000186422.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000341094.jpg" alt="000000341094.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000289393.jpg" alt="000000289393.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000071756.jpg" alt="000000071756.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000096960.jpg" alt="000000096960.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 2<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are brown benches or opaque cups in the images
+  </td>
+  <td class="table0_td_idx">
+    38
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000172571.jpg" alt="000000172571.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000070229.jpg" alt="000000070229.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000057597.jpg" alt="000000057597.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000056127.jpg" alt="000000056127.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000322844.jpg" alt="000000322844.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 4, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are unicolored toilets or opaque sinks in the images
+  </td>
+  <td class="table0_td_idx">
+    39
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000298396.jpg" alt="000000298396.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000551304.jpg" alt="000000551304.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000055002.jpg" alt="000000055002.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000237316.jpg" alt="000000237316.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000192047.jpg" alt="000000192047.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 3, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+<tr>
+  <td class="table0_td_text">
+    <b>Game:</b> In this reference game, the speaker will generate a statement to describe two images, and both the speaker and you will be rewarded if you can correctly identify both referent images. Please proceed by selecting your answers based on the corresponding numerical image index.<br><b>Speaker:</b> There are standing teddy bears or plain patterned potted plants in the images
+  </td>
+  <td class="table0_td_idx">
+    40
+  </td>
+  <td class="table0_td_image1">
+    <img class="table0_column_image1" src="../images/000000475572.jpg" alt="000000475572.jpg" />
+  </td>
+  <td class="table0_td_image2">
+    <img class="table0_column_image2" src="../images/000000267300.jpg" alt="000000267300.jpg" />
+  </td>
+  <td class="table0_td_image3">
+    <img class="table0_column_image3" src="../images/000000446703.jpg" alt="000000446703.jpg" />
+  </td>
+  <td class="table0_td_image4">
+    <img class="table0_column_image4" src="../images/000000220310.jpg" alt="000000220310.jpg" />
+  </td>
+  <td class="table0_td_image5">
+    <img class="table0_column_image5" src="../images/000000286660.jpg" alt="000000286660.jpg" />
+  </td>
+  <td class="table0_td_answer">
+    <b>Referents:</b> Image 1, 5<br><b>Type:</b> Direct Implicature
+  </td>
+</tr>
+</table>
+</body>
+</html>
