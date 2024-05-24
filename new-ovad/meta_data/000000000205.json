@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are white refrigerators or black ovens in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000349837.jpg",
+            "../coco/val2017/000000172396.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000349837.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000172396.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000159791.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000491216.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000040471.jpg"
+    }
+]

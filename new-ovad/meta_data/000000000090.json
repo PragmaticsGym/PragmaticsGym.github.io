@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are opaque bottles or black tennis rackets in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000551804.jpg",
+            "../coco/val2017/000000010707.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000551804.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000010707.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000112298.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000025424.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000376264.jpg"
+    }
+]

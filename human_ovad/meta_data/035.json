@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are tan dogs or unicolored frisbees in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "000000328337.jpg",
+            "000000030494.jpg"
+        ]
+    },
+    {
+        "image": "000000328337.jpg"
+    },
+    {
+        "image": "000000030494.jpg"
+    },
+    {
+        "image": "000000369541.jpg"
+    },
+    {
+        "image": "000000235241.jpg"
+    },
+    {
+        "image": "000000149568.jpg"
+    }
+]

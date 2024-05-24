@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are two-colored cats or opaque refrigerators in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000565776.jpg",
+            "../coco/val2017/000000416330.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000565776.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000416330.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000014007.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000078266.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000023272.jpg"
+    }
+]

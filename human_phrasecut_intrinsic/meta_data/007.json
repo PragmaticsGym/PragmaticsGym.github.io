@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "021.png"
+        ],
+        "utterance": "Some windows are closed",
+        "type": "direct implicature"
+    },
+    {
+        "image_filename": "021.png"
+    },
+    {
+        "image_filename": "022.png"
+    },
+    {
+        "image_filename": "023.png"
+    }
+]

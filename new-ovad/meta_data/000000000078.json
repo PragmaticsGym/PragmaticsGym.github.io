@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are unicolored bears or two-colored birds in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000471450.jpg",
+            "../coco/val2017/000000106881.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000471450.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000106881.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000572517.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000298738.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000542776.jpg"
+    }
+]

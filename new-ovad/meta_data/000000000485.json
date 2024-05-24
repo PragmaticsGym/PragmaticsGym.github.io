@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are standing teddy bears or adult persons in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000153343.jpg",
+            "../coco/val2017/000000142585.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000153343.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000142585.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000145020.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000446703.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000427160.jpg"
+    }
+]

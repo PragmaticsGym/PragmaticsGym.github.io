@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "102.png"
+        ],
+        "utterance": "Some lawns are manicured",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "102.png"
+    },
+    {
+        "image_filename": "103.png"
+    },
+    {
+        "image_filename": "104.png"
+    }
+]

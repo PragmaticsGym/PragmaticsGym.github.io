@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "114.png"
+        ],
+        "utterance": "Some cups are on top of the plates",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "114.png"
+    },
+    {
+        "image_filename": "115.png"
+    },
+    {
+        "image_filename": "116.png"
+    }
+]

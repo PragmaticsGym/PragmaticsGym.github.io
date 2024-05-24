@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are white books or brown cats in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000574810.jpg",
+            "../coco/val2017/000000255483.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000574810.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000255483.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000271728.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000565962.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000176446.jpg"
+    }
+]

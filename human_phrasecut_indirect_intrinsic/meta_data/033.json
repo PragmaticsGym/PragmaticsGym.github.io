@@ -1,0 +1,21 @@
+[
+    {
+        "referent": [
+            "000099.png"
+        ],
+        "utterance": "Not all chairs are dark colored",
+        "type": "contextual cancellation"
+    },
+    {
+        "image": "099.png",
+        "image_index": 99
+    },
+    {
+        "image": "100.png",
+        "image_index": 100
+    },
+    {
+        "image": "101.png",
+        "image_index": 101
+    }
+]

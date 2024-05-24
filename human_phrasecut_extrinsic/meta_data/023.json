@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "069.png"
+        ],
+        "utterance": "Some donuts are inside of boxes",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "069.png"
+    },
+    {
+        "image_filename": "070.png"
+    },
+    {
+        "image_filename": "071.png"
+    }
+]

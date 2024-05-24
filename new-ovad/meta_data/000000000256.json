@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are sitting cats or green potted plants in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000112798.jpg",
+            "../coco/val2017/000000233033.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000112798.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000233033.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000279145.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000364297.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000385997.jpg"
+    }
+]

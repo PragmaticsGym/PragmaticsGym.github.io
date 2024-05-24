@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are spotted ties or white cakes in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000021604.jpg",
+            "../coco/val2017/000000098633.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000021604.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000098633.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000482275.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000496854.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000561465.jpg"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are yellow frisbees or two-colored dogs in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000009378.jpg",
+            "../coco/val2017/000000029393.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000009378.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000029393.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000052891.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000328337.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000318238.jpg"
+    }
+]

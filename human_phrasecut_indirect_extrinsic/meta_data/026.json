@@ -1,0 +1,21 @@
+[
+    {
+        "referent": [
+            "000078.png"
+        ],
+        "utterance": "Not all people are on the planes",
+        "type": "contextual cancellation"
+    },
+    {
+        "image": "078.png",
+        "image_index": 78
+    },
+    {
+        "image": "079.png",
+        "image_index": 79
+    },
+    {
+        "image": "080.png",
+        "image_index": 80
+    }
+]

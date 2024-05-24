@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are adult giraffes or standing zebras in the images",
+        "type": "direct implicature",
+        "referents": [
+            "000000122969.jpg",
+            "000000392933.jpg"
+        ]
+    },
+    {
+        "image": "000000122969.jpg"
+    },
+    {
+        "image": "000000392933.jpg"
+    },
+    {
+        "image": "000000268729.jpg"
+    },
+    {
+        "image": "000000376278.jpg"
+    },
+    {
+        "image": "000000248810.jpg"
+    }
+]

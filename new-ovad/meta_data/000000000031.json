@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are two-colored bicycles or striped fire hydrants in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000293071.jpg",
+            "../coco/val2017/000000426166.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000293071.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000426166.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000008899.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000105912.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000492937.jpg"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "072.png"
+        ],
+        "utterance": "Some cats are on the floor",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "072.png"
+    },
+    {
+        "image_filename": "073.png"
+    },
+    {
+        "image_filename": "074.png"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are unicolored sinks or gray spoons in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000129113.jpg",
+            "../coco/val2017/000000092124.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000129113.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000092124.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000565776.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000491216.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000514914.jpg"
+    }
+]

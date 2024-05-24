@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are sitting persons or brown teddy bears in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000349480.jpg",
+            "../coco/val2017/000000516677.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000349480.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000516677.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000160556.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000199681.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000013729.jpg"
+    }
+]

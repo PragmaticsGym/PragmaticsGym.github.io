@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "081.png"
+        ],
+        "utterance": "Some planes are flying in sky",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "081.png"
+    },
+    {
+        "image_filename": "082.png"
+    },
+    {
+        "image_filename": "083.png"
+    }
+]

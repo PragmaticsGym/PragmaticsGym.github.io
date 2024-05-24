@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are white keyboards or happy persons in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000001503.jpg",
+            "../coco/val2017/000000390555.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000001503.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000390555.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000426241.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000246308.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000163746.jpg"
+    }
+]

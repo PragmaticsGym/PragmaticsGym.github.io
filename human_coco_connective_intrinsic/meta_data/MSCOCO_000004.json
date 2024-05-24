@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are  microwaves or refrigerators in the images",
+        "type": "direct implicature",
+        "referent": [
+            "000000135561.jpg",
+            "000000269866.jpg"
+        ]
+    },
+    {
+        "image_filename": "000000135561.jpg"
+    },
+    {
+        "image_filename": "000000269866.jpg"
+    },
+    {
+        "image_filename": "000000498463.jpg"
+    },
+    {
+        "image_filename": "000000088218.jpg"
+    },
+    {
+        "image_filename": "000000051961.jpg"
+    }
+]

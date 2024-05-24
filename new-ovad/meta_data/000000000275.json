@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are red backpacks or plain patterned skiss in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000129812.jpg",
+            "../coco/val2017/000000030504.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000129812.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000030504.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000406611.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000377113.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000309964.jpg"
+    }
+]

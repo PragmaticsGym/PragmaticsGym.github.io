@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are gray spoons or white cups in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "000000256518.jpg",
+            "000000253452.jpg"
+        ]
+    },
+    {
+        "image": "000000256518.jpg"
+    },
+    {
+        "image": "000000253452.jpg"
+    },
+    {
+        "image": "000000286182.jpg"
+    },
+    {
+        "image": "000000040471.jpg"
+    },
+    {
+        "image": "000000361238.jpg"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are red buss or white trucks in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000082846.jpg",
+            "../coco/val2017/000000097924.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000082846.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000097924.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000315450.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000315187.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000462756.jpg"
+    }
+]

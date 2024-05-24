@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are white refrigerators or black ovens in the images",
+        "type": "direct implicature",
+        "referents": [
+            "000000349837.jpg",
+            "000000172396.jpg"
+        ]
+    },
+    {
+        "image": "000000349837.jpg"
+    },
+    {
+        "image": "000000172396.jpg"
+    },
+    {
+        "image": "000000159791.jpg"
+    },
+    {
+        "image": "000000491216.jpg"
+    },
+    {
+        "image": "000000040471.jpg"
+    }
+]

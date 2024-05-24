@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are standing zebras or two-colored trucks in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000445439.jpg",
+            "../coco/val2017/000000365745.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000445439.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000365745.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000305695.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000376278.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000356612.jpg"
+    }
+]

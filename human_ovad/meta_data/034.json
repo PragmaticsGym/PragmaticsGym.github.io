@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are lettered clocks or unicolored refrigerators in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "000000120584.jpg",
+            "000000056127.jpg"
+        ]
+    },
+    {
+        "image": "000000120584.jpg"
+    },
+    {
+        "image": "000000056127.jpg"
+    },
+    {
+        "image": "000000446522.jpg"
+    },
+    {
+        "image": "000000007574.jpg"
+    },
+    {
+        "image": "000000067896.jpg"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are  umbrellas or books in the images",
+        "type": "direct implicature",
+        "referent": [
+            "000000562561.jpg",
+            "000000176446.jpg"
+        ]
+    },
+    {
+        "image_filename": "000000562561.jpg"
+    },
+    {
+        "image_filename": "000000176446.jpg"
+    },
+    {
+        "image_filename": "000000540280.jpg"
+    },
+    {
+        "image_filename": "000000347693.jpg"
+    },
+    {
+        "image_filename": "000000193494.jpg"
+    }
+]

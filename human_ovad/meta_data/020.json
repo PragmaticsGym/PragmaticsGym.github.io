@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are white cakes or transparent wine glasses in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "000000331817.jpg",
+            "000000277689.jpg"
+        ]
+    },
+    {
+        "image": "000000331817.jpg"
+    },
+    {
+        "image": "000000277689.jpg"
+    },
+    {
+        "image": "000000117425.jpg"
+    },
+    {
+        "image": "000000231822.jpg"
+    },
+    {
+        "image": "000000213035.jpg"
+    }
+]

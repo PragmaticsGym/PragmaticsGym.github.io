@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are standing tvs or yellow books in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000167159.jpg",
+            "../coco/val2017/000000187249.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000167159.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000187249.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000509260.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000346968.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000160556.jpg"
+    }
+]

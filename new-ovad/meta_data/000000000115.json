@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are young persons or multicolored kites in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000085665.jpg",
+            "../coco/val2017/000000368212.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000085665.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000368212.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000181303.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000289960.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000126137.jpg"
+    }
+]

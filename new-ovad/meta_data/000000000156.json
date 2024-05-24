@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are standing zebras or tan giraffes in the images",
+        "type": "direct contextual cancellation",
+        "referents": [
+            "../coco/val2017/000000151662.jpg",
+            "../coco/val2017/000000236730.jpg"
+        ]
+    },
+    {
+        "image": "../coco/val2017/000000151662.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000236730.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000163290.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000235252.jpg"
+    },
+    {
+        "image": "../coco/val2017/000000376278.jpg"
+    }
+]

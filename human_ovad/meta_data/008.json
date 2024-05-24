@@ -1,0 +1,25 @@
+[
+    {
+        "utterance": "There are standing zebras or two-colored trucks in the images",
+        "type": "direct implicature",
+        "referents": [
+            "000000445439.jpg",
+            "000000365745.jpg"
+        ]
+    },
+    {
+        "image": "000000445439.jpg"
+    },
+    {
+        "image": "000000365745.jpg"
+    },
+    {
+        "image": "000000305695.jpg"
+    },
+    {
+        "image": "000000376278.jpg"
+    },
+    {
+        "image": "000000356612.jpg"
+    }
+]
