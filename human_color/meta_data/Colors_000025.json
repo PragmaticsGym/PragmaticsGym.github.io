@@ -1,0 +1,21 @@
+[
+    {
+        "utterance": "hot pink",
+        "type": "split",
+        "referent": [
+            "Colors_000075.png"
+        ],
+        "integer_outcome": 1,
+        "listener_pred": "target",
+        "game_id": "7607-b"
+    },
+    {
+        "image_filename": "Colors_000075.png"
+    },
+    {
+        "image_filename": "Colors_000076.png"
+    },
+    {
+        "image_filename": "Colors_000077.png"
+    }
+]

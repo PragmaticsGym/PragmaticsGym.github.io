@@ -1,0 +1,21 @@
+[
+    {
+        "utterance": "the pink one",
+        "type": "split",
+        "referent": [
+            "Colors_000081.png"
+        ],
+        "integer_outcome": 1,
+        "listener_pred": "target",
+        "game_id": "5759-a"
+    },
+    {
+        "image_filename": "Colors_000081.png"
+    },
+    {
+        "image_filename": "Colors_000082.png"
+    },
+    {
+        "image_filename": "Colors_000083.png"
+    }
+]

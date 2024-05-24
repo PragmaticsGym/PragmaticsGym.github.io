@@ -1,0 +1,21 @@
+[
+    {
+        "utterance": "click the light grey",
+        "type": "close",
+        "referent": [
+            "Colors_000054.png"
+        ],
+        "integer_outcome": 1,
+        "listener_pred": "target",
+        "game_id": "9353-3"
+    },
+    {
+        "image_filename": "Colors_000054.png"
+    },
+    {
+        "image_filename": "Colors_000055.png"
+    },
+    {
+        "image_filename": "Colors_000056.png"
+    }
+]

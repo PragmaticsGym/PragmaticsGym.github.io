@@ -1,0 +1,21 @@
+[
+    {
+        "utterance": "red/grey",
+        "type": "split",
+        "referent": [
+            "Colors_000066.png"
+        ],
+        "integer_outcome": 1,
+        "listener_pred": "target",
+        "game_id": "1369-5"
+    },
+    {
+        "image_filename": "Colors_000066.png"
+    },
+    {
+        "image_filename": "Colors_000067.png"
+    },
+    {
+        "image_filename": "Colors_000068.png"
+    }
+]

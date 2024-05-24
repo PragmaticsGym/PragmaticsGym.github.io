@@ -1,0 +1,21 @@
+[
+    {
+        "utterance": "green olive",
+        "type": "close",
+        "referent": [
+            "Colors_000015.png"
+        ],
+        "integer_outcome": 1,
+        "listener_pred": "target",
+        "game_id": "8890-2"
+    },
+    {
+        "image_filename": "Colors_000015.png"
+    },
+    {
+        "image_filename": "Colors_000016.png"
+    },
+    {
+        "image_filename": "Colors_000017.png"
+    }
+]
