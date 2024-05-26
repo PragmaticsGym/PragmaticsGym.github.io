@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "There are  people or umbrellas in the images",
+        "utterance": "There are people or umbrellas in the images",
         "type": "direct implicature",
         "referent": [
             "000000256941.jpg",

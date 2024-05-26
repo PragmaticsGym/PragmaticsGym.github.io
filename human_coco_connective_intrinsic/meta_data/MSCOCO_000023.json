@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "The images contain birds or clocks. in the images",
+        "utterance": "There are birds or clocks in the images",
         "type": "direct contextual cancellation",
         "referent": [
             "000000519491.jpg",

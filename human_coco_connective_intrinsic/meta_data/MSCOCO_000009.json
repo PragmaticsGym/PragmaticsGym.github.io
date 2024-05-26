@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "There are  books or toilets in the images",
+        "utterance": "There are books or toilets in the images",
         "type": "direct implicature",
         "referent": [
             "000000027982.jpg",

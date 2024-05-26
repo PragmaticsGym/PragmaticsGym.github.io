@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "There are  cars or buses in the images",
+        "utterance": "There are cars or buses in the images",
         "type": "direct implicature",
         "referent": [
             "000000427055.jpg",

@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "The images contain traffic lights or trains. in the images",
+        "utterance": "There are traffic lights or trains in the images",
         "type": "direct contextual cancellation",
         "referent": [
             "000000184400.jpg",
