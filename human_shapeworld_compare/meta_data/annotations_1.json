@@ -1,1 +1,165 @@
-{"meta_data": {"image_id": "1", "image_url": "1.png", "n_objects": "7", "n_colors": "4", "total_area_px": "145205", "avg_area_px": "20743.5714", "min_area": "3600", "max_area": "48402", "min_radius": "30", "max_radius": "110"}, "object": [{"object_id": "3", "rr": "253", "cc": "924.0", "color": "blue", "shape": "rectangle", "radius": "80", "area": "25600", "size": "small", "prob": "0.9637", "thresh_dist": "0.2004", "k": "0.3085", "vagueness": "same", "mask": {"size": [1024, 1024], "counts": "mRdk0P:Pf00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Smk1"}}, {"object_id": "4", "rr": "939.0", "cc": "447", "color": "red", "shape": "rectangle", "radius": "40", "area": "6400", "size": "small", "prob": "1.0", "thresh_dist": "0.629", "k": "0.3085", "vagueness": "same", "mask": {"size": [1024, 1024], "counts": "gl_;X1hn000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000YS`?"}}, {"object_id": "0", "rr": "615", "cc": "277", "color": "yellow", "shape": "triangle", "radius": "110", "area": "48402", "size": "big", "prob": "0.9972", "thresh_dist": "0.3085", "k": "0.3085", "vagueness": "same", "mask": {"size": [1024, 1024], "counts": "[\\i11oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10ec]`0"}}, {"object_id": "1", "rr": "654", "cc": "970", "color": "white", "shape": "triangle", "radius": "100", "area": "40401", "size": "big", "prob": "0.8779", "thresh_dist": "0.13", "k": "0.3085", "vagueness": "same", "mask": {"size": [1024, 1024], "counts": "V^Rh0a<`c0N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2Nc[d1"}}, {"object_id": "5", "rr": "695", "cc": "517", "color": "blue", "shape": "square", "radius": "30", "area": "3600", "size": "small", "prob": "1.0", "thresh_dist": "0.6915", "k": "0.3085", "vagueness": "same", "mask": {"size": [1024, 1024], "counts": "idW?l1Tn0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000W[l>"}}, {"object_id": "2", "rr": "218", "cc": "590", "color": "blue", "shape": "triangle", "radius": "40", "area": "6402", "size": "small", "prob": "1.0", "thresh_dist": "0.6289", "k": "0.3085", "vagueness": "same", "mask": {"size": [1024, 1024], "counts": "ZTn?1oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10fkP;"}}, {"object_id": "6", "rr": "854", "cc": "558", "color": "red", "shape": "square", "radius": "60", "area": "14400", "size": "small", "prob": "1.0", "thresh_dist": "0.4504", "k": "0.3085", "vagueness": "same", "mask": {"size": [1024, 1024], "counts": "jhb?h3Xl0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000VWe<"}}], "utterance": "Big triangle", "referent": 3}
+{
+    "meta_data": {
+        "image_id": "1",
+        "image_url": "1.png",
+        "n_objects": "7",
+        "n_colors": "4",
+        "total_area_px": "145205",
+        "avg_area_px": "20743.5714",
+        "min_area": "3600",
+        "max_area": "48402",
+        "min_radius": "30",
+        "max_radius": "110"
+    },
+    "object": [
+        {
+            "object_id": "3",
+            "rr": "253",
+            "cc": "924.0",
+            "color": "blue",
+            "shape": "rectangle",
+            "radius": "80",
+            "area": "25600",
+            "size": "small",
+            "prob": "0.9637",
+            "thresh_dist": "0.2004",
+            "k": "0.3085",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "mRdk0P:Pf00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Smk1"
+            }
+        },
+        {
+            "object_id": "4",
+            "rr": "939.0",
+            "cc": "447",
+            "color": "red",
+            "shape": "rectangle",
+            "radius": "40",
+            "area": "6400",
+            "size": "small",
+            "prob": "1.0",
+            "thresh_dist": "0.629",
+            "k": "0.3085",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "gl_;X1hn000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000YS`?"
+            }
+        },
+        {
+            "object_id": "0",
+            "rr": "615",
+            "cc": "277",
+            "color": "yellow",
+            "shape": "triangle",
+            "radius": "110",
+            "area": "48402",
+            "size": "big",
+            "prob": "0.9972",
+            "thresh_dist": "0.3085",
+            "k": "0.3085",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "[\\i11oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10ec]`0"
+            }
+        },
+        {
+            "object_id": "1",
+            "rr": "654",
+            "cc": "970",
+            "color": "white",
+            "shape": "triangle",
+            "radius": "100",
+            "area": "40401",
+            "size": "big",
+            "prob": "0.8779",
+            "thresh_dist": "0.13",
+            "k": "0.3085",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "V^Rh0a<`c0N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2Nc[d1"
+            }
+        },
+        {
+            "object_id": "5",
+            "rr": "695",
+            "cc": "517",
+            "color": "blue",
+            "shape": "square",
+            "radius": "30",
+            "area": "3600",
+            "size": "small",
+            "prob": "1.0",
+            "thresh_dist": "0.6915",
+            "k": "0.3085",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "idW?l1Tn0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000W[l>"
+            }
+        },
+        {
+            "object_id": "2",
+            "rr": "218",
+            "cc": "590",
+            "color": "blue",
+            "shape": "triangle",
+            "radius": "40",
+            "area": "6402",
+            "size": "small",
+            "prob": "1.0",
+            "thresh_dist": "0.6289",
+            "k": "0.3085",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "ZTn?1oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10fkP;"
+            }
+        },
+        {
+            "object_id": "6",
+            "rr": "854",
+            "cc": "558",
+            "color": "red",
+            "shape": "square",
+            "radius": "60",
+            "area": "14400",
+            "size": "small",
+            "prob": "1.0",
+            "thresh_dist": "0.4504",
+            "k": "0.3085",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "jhb?h3Xl0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000VWe<"
+            }
+        }
+    ],
+    "utterance": "Big triangle",
+    "referent": 3
+}
