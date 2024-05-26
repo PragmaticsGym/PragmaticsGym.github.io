@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "The images contain benchs or people. in the images",
+        "utterance": "There are benches or people in the images",
         "type": "direct contextual cancellation",
         "referent": [
             "000000087244.jpg",
