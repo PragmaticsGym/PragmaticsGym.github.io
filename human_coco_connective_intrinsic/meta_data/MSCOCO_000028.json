@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "The images contain cars or fire hydrants. in the images",
+        "utterance": "There are cars or fire hydrants in the images",
         "type": "direct contextual cancellation",
         "referent": [
             "000000079034.jpg",
