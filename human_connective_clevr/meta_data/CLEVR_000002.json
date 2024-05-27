@@ -24,7 +24,14 @@
                     12.222000122070312
                 ],
                 "material": "rubber",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "]oc18g9?A9G2O1N101O000O101O0000000000000000000000O101O0O101O0O2N3Mf0ZOoog2"
+                }
             },
             {
                 "size": "large",
@@ -41,7 +48,14 @@
                     9.64804458618164
                 ],
                 "material": "metal",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Y_`2g0W8U1K3N2N101N2O1N101O1O0O2O1O1N101O1N2O001N2O001N2O1O0O2O1O1O0O2O1O0O2O1O1N101O1N101O1N101O0O1000000O01000O0100O100O2O0O2O0O2O001N101N101N101N100O2O001N101N101N101N101N101N101O0O2O0O2O0O2O0O2O0O2O0N3N1J6H9G9H7H9G:FkST1"
+                }
             },
             {
                 "size": "large",
@@ -58,7 +72,14 @@
                     10.393807411193848
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "mU]37_9;K4N3N1O2N101N100bHSOh5o0oIZOP6g0hI@X6`0`IH_6:XIOg63oH5Q7^1O0O101O0000001O0O100000001O000000000000000001O000000000000001O000O1000001N10001N10000O2N100O2N1O2M2N3J5J7J5K6I7J6J5J7J7H8I_h`0"
+                }
             },
             {
                 "size": "small",
@@ -75,7 +96,14 @@
                     8.983114242553711
                 ],
                 "material": "rubber",
-                "shape": "sphere"
+                "shape": "sphere",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "cfd15g98J5K4L3N2N2N2N2N2O0O2O0O2O000O2O0000000000000000O2O000O2O001N1O2O1N2N2N2M4M3L4Kd_d2"
+                }
             },
             {
                 "size": "small",
@@ -92,7 +120,14 @@
                     11.168621063232422
                 ],
                 "material": "rubber",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "UVP28f9d0^O1O1N2O001N101N2O001N101O1N101O1N101O0O10O100O10001N101N101O0O2O0O2O001N101N101O0O2N3FQhW2"
+                }
             }
         ],
         "relationships": {
@@ -234,7 +269,14 @@
                     8.74066162109375
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "nj\\19e9=C<E<D;E<D;E6J4M1N3N1N2O1N101N2O0O2O1O0O101O001N10001O0O10001O00000O100000001O00000000000000000000O1000000000000O10001O000O10001N10000O2O0O101N100O2O0O2O0O2N1O2N2N2N2N2N3L6IVe]2"
+                }
             },
             {
                 "size": "large",
@@ -251,7 +293,14 @@
                     10.629838943481445
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "QUc38`9:F9G:F9G8H9H8L4N1O2N101N101O0O2O000O2O00001O000O101O0000001O000000000000001O00000000000001O00000O1000001O00000O101O0O10001N100O2N100O2M2N3J5K6J5K6J5K6J6J6J6I7J7IeX9"
+                }
             },
             {
                 "size": "large",
@@ -268,7 +317,14 @@
                     12.392598152160645
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "_dT12k9<F:F:G4K010O010O01000O0100O10O10O100O1000O0100O100O10000O10000O10O101O01O0001O00001O0000001O00010O0000010O0001O010O00101N<Db0^OgZm2"
+                }
             },
             {
                 "size": "large",
@@ -285,7 +341,14 @@
                     10.264632225036621
                 ],
                 "material": "rubber",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "ieo0;d98H9H8G8I8G9H3L2O1O1N101N101O0O101N101O0O101N101N10001N101N101O0O101N101O0O101N101NjNXIVOh6h0eImN[6Q1QJfNm5Z1]1O1O001O1O2O0O100O2O0O101N100O101O0O101O000O101O000O101O00001O0O10001O00001O0000001O00001O0000001O001O1O1O7IURg2"
+                }
             },
             {
                 "size": "small",
@@ -302,7 +365,14 @@
                     9.48140811920166
                 ],
                 "material": "metal",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "ZZR3<W9>F9K5K6L3O1000000000001O0000000001O000001O000000000001O01O0000000000000001N1M3H8G:FoXV1"
+                }
             },
             {
                 "size": "large",
@@ -319,7 +389,14 @@
                     13.57037353515625
                 ],
                 "material": "metal",
-                "shape": "sphere"
+                "shape": "sphere",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "_Vc2>_96K5K3N3L3N2N3M1O2N2O1N1O2O1N100O2O000O2O000000000000000000000000O2O000O2O001N1O2O0O2N2O1N2N2N2M3N3L4L4L6Hdma1"
+                }
             },
             {
                 "size": "large",
@@ -336,7 +413,14 @@
                     11.400530815124512
                 ],
                 "material": "metal",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "SW88g96J6K5J6K5K5J6K5J6K3M1N2O0O2O000O101N10001N100O101O0O101N10000O2O0O101O0O10001N100O2O0000001O00001O01O0001O0001O00000O101N1O100O101N1O100O101N1O100O1jNdHH]76kHBV7=SIZOn6f0ZIROf6m0W101N100O10001N100O2O1O2M8I9Fd\\`3"
+                }
             }
         ],
         "relationships": {
@@ -538,7 +622,14 @@
                     13.197986602783203
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "nk_18g9>B=C=D4K7J2M2O1O0O2O001N10001O00000O101O0000000000000000000000000000000000O100000001O0O10000O2O000O2O0O2O0O2N2N7IV1iNkdc2"
+                }
             },
             {
                 "size": "large",
@@ -555,7 +646,14 @@
                     11.539905548095703
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Wf_3<[9;F9F:F:G9I6O2N2N1O2O0O101N101O000O2O0000001O00000O101O000000000000000010O000000000O100000001O00000O101O000O101N100O2O0O1O2M2M3K6J5J7J6I6K6I7J6I8IYW?"
+                }
             },
             {
                 "size": "large",
@@ -572,7 +670,14 @@
                     10.336577415466309
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "gQj02k9:G8I8H7I8H7J7H7J7H5L2M2O1N2O1O0O2O1O0O101O001N100000001N1000000000000O101O0000O100000000000000000000O101O000O1000000O2O000O101O0O2O0O101N2N101N2N3M7J<B?B=C>@llR3"
+                }
             },
             {
                 "size": "small",
@@ -589,7 +694,14 @@
                     11.243888854980469
                 ],
                 "material": "rubber",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Sjc02l98I6J7I7J5J2O1O1N101O000O101O000000000O16J6I8I6J7I6JPgi3"
+                }
             },
             {
                 "size": "small",
@@ -606,7 +718,14 @@
                     9.514633178710938
                 ],
                 "material": "metal",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "`d\\32e9;E9H9L3O1N2O2M2O1N3N1N2O1O2O0000001O0001O01O00010O00000010O0000010O00000O2N1N2N2N2N3M2N2N2N3I6J6J7Ii^i0"
+                }
             }
         ],
         "relationships": {
@@ -748,7 +867,14 @@
                     10.431971549987793
                 ],
                 "material": "metal",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "h]Q24i9S1nNd0]O1O1O2N100O2O0O101N2O001N2O2N=B2O00001O0O10001O00000000000O101O00000000000001N100000000000000O2O00000O101O0O101N100O2O0O2O0O2N1O2N2N2M3L4ZOg0WOQim1"
+                }
             },
             {
                 "size": "small",
@@ -765,7 +891,14 @@
                     11.547721862792969
                 ],
                 "material": "rubber",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Pd<4j97J5L5J6K5J4M1N2O000O2O0000000O10000000000000000000O2O000O2O001N2O5J7I7I7I^_m3"
+                }
             },
             {
                 "size": "small",
@@ -782,7 +915,14 @@
                     11.918905258178711
                 ],
                 "material": "rubber",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "YRP3:X9?H8N2O0O2O0O2O00000O2O0000000000000001O00000O101O0O101N1O2N2F:Edd[1"
+                }
             },
             {
                 "size": "small",
@@ -799,7 +939,14 @@
                     9.512662887573242
                 ],
                 "material": "rubber",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "iYj12k9d0]O`0A3N1N2N2O1N101O0O2O00000O2O000000000000000000O10001O000O2O0O101N2O0O2N2N3L\\V_2"
+                }
             }
         ],
         "relationships": {
@@ -917,7 +1064,14 @@
                     9.279210090637207
                 ],
                 "material": "rubber",
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "[Rj08e99I7I7I7I7I7I8H7J6I7J4K3N1N3N1N2O0O2O1O0O2O001N10001O0O101O00000O10001O0000000O1000000000000000000000O1000000000001N1000000O101O0O10001N100O2O0O101N101N2O0O2N2N2N3M4L>B>B>A?AX\\P3"
+                }
             },
             {
                 "size": "large",
@@ -934,7 +1088,14 @@
                     11.595698356628418
                 ],
                 "material": "rubber",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "a\\i0:e98H7J7I6I7J7I2NO001O100O10O0100O10O0100O1000O010000O0100000O10O100000O0100000000O10O1000O100000000O1000000001O001O001O010O001O1O0010O01O0010O01O10O01O010O01000O01001O7J;F;G8AlQQ3"
+                }
             },
             {
                 "size": "large",
@@ -951,7 +1112,14 @@
                     12.197454452514648
                 ],
                 "material": "metal",
-                "shape": "sphere"
+                "shape": "sphere",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "m\\e2<`98J4L4L4L3N3M2N2N2N2N2N1O2O1N101N101N10001N1000001N100000000000000001N1000001N10001N101N101N1O2O1N2N2N2N2N2M3N3L4M3K6J9EUa]1"
+                }
             },
             {
                 "size": "small",
@@ -968,7 +1136,14 @@
                     8.779629707336426
                 ],
                 "material": "metal",
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "VVV2P1o82N2N1O2O0O2N1O101N1O2N101N1O2O0O1O2N101N1O2O0010O00010O01O01O001O000O2N1O1O2N1O2N1O101N1O1O2N1O1O2N1O2N101M3[ObZn1"
+                }
             }
         ],
         "relationships": {
