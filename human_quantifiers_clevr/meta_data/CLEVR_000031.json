@@ -23,7 +23,14 @@
                 ],
                 "size": "large",
                 "color": "purple",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "oYb2l0j8:O1O0010O10O100O10000O2O001N10001N101O0O2O0O2O000O2O001N101O0O2O0O101O0O2O001N101O0O101O0010O01O010O00010O0010O01O010O00010O0010O0100O1O2O3LO101N100O2O0O101N100O2O0O101N1O101M2M3H9F9G:F;EbPV1"
+                }
             },
             {
                 "pixel_coords": [
@@ -40,7 +47,14 @@
                 ],
                 "size": "large",
                 "color": "red",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "dQ`07h97I6J7I6K6I7J5J7J4K2O1N1O2O0O100O2O0O100O101N1O100O101N100O100O2N100O10001N10000000010O000000001O01O000001O000001O01O000000000001N1O100O1O1O1O2N1O100O1O1O1O2N1O100O1O1O1O2N1O101N2N4L<D<D<D<C\\mW3"
+                }
             },
             {
                 "pixel_coords": [
@@ -57,7 +71,14 @@
                 ],
                 "size": "large",
                 "color": "green",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "egR2c0Z9X1jN:F2O1N2O1N2O0O2O1O0O2O1N101N2O0O2O1O0O2O1N101N2O001N2O0O2O1N101N2O001N2O0O2O1N101O1N101N2O0O2O1N2O001N2O0O2O000000000001O0O2O0O1O2O0O2N101N1O2O0O1O2O0O2N101N1O2O0O1O2O0O2N101N1O2O0O1O2O0O2N101N1O2O0O1O2O0O2N101N101N1O1O2N1O2K4E<D<D<E<Ceh]1"
+                }
             },
             {
                 "pixel_coords": [
@@ -74,7 +95,14 @@
                 ],
                 "size": "large",
                 "color": "green",
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "\\SY32c9;L4N3N100O2O0O101O0O101O000O2O000^HTOP6m0fI\\OZ6d0]IEc6<SINl64iH5W7Z10000O101O000001O00000000000000000000001N100000001N10000O2O000O1O2O0O2N1N2L5H7J7H8I6I8H9HUog0"
+                }
             },
             {
                 "pixel_coords": [
@@ -91,7 +119,14 @@
                 ],
                 "size": "small",
                 "color": "yellow",
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Vae12l9a0@:F2O1O0O2O00001O0O100000000000000000O2O00000J7L3O2M4Ml\\g2"
+                }
             },
             {
                 "pixel_coords": [
@@ -108,7 +143,14 @@
                 ],
                 "size": "small",
                 "color": "blue",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "mQm17f96L3L3N2N2O1N2N101O0O10001O000000O101O0O2O0O2O1N2N2N2N3L6HUb_2"
+                }
             },
             {
                 "pixel_coords": [
@@ -125,7 +167,14 @@
                 ],
                 "size": "small",
                 "color": "gray",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Zi\\1;e9;E6KO000O2O1N1O2N2N3M3L5J]jT3"
+                }
             }
         ],
         "image_index": "000093",
@@ -331,7 +380,14 @@
                 ],
                 "size": "large",
                 "color": "blue",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "bVg15h9`0B>B>B>C8G4M2M3N2N2N2M3N2N2N2M3N2N2N2N2M3N2N2N2M4M2N1O0O1000000O1000000O1000000O1000000O1000000O1000000O1000000O1000000O1000000O1000000O100000000O1000000O1000000000000001O001O1O1O2M2O1N2O1O1N3N1O1N2O1O1N3N1O1N2O1O1N2O2N1N2O1O1N2O2N1N2O1N2O1N3M2M3J6C=C>A?BQ_f1"
+                }
             },
             {
                 "pixel_coords": [
@@ -348,7 +404,14 @@
                 ],
                 "size": "large",
                 "color": "purple",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "QUc05i97J6J6J7J5J6J7I6J6J3N1N2N1O2N1O100O1O1O1O1O101N1O1O100O100000001O0000000000000000010O00000000000000001O000001O000000000001O000000000001N100O1N2O1O1N2O1O1N2O1O2M2O1O2M3N5J=D;E;D=CUfV3"
+                }
             },
             {
                 "pixel_coords": [
@@ -365,7 +428,14 @@
                 ],
                 "size": "small",
                 "color": "blue",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "job22m92N3N1O1O1O100O2O0O1O100O101N1O100O1O100O2O0O1O100O101N1O100O100O2NO2B?AW^g1"
+                }
             },
             {
                 "pixel_coords": [
@@ -382,7 +452,14 @@
                 ],
                 "size": "large",
                 "color": "yellow",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "dRf2g0_8l0^Ob0L3N2M3O1N1O2O1N101N101O0O2O000O2O00001O0O10001O0000000000001O0000000000000000000000O101O0000000O101O000O101N10001N1O101N1O2N1O2N1N3J6F9H9G9F;F:El`X1"
+                }
             },
             {
                 "pixel_coords": [
@@ -399,7 +476,14 @@
                 ],
                 "size": "small",
                 "color": "red",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "oi^3;c95K4L3N2N3M1O2O1N2O0O2O0O2O00000O2O00000001O0O1000001N101O0O2N2O1N2N2N2N2M4L5KRfj0"
+                }
             }
         ],
         "image_index": "000094",
@@ -541,7 +625,14 @@
                 ],
                 "size": "large",
                 "color": "green",
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "eaS2`1_88H2O1N2O0O2O001O0O101O0000000O2O00000000000000000000000000000000000000000001N1000000O2O000O101N100O2N2N1N4QOWYQ2"
+                }
             },
             {
                 "pixel_coords": [
@@ -558,7 +649,14 @@
                 ],
                 "size": "large",
                 "color": "gray",
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "kk[1;c9=D<D;E<D<E7H3M3N1N2O1N2O001N101O0O2O001O0O10001O000O101O000000000O1000001O0000000000O10000000000000000O2O0000000O10001O0O100O2O000O2O0O101N101N2N1O2N2N2N3M;Df1XN^h`2"
+                }
             },
             {
                 "pixel_coords": [
@@ -575,7 +673,14 @@
                 ],
                 "size": "small",
                 "color": "green",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "]hY31d9=D;H8N2N1O2O000O2O0000001O00000000000000000001O0O10001N100O2N1M4F:G9GePQ1"
+                }
             },
             {
                 "pixel_coords": [
@@ -592,7 +697,14 @@
                 ],
                 "size": "small",
                 "color": "purple",
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "fid28T9f0M2N101N101O000O101O00000000000000000001O0O10001N100O2O1L4]O_ag1"
+                }
             },
             {
                 "pixel_coords": [
@@ -609,7 +721,14 @@
                 ],
                 "size": "large",
                 "color": "green",
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "PWl32g9;E8I7H8I7H8I7H8I6M4N1O2N1O2O001N101O0O101O00001N1000001O000000001O00000000000000001O0000000001O0000000O10001O0000000O2O00000O2O0O100O2N100N3N1M3K6K4K6K4K6K4K6K5J6KmL"
+                }
             }
         ],
         "image_index": "000095",

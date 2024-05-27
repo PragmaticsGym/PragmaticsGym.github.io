@@ -23,7 +23,14 @@
                     0.3499999940395355
                 ],
                 "size": "small",
-                "rotation": 120.64794145464442
+                "rotation": 120.64794145464442,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "PhZ2e0Z92N2O1O1O1N2O1O001O1O000O1000000000O010000001N101O1O001N2O001O1N2LPdP2"
+                }
             },
             {
                 "color": "green",
@@ -40,7 +47,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 266.57929734273284
+                "rotation": 266.57929734273284,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "hZP3>U9=M3O100O1000000O2O0000001O00001O0O2O001O1O001O1O1O001N2O2N1O1O2N2N2N2N3[HWNl6Q2fHVNZ7W210000000000O10O1000000000O10000000001O1N101O1O001O1N2O001O1O1O001N2O001O1N2N1N3J6H8I6J7I7I7I`Sk0"
+                }
             },
             {
                 "color": "blue",
@@ -57,7 +71,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 110.14242694691956
+                "rotation": 110.14242694691956,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Vhe27c9;H6K5K4L4L3N3M2N2N2N2N2N2N1O2O1N1O2O1N10001N101N1000001N1000000000000000000000000001O0O10001N10001N101N101N2O0O2N2N2N101N2N3L3N2N3L4L4L4L5I;BPhY1"
+                }
             },
             {
                 "color": "blue",
@@ -74,7 +95,14 @@
                     0.3499999940395355
                 ],
                 "size": "small",
-                "rotation": 280.68177417466836
+                "rotation": 280.68177417466836,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Zil15g98J4L4M2N2N2N2N2O0O2O0O2O000O2O00000000000001N10001N101N1O2O1N2N2N3L4L4Lkd]2"
+                }
             },
             {
                 "color": "yellow",
@@ -91,7 +119,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 252.99862169105225
+                "rotation": 252.99862169105225,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "ijV15i9:F:G9G9H9F9G7J3L2O1N2O1O1N101O0O2O001O0O10001O00000O10001O000000000000000000000000O1000000000000O2O00000O101O0O101N10001N1O2O1N1O2O2M4Lc0\\Of0ZOUnh2"
+                }
             }
         ],
         "relationships": {
@@ -239,7 +274,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 241.07345429137015
+                "rotation": 241.07345429137015,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "mnW2?[96K5K5N2N20000O100000001O0000000000010O000000001O00001O00001O001O001O001O1O1O1O1O2XHcNi6Z2000000000001O000000000000000000O2O000O2L5@h0TOkgi1"
+                }
             },
             {
                 "color": "red",
@@ -256,7 +298,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 229.97618818676204
+                "rotation": 229.97618818676204,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "lem17f9i0YOh0XO>B4L2N3M2O1N101N2O0O2O1O0O2O000O2O00001O0O1000001O0000000O100000001O000000O100000001O0000000O10001O0O1000001N100O2O0O101N101N1O2N101M3N2N2L4B?QOSmP2"
+                }
             },
             {
                 "color": "blue",
@@ -273,7 +322,14 @@
                     0.3499999940395355
                 ],
                 "size": "small",
-                "rotation": 323.73173061237367
+                "rotation": 323.73173061237367,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "lo[36a9:G9I6O1O2N101N1O1O2N1O1O2O0O2N1O1O2O000010O01O01O01O01O01O01O000O1O2N1O1O2M2O1O2N1O1O2N1O1N3J5J6J7ITSj0"
+                }
             },
             {
                 "color": "purple",
@@ -290,7 +346,14 @@
                     0.3499999940395355
                 ],
                 "size": "small",
-                "rotation": 321.5321499866196
+                "rotation": 321.5321499866196,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "cXW17e98J4L3N3M2N2N2N2N101N101N101O0O10000000000000000000O2O001N101N1O2O1N2N2N2M4M2M5JcmQ3"
+                }
             },
             {
                 "color": "yellow",
@@ -307,7 +370,14 @@
                     0.3499999940395355
                 ],
                 "size": "small",
-                "rotation": 167.8984766036715
+                "rotation": 167.8984766036715,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "YP<7h95K6J5K6K5J4M1N101O0O2O0000001N1000000000O10000000000O2O000O2O001N2O4K7I7I6J7IQ_m3"
+                }
             },
             {
                 "color": "blue",
@@ -324,7 +394,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 290.6402645837296
+                "rotation": 290.6402645837296,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "hmh13k9d0\\Od0^O<C3N1N2O1N101O0O101O000O2O000000001O0O0100O100O100O10000O10000O101O00000O1000001O0000001N1A?J7J5K6M3M202NZb[2"
+                }
             }
         ],
         "relationships": {
@@ -494,7 +571,14 @@
                     0.3499999940395355
                 ],
                 "size": "small",
-                "rotation": 352.5721321059502
+                "rotation": 352.5721321059502,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "dg]11n91N3M2O2M3N2M3O1N3N3M;E5K01O0000000000000001O000000000000000000N2N3M2N3M=C\\\\l2"
+                }
             },
             {
                 "color": "green",
@@ -511,7 +595,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 114.75019555317297
+                "rotation": 114.75019555317297,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "\\Vo1g0X9j0VO4L3N001N101O0O2O000O2O0O2O001N101O0O101O0O2O001N101N10001N101O0O2O001N10001O00001OO2O000O2O0O101N100O2O0O101N100O2O0O100O2O0O101N100O2N100O2O0O101N100O2O0O2L4ZOg0XOYll1"
+                }
             },
             {
                 "color": "green",
@@ -528,7 +619,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 160.5527497024712
+                "rotation": 160.5527497024712,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "^cR32b9?A=D<C<J7M2O1O2N1O1O1O2N1O1O2N1O1O1O2N1N2O1O2N1O1O2N100O101O00001O0001O01O0000010O00001O01O0001O0001O01O000010O000001O01O000000001O0O100N2O2M2N2N2N2O2M2N2N2O1N3M2N2N2O1M4J5J6J6K5J7J6I7I8Hfhe0"
+                }
             },
             {
                 "color": "blue",
@@ -545,7 +643,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 271.02360358452637
+                "rotation": 271.02360358452637,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "PZ7`0]96J6K4L3N3M2M4M2N2N2N2O0O2N2O1N1O2O0O2O0O2O001N10001O0O1000001O00000000000000000000O2O0000001N10001N101N101kNVH1k7M\\HNe70bHI`75gHEY7:X1N2N2N2O1N2O1N3M2OY^i3"
+                }
             },
             {
                 "color": "gray",
@@ -562,7 +667,14 @@
                     0.3499999940395355
                 ],
                 "size": "small",
-                "rotation": 315.12736188253547
+                "rotation": 315.12736188253547,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Rd`14[9k0E;F8H1O1N10000000000000O100000000000O100000000000O1000000000000000O1001O0O2O7I9G`0_Obmg2"
+                }
             },
             {
                 "color": "green",
@@ -579,7 +691,14 @@
                     0.699999988079071
                 ],
                 "size": "large",
-                "rotation": 79.68171608275951
+                "rotation": 79.68171608275951,
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "SVh0:d97J7I7I7I6J7I7J5J7J6I5K3N1O1N2O1N2O1O0O2O001N10001O0O101O000O1000001O00000O10000000000000000000O1000000000001N1000000O10001N10000O2O000O2O0O2O0O2N2O1N2N2N3EbHPNa7\\1U1D=D;E;Ec`S3"
+                }
             }
         ],
         "relationships": {
