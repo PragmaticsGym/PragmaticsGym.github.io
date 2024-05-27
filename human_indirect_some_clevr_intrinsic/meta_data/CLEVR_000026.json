@@ -172,7 +172,14 @@
                     -2.2001800537109375,
                     0.3499999940395355
                 ],
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "kQd18f9?B>B4L3M2O0O2O1N10001N10001O00000O1000000000000001N1000000O2O000O2O0O2N2O1N3M<CnSe2"
+                }
             },
             {
                 "size": "large",
@@ -189,7 +196,14 @@
                     2.0330660343170166,
                     0.699999988079071
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "[RQ26e9:I5K4L4L3N2N2N2N2N2O1N2N101N101O0O101O0O100000001O0000O10001O00000O2O0O2O0O2O0O2O1N2N2N2N2N2M4M2M5K5JkeT2"
+                }
             },
             {
                 "size": "large",
@@ -206,7 +220,14 @@
                     1.8343265056610107,
                     0.699999988079071
                 ],
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "RS`2;a98I5L5L2M4M2N2N2N2N2N2N101N2N101N101O0O101O0O100000001O000000O100000001O0O101O0O101N101N2O0O2N2N2N2N2N2N2N3L4L4L5J9DQ_c1"
+                }
             },
             {
                 "size": "small",
@@ -223,7 +244,14 @@
                     -2.52163028717041,
                     0.3499999940395355
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "ihn09f98H8H8H5L2M2O001N101O0O100000001O00000O010001O0000000O101O0O101N101N3N6I:F;DbP[3"
+                }
             },
             {
                 "size": "small",
@@ -240,7 +268,14 @@
                     -1.8550078868865967,
                     0.3499999940395355
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "[i\\2<a96K4L4M2N2N2N2N2N2O0O2O0O2O000O2O000000000000000001O0O101O0O101N2O0O2N2N2N2N3M2M4L5Kghk1"
+                }
             },
             {
                 "size": "large",
@@ -257,7 +292,14 @@
                     2.5976483821868896,
                     0.699999988079071
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "[TY33b9=D;E;D<J6M3N101O1N2O1O001O1O1N2O1O001O1O1O1N101O1O1O1O1O0O2O1O0000000O1000O10000000O0100000000O10O1000O100000001N101O001O0O2O001O001N101O001O0O2O1O001O0O2O001O0O2O0O2M2K6J5J7J6I6K6I7J7Im`?"
+                }
             }
         ]
     },
@@ -399,7 +441,14 @@
                     1.111243724822998,
                     0.699999988079071
                 ],
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "ZXh2i0\\8m0B=N2M3O1N101N2O0O2O000O2O00001O0O101O000000001O00000O1000000000001O0001O000O100000000000001O0O100000001N100O101O0O101N1O2N1O2M2K6E:F;D<E<DTcW1"
+                }
             },
             {
                 "size": "large",
@@ -416,7 +465,14 @@
                     -2.3904519081115723,
                     0.699999988079071
                 ],
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "jT]19e9=C>C<D=C<D;E4M2M2N2O1N2O1O1N2O0O2O001N101O000O2O00001N100000001O0O1000000000000000001O00O100000000000000000000O1000001O0O1000000O2O000O101N100O2O0O101N101N1O2N2N2N1O2N3M3L=BR[]2"
+                }
             },
             {
                 "size": "large",
@@ -433,7 +489,14 @@
                     -2.9644739627838135,
                     0.699999988079071
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "iQ`0n0P98I7I7J5J7J6J6J6J6J3M2M2O1O000000000000000O10O1000000000000O10O1000000000O100000O1000O1000000000000O01000000000O10000000O1000O1000000000000O2O001O2N2N3L4M3M3M3M2N4K:G:F;D<D;DV\\Z3"
+                }
             },
             {
                 "size": "small",
@@ -450,7 +513,14 @@
                     -0.3811124563217163,
                     0.3499999940395355
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "ce^1:d95L2N2N2N2N2O1N100O2O00000000000001O0O101N2O0O2N2N3M2M5K]Xn2"
+                }
             },
             {
                 "size": "large",
@@ -467,7 +537,14 @@
                     1.6058849096298218,
                     0.699999988079071
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "e`o1;b97I5L4M3L3N3M2N2N2N1O2O1N101N2O0O101O0O101O00000O10000001O0000000O2O00001N101N101N1O2O1N2N2N2N2N2M4M3L4L6H_cU2"
+                }
             }
         ]
     },
@@ -637,7 +714,14 @@
                     -2.417088031768799,
                     0.3499999940395355
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "_Vl17f9i0YO;E3M2N2O1N2O1N10001N101O000O1000001O000000000000O100000001O0O10001N101N101N1O2N2N2N4Jeg[2"
+                }
             },
             {
                 "size": "large",
@@ -654,7 +738,14 @@
                     -2.1270503997802734,
                     0.699999988079071
                 ],
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "XQe04j99H7I8H7I8I7H7J7H6K3L2O1O1N101O0O2O001O0O101O0000000O101O00000000000O100000000000000000O10000000000O2O000O10000O101O00000O2O000O2O0O2O1N2N3N8G<D=C<C=CZUY3"
+                }
             },
             {
                 "size": "small",
@@ -671,7 +762,14 @@
                     -2.942261219024658,
                     0.3499999940395355
                 ],
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "fWR16h9:G9G9H7H3M2O1N2O001N10001N10000000000O1000000000000001O0O1000000O2O0O2O0O2O1N2N4L<D=CeoU3"
+                }
             },
             {
                 "size": "large",
@@ -688,7 +786,14 @@
                     2.140589475631714,
                     0.699999988079071
                 ],
-                "material": "rubber"
+                "material": "rubber",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "R_c37a9:F:E:G9F:G8I8M3N1O2O0O2O0O2O0O2O00001O0O101O0000001O000O10001O00000000000001O0001O0000000000O10001O00000000001N1000001N100O101N100O2N1O1N3K4K6I6K6J5J7J6J6I7J6IhX9"
+                }
             },
             {
                 "size": "small",
@@ -705,7 +810,14 @@
                     0.6367116570472717,
                     0.3499999940395355
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "QQh14j9e0]O4K2O1N101O000O1000001O000000O100000001O000O101O0O2N3Nold2"
+                }
             },
             {
                 "size": "small",
@@ -722,7 +834,14 @@
                     0.8599885106086731,
                     0.3499999940395355
                 ],
-                "material": "metal"
+                "material": "metal",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "c[W2k0T92N1O1O1O1O1O2N100O100000010O00000000000010O00000000000O1O1N3N1O1O1O1N3ElRS2"
+                }
             }
         ]
     }
