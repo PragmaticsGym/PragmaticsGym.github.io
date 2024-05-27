@@ -1,188 +1,186 @@
-[
-    {
-        "meta_data": {
-            "image_id": "4",
-            "image_url": "4.png",
-            "n_objects": "8",
-            "n_colors": "3",
-            "total_area_px": "144966",
-            "avg_area_px": "18120.75",
-            "min_area": "3600",
-            "max_area": "40401",
-            "min_radius": "30",
-            "max_radius": "100"
-        },
-        "object": [
-            {
-                "object_id": "7",
-                "rr": "552",
-                "cc": "276",
-                "color": "white",
-                "shape": "triangle",
-                "radius": "100",
-                "area": "40401",
-                "size": "big",
-                "prob": "0.9988",
-                "thresh_dist": "0.4142",
-                "k": "0.4142",
-                "vagueness": "same",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "P[\\2a<`c0N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2Ni^Zg0"
-                }
-            },
-            {
-                "object_id": "0",
-                "rr": "873",
-                "cc": "973",
-                "color": "yellow",
-                "shape": "square",
-                "radius": "30",
-                "area": "3600",
-                "size": "small",
-                "prob": "1.0",
-                "thresh_dist": "0.5858",
-                "k": "0.4142",
-                "vagueness": "same",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "[j_m0l1Tn0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000eUd0"
-                }
-            },
-            {
-                "object_id": "3",
-                "rr": "460",
-                "cc": "784",
-                "color": "green",
-                "shape": "triangle",
-                "radius": "80",
-                "area": "25602",
-                "size": "big",
-                "prob": "0.5353",
-                "thresh_dist": "0.012",
-                "k": "0.4142",
-                "vagueness": "different",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "\\Y`c01oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10df^2"
-                }
-            },
-            {
-                "object_id": "5",
-                "rr": "730",
-                "cc": "222",
-                "color": "yellow",
-                "shape": "circle",
-                "radius": "70",
-                "area": "15361",
-                "size": "small",
-                "prob": "0.975",
-                "thresh_dist": "0.2662",
-                "k": "0.4142",
-                "vagueness": "same",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "_fi4g0To0:G8I6K4K6K4L4L4L4M2M4M2N2M4M2N2N2N2N2N2N2N2N2N2N2N2O0O2N2N2O0O2N2O0O2O0O2O0O2O0O2O000O2O0O2O000O2O00000O2O0000000O2O00000000000000000000000000000000000000000001N100000001N1000001N10001N101N10001N101N101N101N101N2N101N2N2N101N2N2N2N2N2N2N2N2N2N2N2N3L3N2N3L3N3L4L4L4L5J5L5J7H9FfYkf0"
-                }
-            },
-            {
-                "object_id": "1",
-                "rr": "330",
-                "cc": "223",
-                "color": "green",
-                "shape": "square",
-                "radius": "40",
-                "area": "6400",
-                "size": "small",
-                "prob": "0.9999",
-                "thresh_dist": "0.5097",
-                "k": "0.4142",
-                "vagueness": "same",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "RYg5`2`m00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000nfhg0"
-                }
-            },
-            {
-                "object_id": "4",
-                "rr": "144",
-                "cc": "751",
-                "color": "white",
-                "shape": "triangle",
-                "radius": "60",
-                "area": "14402",
-                "size": "small",
-                "prob": "0.9843",
-                "thresh_dist": "0.2923",
-                "k": "0.4142",
-                "vagueness": "same",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "hPgc01oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10Xog4"
-                }
-            },
-            {
-                "object_id": "6",
-                "rr": "123.0",
-                "cc": "410",
-                "color": "yellow",
-                "shape": "rectangle",
-                "radius": "70",
-                "area": "19600",
-                "size": "small",
-                "prob": "0.8669",
-                "thresh_dist": "0.1511",
-                "k": "0.4142",
-                "vagueness": "same",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "hR^8V2jm000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Xmi>"
-                }
-            },
-            {
-                "object_id": "2",
-                "rr": "438",
-                "cc": "502",
-                "color": "yellow",
-                "shape": "square",
-                "radius": "70",
-                "area": "19600",
-                "size": "small",
-                "prob": "0.8669",
-                "thresh_dist": "0.1511",
-                "k": "0.4142",
-                "vagueness": "same",
-                "mask": {
-                    "size": [
-                        1024,
-                        1024
-                    ],
-                    "counts": "`[`=\\4dk00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`dS>"
-                }
+{
+    "meta_data": {
+        "image_id": "4",
+        "image_url": "4.png",
+        "n_objects": "8",
+        "n_colors": "3",
+        "total_area_px": "144966",
+        "avg_area_px": "18120.75",
+        "min_area": "3600",
+        "max_area": "40401",
+        "min_radius": "30",
+        "max_radius": "100"
+    },
+    "object": [
+        {
+            "object_id": "7",
+            "rr": "552",
+            "cc": "276",
+            "color": "white",
+            "shape": "triangle",
+            "radius": "100",
+            "area": "40401",
+            "size": "big",
+            "prob": "0.9988",
+            "thresh_dist": "0.4142",
+            "k": "0.4142",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "P[\\2a<`c0N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2N2Ni^Zg0"
             }
-        ],
-        "utterance": "Small square",
-        "referent": 2
-    }
-]
+        },
+        {
+            "object_id": "0",
+            "rr": "873",
+            "cc": "973",
+            "color": "yellow",
+            "shape": "square",
+            "radius": "30",
+            "area": "3600",
+            "size": "small",
+            "prob": "1.0",
+            "thresh_dist": "0.5858",
+            "k": "0.4142",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "[j_m0l1Tn0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000eUd0"
+            }
+        },
+        {
+            "object_id": "3",
+            "rr": "460",
+            "cc": "784",
+            "color": "green",
+            "shape": "triangle",
+            "radius": "80",
+            "area": "25602",
+            "size": "big",
+            "prob": "0.5353",
+            "thresh_dist": "0.012",
+            "k": "0.4142",
+            "vagueness": "different",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "\\Y`c01oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10df^2"
+            }
+        },
+        {
+            "object_id": "5",
+            "rr": "730",
+            "cc": "222",
+            "color": "yellow",
+            "shape": "circle",
+            "radius": "70",
+            "area": "15361",
+            "size": "small",
+            "prob": "0.975",
+            "thresh_dist": "0.2662",
+            "k": "0.4142",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "_fi4g0To0:G8I6K4K6K4L4L4L4M2M4M2N2M4M2N2N2N2N2N2N2N2N2N2N2N2O0O2N2N2O0O2N2O0O2O0O2O0O2O0O2O000O2O0O2O000O2O00000O2O0000000O2O00000000000000000000000000000000000000000001N100000001N1000001N10001N101N10001N101N101N101N101N2N101N2N2N101N2N2N2N2N2N2N2N2N2N2N2N3L3N2N3L3N3L4L4L4L5J5L5J7H9FfYkf0"
+            }
+        },
+        {
+            "object_id": "1",
+            "rr": "330",
+            "cc": "223",
+            "color": "green",
+            "shape": "square",
+            "radius": "40",
+            "area": "6400",
+            "size": "small",
+            "prob": "0.9999",
+            "thresh_dist": "0.5097",
+            "k": "0.4142",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "RYg5`2`m00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000nfhg0"
+            }
+        },
+        {
+            "object_id": "4",
+            "rr": "144",
+            "cc": "751",
+            "color": "white",
+            "shape": "triangle",
+            "radius": "60",
+            "area": "14402",
+            "size": "small",
+            "prob": "0.9843",
+            "thresh_dist": "0.2923",
+            "k": "0.4142",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "hPgc01oo0001O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1OO1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O1O10Xog4"
+            }
+        },
+        {
+            "object_id": "6",
+            "rr": "123.0",
+            "cc": "410",
+            "color": "yellow",
+            "shape": "rectangle",
+            "radius": "70",
+            "area": "19600",
+            "size": "small",
+            "prob": "0.8669",
+            "thresh_dist": "0.1511",
+            "k": "0.4142",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "hR^8V2jm000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Xmi>"
+            }
+        },
+        {
+            "object_id": "2",
+            "rr": "438",
+            "cc": "502",
+            "color": "yellow",
+            "shape": "square",
+            "radius": "70",
+            "area": "19600",
+            "size": "small",
+            "prob": "0.8669",
+            "thresh_dist": "0.1511",
+            "k": "0.4142",
+            "vagueness": "same",
+            "mask": {
+                "size": [
+                    1024,
+                    1024
+                ],
+                "counts": "`[`=\\4dk00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`dS>"
+            }
+        }
+    ],
+    "utterance": "Small square",
+    "referent": 2
+}
