@@ -177,7 +177,14 @@
                     -0.3500272035598755,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "cke18g9`0@9G3N0O2O1O0O101O00000O100000000000000001O000O10001N101N101N3Mk0TOe_e2"
+                }
             },
             {
                 "pixel_coords": [
@@ -194,7 +201,14 @@
                     2.2386767864227295,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "fl]2i0V92O0O100O2O0O1O2O0O100O2O0O11O01O0000010O0000O2O0O1O101N1O100O1O2O0O1O2_Olal1"
+                }
             },
             {
                 "pixel_coords": [
@@ -211,7 +225,14 @@
                     -2.203667640686035,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Wne1`0_9>C4K2O1N2O1O1N2O1N2O1O1N2O0O2O1O1N2O1N2O1O1N10000O010O10O10O0100O2O0O2O1N101N2O1N101O1N2O0O2O1N2M2N3M3N2N1O2O2MeW^2"
+                }
             },
             {
                 "pixel_coords": [
@@ -228,7 +249,14 @@
                     -1.8441224098205566,
                     0.699999988079071
                 ],
-                "shape": "sphere"
+                "shape": "sphere",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Pll0?]98J4L4L4L4M2N2N3L3N2O1N2N1O2O1N1O2O1N101N10001N101O000O10001O0000000000000000000000O2O00000O2O001N10001N2O0O2N101N2N2N2N2N2N2N2N3M2M4L4L4L6I:BPdR3"
+                }
             },
             {
                 "pixel_coords": [
@@ -245,7 +273,14 @@
                     1.1391953229904175,
                     0.3499999940395355
                 ],
-                "shape": "sphere"
+                "shape": "sphere",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Wg_3<b94L4M2N3M2N2N1O2O0O2O001N10001O000000000000O101O000O2O0O2O1N1O2N2N3M2M4L6Ii\\j0"
+                }
             },
             {
                 "pixel_coords": [
@@ -262,7 +297,14 @@
                     -2.3623785972595215,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "^YU2U1i88H4M3M2N2O1N2O0O2O0O2O0O2O0000001N100000000000000000000001O0O10001O0O101N101N101N1O2N2N2M4L3DnfQ2"
+                }
             }
         ]
     },
@@ -469,7 +511,14 @@
                     -0.4239163100719452,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "]gb16i9>B;E3N1N101O000O2O00000000000O1001O000000000O101O0O101O1N2N<DZXi2"
+                }
             },
             {
                 "pixel_coords": [
@@ -486,7 +535,14 @@
                     -0.46335211396217346,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "UPn15i9i0XO5K2O1N101N101O000O2O000000000000000000000001N10000O2O001N1O2N3Mm[]2"
+                }
             },
             {
                 "pixel_coords": [
@@ -503,7 +559,14 @@
                     0.3332546651363373,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "b_j27V9e0K4O1N2O1O1O1O1N3N1O1O1O1N2O1O00000O100000O10O1000O1000O10O10001O1N2O1O1O0O2O1O1O1O1N2O1O0O2I7F;ESm[1"
+                }
             },
             {
                 "pixel_coords": [
@@ -520,7 +583,14 @@
                     1.8711268901824951,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "`Qe39`97I8I6N2O1N3M2O1N2N3N1O10001O0001O01O0000010O00000010O000001O01O000O1N3M2N2N2M3N3M2J6K5K6J`cb0"
+                }
             },
             {
                 "pixel_coords": [
@@ -537,7 +607,14 @@
                     -1.311231255531311,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "i]R2i0V97I2O1N101N101N1O2O0O2O1N101N101N101N2N101N101N101O0001O001N101N1O2O0O2N101N1O2O0O2N100O2N101N1O2O0O2N2MZPS2"
+                }
             },
             {
                 "pixel_coords": [
@@ -554,7 +631,14 @@
                     2.816776990890503,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "a`c2g0X91O2O0O101N101O0O101N10001N10001O000001O0O101O0O101N100O101N100O2O0O2BmWg1"
+                }
             },
             {
                 "pixel_coords": [
@@ -571,7 +655,14 @@
                     -2.5441720485687256,
                     0.3499999940395355
                 ],
-                "shape": "sphere"
+                "shape": "sphere",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "kd`18e96J6L2M4M2N2N2N2N101N2O0O2O000O101O00000000000000O10001O0O2O0O2O0O2N2N2N2N2N3L4L4LZWh2"
+                }
             }
         ]
     },
@@ -814,7 +905,14 @@
                     -2.25730037689209,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "lkb03k98I7J6I6J6K1O1N2O000O2O000000000O1000000000000000O2O00000O2O001N102M8H8I8FcWg3"
+                }
             },
             {
                 "pixel_coords": [
@@ -831,7 +929,14 @@
                     -0.9173365831375122,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "XSS1:e99G9H4K2O1N2O00000O2O00000000000000000000O1000001O0O101N2O1N;E;EVbX3"
+                }
             },
             {
                 "pixel_coords": [
@@ -848,7 +953,14 @@
                     2.1198017597198486,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "enW2g0X92N2O0O101O0O100O2O000O2O0O101O00000010O000O101N100O101N100O101N100O2O1Ch_R2"
+                }
             },
             {
                 "pixel_coords": [
@@ -865,7 +977,14 @@
                     1.757932424545288,
                     0.3499999940395355
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "cWh2b0U9;N1N3N1O2N1O2N000000000000000O10000000O1000000000000000001O2N1N2O1O1O1N2E<@kba1"
+                }
             },
             {
                 "pixel_coords": [
@@ -882,7 +1001,14 @@
                     -0.8659541010856628,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "[di12m91O2N1O100O10001N10000000001N10000000001O0001O000001O010O00101Ne0\\O2NN3MfSa2"
+                }
             },
             {
                 "pixel_coords": [
@@ -899,7 +1025,14 @@
                     1.9702329635620117,
                     0.699999988079071
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "YWb36b9:F9G8H9G8H9J5O1O2N1O2O0O101N100O2N101N100O2O0O2O0O101N1O101N101N100O2O0O101N101N10001O010O000010O0001O010O000010O0001O01O0000001N100O1O2N100O2N1O1O1O2N1O100O2N1O1O1O2N100O1O2N1O1O1O2N1O1N3L3K5L4K6K4K5L4K6K5J5K7Ja\\2"
+                }
             },
             {
                 "pixel_coords": [
@@ -916,7 +1049,14 @@
                     -2.6472084522247314,
                     0.699999988079071
                 ],
-                "shape": "cube"
+                "shape": "cube",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "Y]o0=b98H8H8H8H8H8I7H7I4L2O1N1O2N1O101N1O1O101N1O1O101N1O1O1O2O0O1O1O2O0O1O1O2N100O1O2N100O101O0000001O01O0001O0000010O0000001O01O0001O0000010O0000001O01O0001O000001O00000O100O2N1O1O1N2O1O2M2O1O1N2O1O2M2O1O1N2O1O2M2O1O1N2O1O2M2O2N1N3N3Mf0YOgPb2"
+                }
             },
             {
                 "pixel_coords": [
@@ -933,7 +1073,14 @@
                     2.3004844188690186,
                     0.3499999940395355
                 ],
-                "shape": "cylinder"
+                "shape": "cylinder",
+                "mask": {
+                    "size": [
+                        320,
+                        480
+                    ],
+                    "counts": "XbS2h0X93L2O0O2O00001N100000000000_Oa0O1O100O2O000O101N101OhYZ2"
+                }
             }
         ]
     }
