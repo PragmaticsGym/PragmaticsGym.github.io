@@ -2,7 +2,7 @@
     {
         "utterance": "There are beds or books in the images",
         "type": "direct implicature",
-        "referent": [
+        "referents": [
             "000000483050.jpg",
             "000000176446.jpg"
         ]

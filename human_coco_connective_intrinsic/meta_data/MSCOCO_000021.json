@@ -2,7 +2,7 @@
     {
         "utterance": "There are stop signs or trucks in the images",
         "type": "direct contextual cancellation",
-        "referent": [
+        "referents": [
             "000000336587.jpg",
             "000000000724.jpg"
         ]

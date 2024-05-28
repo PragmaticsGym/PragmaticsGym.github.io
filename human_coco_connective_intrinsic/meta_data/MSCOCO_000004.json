@@ -2,7 +2,7 @@
     {
         "utterance": "There are microwaves or refrigerators in the images",
         "type": "direct implicature",
-        "referent": [
+        "referents": [
             "000000135561.jpg",
             "000000269866.jpg"
         ]

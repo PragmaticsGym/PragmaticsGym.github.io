@@ -2,7 +2,7 @@
     {
         "utterance": "There are skateboards or stop signs in the images",
         "type": "direct implicature",
-        "referent": [
+        "referents": [
             "000000493613.jpg",
             "000000522940.jpg"
         ]

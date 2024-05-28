@@ -2,7 +2,7 @@
     {
         "utterance": "There are clocks or people in the images",
         "type": "direct contextual cancellation",
-        "referent": [
+        "referents": [
             "000000409542.jpg",
             "000000525286.jpg"
         ]

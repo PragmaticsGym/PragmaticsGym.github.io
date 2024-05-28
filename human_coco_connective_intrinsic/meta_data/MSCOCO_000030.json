@@ -2,7 +2,7 @@
     {
         "utterance": "There are cell phones or people in the images",
         "type": "direct contextual cancellation",
-        "referent": [
+        "referents": [
             "000000439773.jpg",
             "000000036660.jpg"
         ]

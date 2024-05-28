@@ -2,7 +2,7 @@
     {
         "utterance": "There are parking meters or airplanes in the images",
         "type": "direct implicature",
-        "referent": [
+        "referents": [
             "000000300659.jpg",
             "000000333956.jpg"
         ]

@@ -2,7 +2,7 @@
     {
         "utterance": "There are tvs or keyboards in the images",
         "type": "direct contextual cancellation",
-        "referent": [
+        "referents": [
             "000000353096.jpg",
             "000000009483.jpg"
         ]

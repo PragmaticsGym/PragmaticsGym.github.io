@@ -2,7 +2,7 @@
     {
         "utterance": "There are zebras or giraffes in the images",
         "type": "direct implicature",
-        "referent": [
+        "referents": [
             "000000417876.jpg",
             "000000125211.jpg"
         ]

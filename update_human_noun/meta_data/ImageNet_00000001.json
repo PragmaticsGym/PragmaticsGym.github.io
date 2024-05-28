@@ -2,20 +2,20 @@
     {
         "utterance": "Not wine.",
         "type": "indirect implicature",
-        "referents": [
+        "referent": [
             "ILSVRC2012_val_00027368.JPEG"
         ]
     },
     {
-        "image": "ILSVRC2012_val_00027368.JPEG",
+        "image_filename": "ILSVRC2012_val_00027368.JPEG",
         "category": "cup"
     },
     {
-        "image": "ILSVRC2012_val_00017146.JPEG",
+        "image_filename": "ILSVRC2012_val_00017146.JPEG",
         "category": "red wine"
     },
     {
-        "image": "ILSVRC2012_val_00001281.JPEG",
+        "image_filename": "ILSVRC2012_val_00001281.JPEG",
         "category": "menu"
     }
 ]

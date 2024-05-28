@@ -1,7 +1,7 @@
 {
     "meta_data": {
         "image_id": "3",
-        "image_url": "3.png",
+        "image_filename": "3.png",
         "n_objects": "7",
         "n_colors": "3",
         "total_area_px": "113691",

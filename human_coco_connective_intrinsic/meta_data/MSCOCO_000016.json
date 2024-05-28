@@ -2,7 +2,7 @@
     {
         "utterance": "There are dogs or elephants in the images",
         "type": "direct implicature",
-        "referent": [
+        "referents": [
             "000000286994.jpg",
             "000000361571.jpg"
         ]
