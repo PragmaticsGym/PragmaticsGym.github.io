@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000105.png"
+            "105.png"
         ],
         "utterance": "Not all luggages are black",
         "type": "contextual cancellation"
     },
     {
-        "image": "105.png",
-        "image_index": 105
+        "image_filename": "105.png"
     },
     {
-        "image": "106.png",
-        "image_index": 106
+        "image_filename": "106.png"
     },
     {
-        "image": "107.png",
-        "image_index": 107
+        "image_filename": "107.png"
     }
 ]

@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000069.png"
+            "069.png"
         ],
         "utterance": "Not all trees are with yellow leaves",
         "type": "contextual cancellation"
     },
     {
-        "image": "069.png",
-        "image_index": 69
+        "image_filename": "069.png"
     },
     {
-        "image": "070.png",
-        "image_index": 70
+        "image_filename": "070.png"
     },
     {
-        "image": "071.png",
-        "image_index": 71
+        "image_filename": "071.png"
     }
 ]

@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000099.png"
+            "099.png"
         ],
         "utterance": "Not all animals are eating food",
         "type": "contextual cancellation"
     },
     {
-        "image": "099.png",
-        "image_index": 99
+        "image_filename": "099.png"
     },
     {
-        "image": "100.png",
-        "image_index": 100
+        "image_filename": "100.png"
     },
     {
-        "image": "101.png",
-        "image_index": 101
+        "image_filename": "101.png"
     }
 ]

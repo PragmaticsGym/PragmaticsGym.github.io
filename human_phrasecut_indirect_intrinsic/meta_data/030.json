@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000090.png"
+            "090.png"
         ],
         "utterance": "Not all bears are blue",
         "type": "contextual cancellation"
     },
     {
-        "image": "090.png",
-        "image_index": 90
+        "image_filename": "090.png"
     },
     {
-        "image": "091.png",
-        "image_index": 91
+        "image_filename": "091.png"
     },
     {
-        "image": "092.png",
-        "image_index": 92
+        "image_filename": "092.png"
     }
 ]

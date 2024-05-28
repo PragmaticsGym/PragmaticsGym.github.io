@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000102.png"
+            "102.png"
         ],
         "utterance": "Not all boys are reading books",
         "type": "contextual cancellation"
     },
     {
-        "image": "102.png",
-        "image_index": 102
+        "image_filename": "102.png"
     },
     {
-        "image": "103.png",
-        "image_index": 103
+        "image_filename": "103.png"
     },
     {
-        "image": "104.png",
-        "image_index": 104
+        "image_filename": "104.png"
     }
 ]

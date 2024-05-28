@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000108.png"
+            "108.png"
         ],
         "utterance": "Not all oranges are green",
         "type": "contextual cancellation"
     },
     {
-        "image": "108.png",
-        "image_index": 108
+        "image_filename": "108.png"
     },
     {
-        "image": "109.png",
-        "image_index": 109
+        "image_filename": "109.png"
     },
     {
-        "image": "110.png",
-        "image_index": 110
+        "image_filename": "110.png"
     }
 ]

@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000063.png"
+            "063.png"
         ],
         "utterance": "Not all women are playing ping pong",
         "type": "contextual cancellation"
     },
     {
-        "image": "063.png",
-        "image_index": 63
+        "image_filename": "063.png"
     },
     {
-        "image": "064.png",
-        "image_index": 64
+        "image_filename": "064.png"
     },
     {
-        "image": "065.png",
-        "image_index": 65
+        "image_filename": "065.png"
     }
 ]

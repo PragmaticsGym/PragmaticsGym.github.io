@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000060.png"
+            "060.png"
         ],
         "utterance": "Not all chairs are brown",
         "type": "contextual cancellation"
     },
     {
-        "image": "060.png",
-        "image_index": 60
+        "image_filename": "060.png"
     },
     {
-        "image": "061.png",
-        "image_index": 61
+        "image_filename": "061.png"
     },
     {
-        "image": "062.png",
-        "image_index": 62
+        "image_filename": "062.png"
     }
 ]

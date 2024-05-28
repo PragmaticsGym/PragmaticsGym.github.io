@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000081.png"
+            "081.png"
         ],
         "utterance": "Not all streets are grey",
         "type": "contextual cancellation"
     },
     {
-        "image": "081.png",
-        "image_index": 81
+        "image_filename": "081.png"
     },
     {
-        "image": "082.png",
-        "image_index": 82
+        "image_filename": "082.png"
     },
     {
-        "image": "083.png",
-        "image_index": 83
+        "image_filename": "083.png"
     }
 ]

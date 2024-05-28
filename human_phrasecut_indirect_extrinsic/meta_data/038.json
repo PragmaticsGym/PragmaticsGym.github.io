@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000114.png"
+            "114.png"
         ],
         "utterance": "Not all women are outside the water",
         "type": "contextual cancellation"
     },
     {
-        "image": "114.png",
-        "image_index": 114
+        "image_filename": "114.png"
     },
     {
-        "image": "115.png",
-        "image_index": 115
+        "image_filename": "115.png"
     },
     {
-        "image": "116.png",
-        "image_index": 116
+        "image_filename": "116.png"
     }
 ]

@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000072.png"
+            "072.png"
         ],
         "utterance": "Not all cars are white",
         "type": "contextual cancellation"
     },
     {
-        "image": "072.png",
-        "image_index": 72
+        "image_filename": "072.png"
     },
     {
-        "image": "073.png",
-        "image_index": 73
+        "image_filename": "073.png"
     },
     {
-        "image": "074.png",
-        "image_index": 74
+        "image_filename": "074.png"
     }
 ]

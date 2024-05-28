@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000066.png"
+            "066.png"
         ],
         "utterance": "Not all lights are white",
         "type": "contextual cancellation"
     },
     {
-        "image": "066.png",
-        "image_index": 66
+        "image_filename": "066.png"
     },
     {
-        "image": "067.png",
-        "image_index": 67
+        "image_filename": "067.png"
     },
     {
-        "image": "068.png",
-        "image_index": 68
+        "image_filename": "068.png"
     }
 ]

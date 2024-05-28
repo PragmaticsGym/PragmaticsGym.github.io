@@ -1,21 +1,18 @@
 [
     {
         "referent": [
-            "000084.png"
+            "084.png"
         ],
         "utterance": "Not all refrigerators are white",
         "type": "contextual cancellation"
     },
     {
-        "image": "084.png",
-        "image_index": 84
+        "image_filename": "084.png"
     },
     {
-        "image": "085.png",
-        "image_index": 85
+        "image_filename": "085.png"
     },
     {
-        "image": "086.png",
-        "image_index": 86
+        "image_filename": "086.png"
     }
 ]
