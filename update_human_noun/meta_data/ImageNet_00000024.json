@@ -1,21 +1,21 @@
 [
     {
-        "utterance": "Not wearable.",
+        "utterance": "Not wine.",
         "type": "indirect contextual cancellation",
-        "referent": [
-            "ILSVRC2012_val_00026727.JPEG"
+        "referents": [
+            "ILSVRC2012_val_00022584.JPEG"
         ]
     },
     {
-        "image_filename": "ILSVRC2012_val_00026727.JPEG",
-        "category": "wooden spoon"
+        "image": "ILSVRC2012_val_00022584.JPEG",
+        "category": "espresso"
     },
     {
-        "image_filename": "ILSVRC2012_val_00007495.JPEG",
-        "category": "seat belt, seatbelt"
+        "image": "ILSVRC2012_val_00037863.JPEG",
+        "category": "red wine"
     },
     {
-        "image_filename": "ILSVRC2012_val_00049767.JPEG",
-        "category": "mortarboard"
+        "image": "ILSVRC2012_val_00017146.JPEG",
+        "category": "red wine"
     }
 ]
