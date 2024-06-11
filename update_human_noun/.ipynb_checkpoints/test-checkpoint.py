@@ -59,15 +59,15 @@ def main():
                 
 
             with open(json_filename, "r") as f:
-                data = list(f)
-            data = [json.loads(_) for _ in data]
+                data = json.load(f)
+            #data = [json.loads(_) for _ in data]
 
             images = []
             utterance = ""
             game_setup = 'You are chatting with your partner. He/She is asked to provide a statement describing one target image, and both of you will be rewarded if you can correctly identify the referent image. However, this time, he/ she can only use utterance in the format of "Not [object]". Please proceed by selecting your answer based on the corresponding numerical image index.'
             for item in data:
-                if "image" in item:
-                    image_filename = item['image']
+                if "image_filename" in item:
+                    image_filename = item['image_filename']
                     images.append(os.path.join("./images", image_filename.split("/")[-1]))
                    
                     #shutil.copy(os.path.join("./images", image_filename.split("/")[-1]), os.path.join("./images", image_filename.split("/")[-1]))
@@ -90,9 +90,9 @@ def main():
             
             
             text = f'<b>Game:</b> {game_setup}<br><b>Speaker:</b> {utterance}'
-
+            print(images, file_name)
             referent = images[0]
-            print(referent)
+            #print(referent)
             random.shuffle(images)
             referent_id = images.index(referent)
             #referent2_id = images.index(referent2)
@@ -103,7 +103,7 @@ def main():
             
             #text = f'<b>Utterance:</b> {text1}'
             answer = f'<b>Referents:</b> Image {referent_id+1}<br><b>Type:</b> {implicature_type}'
-            print(answer, images[0])
+            #print(answer, images[0])
             #type_ = f'<b>Type:</b> {implicature_type}'
 
             visualizer.row(idx=k+1, image1=images[0], image2=images[1], image3=images[2], text=text, answer=answer)
