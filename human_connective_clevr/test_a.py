@@ -16,14 +16,14 @@ def main():
     implicature_type = "Direct Implicature"
     temp_files = os.listdir("./meta_data/")
     # process file_names
-    impli_files = ['CLEVR_000000.jsonl']
+    impli_files = ['CLEVR_000000.json'] #zl']
     cancel_files = []
     for file in temp_files:
         
-        if 'jsonl' not in file:
+        if 'json' not in file:
             continue
         print(file)
-        if 'CLEVR_000000.jsonl' == file:
+        if 'CLEVR_000000.json' == file:
             continue
         if int(file.strip('.jsonl').split('_')[1]) < 100:#int(file.replace(re.search('CLEVR_0+', file).group(), "").replace(".jsonl", "")) < 400:
             impli_files.append(file)
@@ -69,8 +69,8 @@ def main():
             #    json_filename = f'./meta_120/{file_name}'
 
             with open(json_filename, "r") as f:
-                data = list(f)
-            data = [json.loads(_) for _ in data]
+                data = json.load(f)#list(f)
+            #data = [json.loads(_) for _ in data]
             images = []
             utterance = ""
             impli_type = ""
