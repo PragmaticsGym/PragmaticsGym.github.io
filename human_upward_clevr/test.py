@@ -70,7 +70,7 @@ def main():
                     image_filename = item['image_filename']
                     images.append(os.path.join("./SoMs", image_filename))
                 if "utterance" in item:
-                    utterance = item["utterance"].replace("novel ", "")
+                    utterance = item["utterance"]
                     impli_type = item["type"]
                     
                     #referent_obj_id = data['referent'][0]
