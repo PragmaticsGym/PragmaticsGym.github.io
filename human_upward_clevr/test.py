@@ -68,7 +68,7 @@ def main():
             for item in data:
                 if "image_filename" in item:
                     image_filename = item['image_filename']
-                    images.append(os.path.join("./SoMs", image_filename))
+                    images.append(os.path.join("./images", image_filename))
                 if "utterance" in item:
                     utterance = item["utterance"]
                     impli_type = item["type"]
