@@ -14,11 +14,11 @@ def main():
     meta_list = []
     for item in os.listdir("./meta_data"):
         #print(type(item))
-        if '.jsonl' not in item:
+        if '.json' not in item:
             continue
         #print(item.rstrip(".jsonl").split("annotations_"))
         #print(item)
-        temp_item = int(item.rstrip(".jsonl").split("_")[1])#.strip("_")
+        temp_item = int(item.rstrip(".json").split("_")[1])#.strip("_")
         print(temp_item)
         #if int(temp_item) >= 0 and int(temp_item) <= 100 and "jsonl" in item:
         if int(temp_item) < 200:
@@ -57,8 +57,8 @@ def main():
             #    json_filename = f'./meta_120/{file_name}'
 
             with open(json_filename, "r") as f:
-                data = list(f)
-            data = [json.loads(_) for _ in data]
+                data = json.load(f) #list(f)
+            #data = [json.loads(_) for _ in data]
             #print(data.keys())
             #image = f'./SoMs/{index}.png'
             
