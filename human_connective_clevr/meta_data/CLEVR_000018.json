@@ -1,14 +1,11 @@
 [
     {
         "referents": [
-            "CLEVR_000185.png",
-            "CLEVR_000186.png"
+            "CLEVR_000090.png",
+            "CLEVR_000091.png"
         ],
         "type": "direct implicature",
-        "utterance": "There are cylinders or metal cubes in the images",
-        "referent": [
-            "CLEVR_000054.png"
-        ]
+        "utterance": "There are cylinders or metal cubes in the images"
     },
     {
         "directions": {

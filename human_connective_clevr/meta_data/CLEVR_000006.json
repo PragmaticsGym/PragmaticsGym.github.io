@@ -1,14 +1,11 @@
 [
     {
         "referents": [
-            "CLEVR_000305.png",
-            "CLEVR_000306.png"
+            "CLEVR_000030.png",
+            "CLEVR_000031.png"
         ],
         "type": "direct implicature",
-        "utterance": "There are green rubber spheres or blue metal spheres in the images",
-        "referent": [
-            "CLEVR_000018.png"
-        ]
+        "utterance": "There are green rubber spheres or blue metal spheres in the images"
     },
     {
         "directions": {

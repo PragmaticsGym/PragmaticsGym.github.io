@@ -1,14 +1,11 @@
 [
     {
         "referents": [
-            "CLEVR_000370.png",
-            "CLEVR_000371.png"
+            "CLEVR_000015.png",
+            "CLEVR_000016.png"
         ],
         "type": "direct implicature",
-        "utterance": "There are large green spheres or small green cylinders in the images",
-        "referent": [
-            "CLEVR_000009.png"
-        ]
+        "utterance": "There are large green spheres or small green cylinders in the images"
     },
     {
         "directions": {

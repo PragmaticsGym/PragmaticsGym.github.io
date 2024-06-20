@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "There are small gray rubber spheres or large yellow metal spheres in the images",
         "referents": [
-            "CLEVR_000665.png",
-            "CLEVR_000666.png"
+            "CLEVR_000140.png",
+            "CLEVR_000141.png"
         ],
-        "referent": [
-            "CLEVR_000084.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "There are small gray rubber spheres or large yellow metal spheres in the images"
     },
     {
         "image_index": "000140",

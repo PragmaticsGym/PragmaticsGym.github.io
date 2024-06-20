@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "There are metal cylinders or rubber cylinders in the images",
         "referents": [
-            "CLEVR_000660.png",
-            "CLEVR_000661.png"
+            "CLEVR_000105.png",
+            "CLEVR_000106.png"
         ],
-        "referent": [
-            "CLEVR_000063.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "There are metal cylinders or rubber cylinders in the images"
     },
     {
         "image_index": "000105",

@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "It contains large cylinders or rubber cubes.",
         "referents": [
-            "CLEVR_000820.png",
-            "CLEVR_000821.png"
+            "CLEVR_000100.png",
+            "CLEVR_000101.png"
         ],
-        "referent": [
-            "CLEVR_000060.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "It contains large cylinders or rubber cubes."
     },
     {
         "image_index": "000100",

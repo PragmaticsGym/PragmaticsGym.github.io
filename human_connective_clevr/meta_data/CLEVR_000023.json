@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "There are large rubber cylinders or purple cubes in the images",
         "referents": [
-            "CLEVR_000865.png",
-            "CLEVR_000866.png"
+            "CLEVR_000115.png",
+            "CLEVR_000116.png"
         ],
-        "referent": [
-            "CLEVR_000069.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "There are large rubber cylinders or purple cubes in the images"
     },
     {
         "image_index": "000115",

@@ -1,14 +1,11 @@
 [
     {
         "referents": [
-            "CLEVR_000040.png",
-            "CLEVR_000041.png"
+            "CLEVR_000045.png",
+            "CLEVR_000046.png"
         ],
         "type": "direct implicature",
-        "utterance": "There are large yellow spheres or small purple spheres in the images",
-        "referent": [
-            "CLEVR_000027.png"
-        ]
+        "utterance": "There are large yellow spheres or small purple spheres in the images"
     },
     {
         "directions": {

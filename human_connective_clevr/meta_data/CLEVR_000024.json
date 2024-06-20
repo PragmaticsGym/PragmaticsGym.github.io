@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "It contains small metal cubes or small cylinders.",
         "referents": [
-            "CLEVR_000965.png",
-            "CLEVR_000966.png"
+            "CLEVR_000120.png",
+            "CLEVR_000121.png"
         ],
-        "referent": [
-            "CLEVR_000072.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "It contains small metal cubes or small cylinders."
     },
     {
         "image_index": "000120",

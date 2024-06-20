@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "There are small metal cylinders or small purple rubber spheres in the images",
         "referents": [
-            "CLEVR_000960.png",
-            "CLEVR_000961.png"
+            "CLEVR_000135.png",
+            "CLEVR_000136.png"
         ],
-        "referent": [
-            "CLEVR_000081.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "There are small metal cylinders or small purple rubber spheres in the images"
     },
     {
         "image_index": "000135",

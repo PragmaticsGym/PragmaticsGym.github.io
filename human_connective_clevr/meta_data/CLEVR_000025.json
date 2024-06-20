@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "There are cubes or spheres in the images",
         "referents": [
-            "CLEVR_000625.png",
-            "CLEVR_000626.png"
+            "CLEVR_000125.png",
+            "CLEVR_000126.png"
         ],
-        "referent": [
-            "CLEVR_000075.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "There are cubes or spheres in the images"
     },
     {
         "image_index": "000125",

@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "There are yellow metal spheres or cubes in the images",
         "referents": [
-            "CLEVR_000690.png",
-            "CLEVR_000691.png"
+            "CLEVR_000170.png",
+            "CLEVR_000171.png"
         ],
-        "referent": [
-            "CLEVR_000102.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "There are yellow metal spheres or cubes in the images"
     },
     {
         "image_index": "000170",

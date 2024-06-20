@@ -1,14 +1,11 @@
 [
     {
         "referents": [
-            "CLEVR_000315.png",
-            "CLEVR_000316.png"
+            "CLEVR_000020.png",
+            "CLEVR_000021.png"
         ],
         "type": "direct implicature",
-        "utterance": "There are yellow rubber cubes or spheres in the images",
-        "referent": [
-            "CLEVR_000012.png"
-        ]
+        "utterance": "There are yellow rubber cubes or spheres in the images"
     },
     {
         "directions": {

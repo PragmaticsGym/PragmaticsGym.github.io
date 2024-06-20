@@ -1,14 +1,11 @@
 [
     {
         "referents": [
-            "CLEVR_000110.png",
-            "CLEVR_000111.png"
+            "CLEVR_000070.png",
+            "CLEVR_000071.png"
         ],
         "type": "direct implicature",
-        "utterance": "There are red rubber cylinders or red cubes in the images",
-        "referent": [
-            "CLEVR_000042.png"
-        ]
+        "utterance": "There are red rubber cylinders or red cubes in the images"
     },
     {
         "directions": {

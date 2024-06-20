@@ -1,14 +1,11 @@
 [
     {
-        "type": "direct contextual cancellation",
-        "utterance": "It contains small blue metal spheres or large yellow rubber spheres.",
         "referents": [
-            "CLEVR_000895.png",
-            "CLEVR_000896.png"
+            "CLEVR_000195.png",
+            "CLEVR_000196.png"
         ],
-        "referent": [
-            "CLEVR_000117.png"
-        ]
+        "type": "direct contextual cancellation",
+        "utterance": "It contains small blue metal spheres or large yellow rubber spheres."
     },
     {
         "image_index": "000195",
