@@ -2,7 +2,7 @@
     {
         "utterance": "Not wine.",
         "type": "indirect contextual cancellation",
-        "referents": [
+        "referent": [
             "ILSVRC2012_val_00022584.JPEG"
         ]
     },
