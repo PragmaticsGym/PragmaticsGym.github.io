@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "090.png"
+        ],
+        "utterance": "Some of the cheeses are inside of bowls",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "090.png"
+    },
+    {
+        "image_filename": "091.png"
+    },
+    {
+        "image_filename": "092.png"
+    }
+]
