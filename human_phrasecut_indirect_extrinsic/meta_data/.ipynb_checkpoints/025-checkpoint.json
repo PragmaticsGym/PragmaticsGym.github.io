@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "075.png"
+        ],
+        "utterance": "Not all windows are in the car",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "075.png"
+    },
+    {
+        "image_filename": "076.png"
+    },
+    {
+        "image_filename": "077.png"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "referent": [
+            "060.png"
+        ],
+        "utterance": "Not all people are sitting on black chairs",
+        "type": "contextual cancellation"
+    },
+    {
+        "image_filename": "060.png"
+    },
+    {
+        "image_filename": "061.png"
+    },
+    {
+        "image_filename": "062.png"
+    }
+]
