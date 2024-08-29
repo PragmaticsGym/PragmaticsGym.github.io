@@ -4,7 +4,7 @@
             "CLEVR_000033.png"
         ],
         "type": "direct implicature",
-        "utterance": "Some of the spheres are on the right of the cubes"
+        "utterance": "Some of the spheres are to the right of the cubes"
     },
     {
         "image_index": "000033",

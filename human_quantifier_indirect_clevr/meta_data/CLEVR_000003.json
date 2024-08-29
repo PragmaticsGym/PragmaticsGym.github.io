@@ -4,7 +4,7 @@
             "CLEVR_000009.png"
         ],
         "type": "indirect implicature",
-        "utterance": "Not all cylinders are on the left of the cubes"
+        "utterance": "Not all cylinders are to the left of the cubes"
     },
     {
         "image_index": "000009",

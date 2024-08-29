@@ -4,7 +4,7 @@
             "CLEVR_000087.png"
         ],
         "type": "direct contextual cancellation",
-        "utterance": "Some of the small cubes are on the right of the large cylinders"
+        "utterance": "Some of the small cubes are to the right of the large cylinders"
     },
     {
         "image_index": "000087",

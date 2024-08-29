@@ -4,7 +4,7 @@
             "CLEVR_000105.png"
         ],
         "type": "indirect contextual cancellation",
-        "utterance": "Not all small cylinders are on the right of the large cubes"
+        "utterance": "Not all small cylinders are to the right of the large cubes"
     },
     {
         "image_index": "000105",

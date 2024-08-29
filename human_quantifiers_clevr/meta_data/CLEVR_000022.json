@@ -4,7 +4,7 @@
             "CLEVR_000066.png"
         ],
         "type": "direct contextual cancellation",
-        "utterance": "Some of the cylinders are on the left of the cubes"
+        "utterance": "Some of the cylinders are to the left of the cubes"
     },
     {
         "image_index": "000066",

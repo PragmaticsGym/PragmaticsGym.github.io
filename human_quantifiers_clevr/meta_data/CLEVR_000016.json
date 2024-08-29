@@ -4,7 +4,7 @@
             "CLEVR_000048.png"
         ],
         "type": "direct implicature",
-        "utterance": "Some of the small cylinders are on the right of the large cubes"
+        "utterance": "Some of the small cylinders are to the right of the large cubes"
     },
     {
         "image_index": "000048",
