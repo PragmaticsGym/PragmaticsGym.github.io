@@ -4,7 +4,7 @@
             "CLEVR_000078.png"
         ],
         "type": "indirect contextual cancellation",
-        "utterance": "Not all yellow cylinders are on the right of the red cubes"
+        "utterance": "Not all yellow cylinders are to the right of the red cubes"
     },
     {
         "image_filename": "CLEVR_000078.png",
