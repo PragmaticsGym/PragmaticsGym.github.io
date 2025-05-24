@@ -1,0 +1,316 @@
+{
+    "image_filename": "CLEVR_000028.png",
+    "split": "new",
+    "directions": {
+        "left": [
+            -0.6563112735748291,
+            -0.7544902563095093,
+            0.0
+        ],
+        "below": [
+            -0.0,
+            -0.0,
+            -1.0
+        ],
+        "front": [
+            0.754490315914154,
+            -0.6563112735748291,
+            -0.0
+        ],
+        "above": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "right": [
+            0.6563112735748291,
+            0.7544902563095093,
+            -0.0
+        ],
+        "behind": [
+            -0.754490315914154,
+            0.6563112735748291,
+            0.0
+        ]
+    },
+    "objects": [
+        {
+            "color": "yellow",
+            "shape": "cylinder",
+            "size": "large",
+            "pixel_coords": [
+                108,
+                149,
+                10.043975830078125
+            ],
+            "3d_coords": [
+                -1.0903562307357788,
+                -2.4477076530456543,
+                0.699999988079071
+            ],
+            "material": "metal",
+            "rotation": 283.23282735817276,
+            "mask": {
+                "size": [
+                    320,
+                    480
+                ],
+                "counts": "f]d08f98I7I7I7J6I7I7J6I7J6I4M1N2O1O1N2O001N2O000O2O00001N100000001O0O100000000000000000000O100000000000O101O0000000O1000000O2O000O10001N10001N101N101N1O2O1N3M4L<E;D<C=D<ChbW3"
+            }
+        },
+        {
+            "color": "yellow",
+            "shape": "sphere",
+            "size": "small",
+            "pixel_coords": [
+                198,
+                121,
+                12.15313720703125
+            ],
+            "3d_coords": [
+                -1.5909661054611206,
+                0.19263920187950134,
+                0.3499999940395355
+            ],
+            "material": "rubber",
+            "rotation": 298.04991961204684,
+            "mask": {
+                "size": [
+                    320,
+                    480
+                ],
+                "counts": "fYi17f95L4M3L3O1N2N101N101O0O10000000000001O0O101O1N1O2N2N2N3M3L^Zc2"
+            }
+        },
+        {
+            "color": "purple",
+            "shape": "cylinder",
+            "size": "large",
+            "pixel_coords": [
+                271,
+                137,
+                10.55692195892334
+            ],
+            "3d_coords": [
+                0.6699486970901489,
+                0.2110041379928589,
+                0.699999988079071
+            ],
+            "material": "rubber",
+            "rotation": 358.6462050105619,
+            "mask": {
+                "size": [
+                    320,
+                    480
+                ],
+                "counts": "WkY2Q2m72O0010O01O0100O0010O010000O01000000O2O00001O00001O000O2O001OF:J6O1O1O100O1O101N100O100O100O100O2O0O100O101N100O2O0O1O2O0O101N101N2O0O2O1N3K5^OVee1"
+            }
+        },
+        {
+            "color": "blue",
+            "shape": "cube",
+            "size": "large",
+            "pixel_coords": [
+                322,
+                183,
+                8.899301528930664
+            ],
+            "3d_coords": [
+                2.548243284225464,
+                -0.5273489356040955,
+                0.699999988079071
+            ],
+            "material": "rubber",
+            "rotation": 326.8043739676192,
+            "mask": {
+                "size": [
+                    320,
+                    480
+                ],
+                "counts": "lbc2:`96O2N1O2O0O1O2O0O101N101N100O2O0O101N101N100O2O0O101N1O2O0O101N101N100O2O0O101N101N100O2O0O101O0010O0001O1^IYNj4f1jJgNU5[1^JPOb5R1PJ[OP6Z201O01O01O01O0O101O0O1O2N100O1O2N1O1O2O0O1O2N1O1O2O0O1O2N1O101N1O1O2N1O100O2N1O1O2N100O2N1O1O2N1M3J7H7I7H9H8H8G:Gbin0"
+            }
+        },
+        {
+            "color": "red",
+            "shape": "cylinder",
+            "size": "small",
+            "pixel_coords": [
+                370,
+                126,
+                11.929112434387207
+            ],
+            "3d_coords": [
+                1.3149968385696411,
+                2.8454229831695557,
+                0.3499999940395355
+            ],
+            "material": "rubber",
+            "rotation": 25.406154207033037,
+            "mask": {
+                "size": [
+                    320,
+                    480
+                ],
+                "counts": "W^^32e99F;I6N201N10000O2O00001O00001O00001O00001O00010O000001N1O2O0L5H7I9Ggdl0"
+            }
+        },
+        {
+            "color": "blue",
+            "shape": "cube",
+            "size": "large",
+            "pixel_coords": [
+                258,
+                230,
+                7.669503688812256
+            ],
+            "3d_coords": [
+                2.7625579833984375,
+                -2.2990059852600098,
+                0.699999988079071
+            ],
+            "material": "rubber",
+            "rotation": 149.33079796427498,
+            "mask": {
+                "size": [
+                    320,
+                    480
+                ],
+                "counts": "TVl1c0[9f0[Oe0[O=C3M2O1N2O1N1O2O0O2O0O2O1N101N1O2O0O2O1N101N101N2N101N101N101N2N101N101N101N2O0O2N101N101N2O0O2O0O2N2O0O2O001N101O1O0010O01O010O1O01O01O01O001N10001N1O2N100O2N1O1O2N1O2N1O101N1O1O2N1O2N1O1O2N100O2N1O2N1O1O2N1O2O0O1O2N1O1O2N1O2N100O2N1O1O2N1O2N1N2M4E;C<D>C=B]b`1"
+            }
+        }
+    ],
+    "image_index": 28,
+    "referent": "large yellow metal cylinder",
+    "object_ind": {
+        "color": "yellow",
+        "shape": "cylinder",
+        "size": "large",
+        "pixel_coords": [
+            108,
+            149,
+            10.043975830078125
+        ],
+        "3d_coords": [
+            -1.0903562307357788,
+            -2.4477076530456543,
+            0.699999988079071
+        ],
+        "material": "metal",
+        "rotation": 283.23282735817276
+    },
+    "relationships": {
+        "left": [
+            [],
+            [
+                0
+            ],
+            [
+                0,
+                1,
+                5
+            ],
+            [
+                0,
+                1,
+                2,
+                5
+            ],
+            [
+                0,
+                1,
+                2,
+                3,
+                5
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "right": [
+            [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            [
+                2,
+                3,
+                4,
+                5
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4
+            ],
+            [],
+            [
+                2,
+                3,
+                4
+            ]
+        ],
+        "front": [
+            [
+                3,
+                5
+            ],
+            [
+                0,
+                2,
+                3,
+                4,
+                5
+            ],
+            [
+                0,
+                3,
+                5
+            ],
+            [
+                5
+            ],
+            [
+                0,
+                2,
+                3,
+                5
+            ],
+            []
+        ],
+        "behind": [
+            [
+                1,
+                2,
+                4
+            ],
+            [],
+            [
+                1,
+                4
+            ],
+            [
+                0,
+                1,
+                2,
+                4
+            ],
+            [
+                1
+            ],
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ]
+    },
+    "utterance": "metal"
+}
